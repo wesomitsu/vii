@@ -12,9 +12,9 @@ const port = process.env.PORT || 5000
 
 
 //app.use(express.static('public')); // this wont work
-app.use(express.static('public'));
+app.use(express.static('dist'));
 
-app.use('/dist', express.static(__dirname + '/dist'));
+app.use('public', express.static(__dirname + 'public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
