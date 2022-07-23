@@ -410,7 +410,7 @@
 					place: "Turkey, Istanbul",
 					date: "Nov, 2021 - Jun, 2022",
 					position: "Technical Project Manager",
-					description: "Managing Teir2 team and Utilized Six Sigma tools (E.g: Zendesk, Jira, Trello)",
+					description: "Managing Teir2 team, using Utilized Six Sigma tools (E.g: Zendesk, Jira, Trello)",
 					skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript"]
 				}, {
 					name: "Insider",
@@ -424,19 +424,19 @@
 					place: "Turkey, Istanbul",
 					date: "Oct, 2020 - Jan, 2021",
 					position: "Project Manager",
-					description: "part of team include project managers and developers to create technically feasible design, creating 95% of CRM of the company ,creating user experience and interface using adobe XD for best user solution ,finishing 80% of tasks before the target",
+					description: "Managing industry leading brands development support team's pipeline, with 50+ developers, 40+ QA testers, and 150+ internal stakeholders.",
 					skills: ["agile", "management", "team work", "MS Office"]
 				},{
 					name: "Insider",
 					place: "Turkey, Istanbul",
 					date: "Oct, 2020 - Jan, 2021",
 					position: "Key Account Manager",
-					description: "part of team include project managers and developers to create technically feasible design, creating 95% of CRM of the company ,creating user experience and interface using adobe XD for best user solution ,finishing 80% of tasks before the target",
-					skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript"]
+					description: "Offering ideas and marketing campaigns to optimize the website and the business as a whole depending on the analysis.",
+					skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "JavaSript", "Analysis"]
 				}],
 				skills: [{
-					title: "UX/UI Design",
-					info: ["Figma", "Illustrator", "XD", "Photoshop", "Gimp"],
+					title: "",
+					info: [""],
 					icon: "fa fa-pencil-square-o"
 				}, {
 					title: "Language",
@@ -2089,7 +2089,7 @@
 								user_email: this.email,
 								from_name: this.name,
 								message_html: this.text,
-								to_name: "Mahy Mohab"
+								to_name: "Wathek Al Zoubi"
 							};
 							Ft.a.send(Lt.emailjs.serviceID, Lt.emailjs.templateID, e, Lt.emailjs.userID).then((function(e) {
 								t.showSnackbar = !0, t.snackbarMessage = "Thanks! Message recieved.", t.snackbarColor = "#1aa260", t.email = "", t.text = "", t.name = ""
@@ -2164,7 +2164,7 @@
 					staticStyle: {
 						color: "white"
 					}
-				}, [a("span", [t._v("© 2021 Copyright: Mahy Mohab")])])
+				}, [a("span", [t._v("© 2022 Copyright: Wathek Al Zoubi")])])
 			}],
 			Yt = {
 				name: "Footer",
