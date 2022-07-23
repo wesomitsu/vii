@@ -380,7 +380,7 @@
 						blur: !1
 					}
 				},
-				description: "hey there , I'm Wathek Al Zoubi. I'm a Project Manager & a Frontend Developer with 5+ experience, and 1+ experience with vuejs.",
+				description: "hey there, I'm Wathek Al Zoubi I'm a Project Manager & a Frontend Developer with 5+ experience, and 1+ experience with vuejs.",
 				links: {
 					linkedin: "https://www.linkedin.com/in/mahy-mohab-209/",
 					github: "https://github.com/mahy209",
@@ -440,7 +440,7 @@
 					icon: "fa fa-pencil-square-o"
 				}, {
 					title: "Language",
-					info: ["Python", "Javascript", "TypeScript", "Java", "C#"],
+					info: ["Python", "Javascript", "TypeScript"],
 					icon: "fa fa-code"
 				}, {
 					title: "Front-end",
@@ -448,7 +448,7 @@
 					icon: "fa fa-cubes"
 				}, {
 					title: "web technologies",
-					info: ["Vue", "React", "Node"],
+					info: ["Vue", "Node"],
 					icon: "fas fa-laptop-code"
 				}],
 				portfolio_design: [{
