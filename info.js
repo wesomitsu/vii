@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "hey there, I'm Wathek Al Zoubi. I'm a Project Manager & a Frontend Developer with 5+ experience, and 1+ experience with vuejs.",
+    "hey there , I'm Wathek Al Zoubi. I'm a Project Manager & a Frontend Developer with 5+ experience, and 1+ experience with vuejs.",
   links: {
     linkedin: "https://www.linkedin.com/in/mahy-mohab-209/",
     github: "https://github.com/mahy209",
