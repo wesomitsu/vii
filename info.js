@@ -1,6 +1,6 @@
 let info = {
-  name: "Mahy Mohab",
-  logo_name: "Mahy",
+  name: "Wathek Al Zoubi",
+  logo_name: "Wathek",
   flat_picture: require("./src/assets/me.png"),
   config: {
     use_cookies: true,
@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "hey there, I'm Mahy Mohab about to graduate from the computer and information technology KSU, SE department. A UI/UX Designer with 2+ experience familiar with Figma, xd, photoshop, illustrator, also, a Frontend Engineer with 4+ experience, and 1+ experience with react, react native, vuejs.",
+    "hey there, I'm Wathek Al Zoubi. I'm a Project Manager & a Frontend Developer with 5+ experience, and 1+ experience with vuejs.",
   links: {
     linkedin: "https://www.linkedin.com/in/mahy-mohab-209/",
     github: "https://github.com/mahy209",
@@ -18,15 +18,15 @@ let info = {
   },
   education: [
     {
-      name: "KFS University",
-      place: "Kafr Elsheikh",
-      date: "sep, 2018 - present",
-      degree: "bachelor in software engineering",
-      gpa: "3.1/4.0",
+      name: "Kiron Open Higher Education",
+      place: "Online",
+      date: "sep, 2018 - dec, 2021",
+      degree: "Computer Science",
+      gpa: "",
       description:
         "",
       skills: [
-        "Software Engineering",
+
         "web programming",
         "UI/UX design",
         "Front-end developing",
@@ -35,38 +35,46 @@ let info = {
   ],
   experience: [
     {
-      name: "ITI",
-      place: "Kafr elSheikh, Egypt",
-      date: "1,sep, 2021 - 28,sep, 2021",
-      position: "VueJS web developer",
-      description:
-        "",
-      skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "TypeSript", "es6", "VueJS"]
-    },
-    {
-      name: "Udacity",
-      place: "Egypt",
-      date: "Jun 2021 - Jan 2022",
-      position: "React Web Developer",
-      description:
-        "",
-      skills: ["Javascript", "Typescript", "ReactJS", "React-Redux", "webpack", "NLP"]
-    },
-    {
       name: "Freelancer",
-      place: "Egypt",
-      date: "jun, 2021 - sep, 2021",
-      position: "Junior UI/UX Designer",
-      description: "creating apps and web UI, Creating Interactive prototypes, Low fidelity and UX researches",
-      skills: ["figma", "Adobe XD", "Photoshop", "Illustrator"]
+      place: "",
+      date: "May, 2022 - present",
+      position: "Front-end Developer",
+      description:
+        "",
+      skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "TypeSript", "VueJS", "WordPress"]
     },
     {
-      name: "Technopolitan",
-      place: "Cairo, Egypt",
-      date: "Jan 2022 - Present",
-      position: "Mid-Level UI/UX Designer",
+      name: "Insider",
+      place: "Turkey, Istanbul",
+      date: "Nov, 2021 - Jun, 2022",
+      position: "Technical Project Manager",
+      description:
+        "Managing Teir2 team and Utilized Six Sigma tools (E.g: Zendesk, Jira, Trello)",
+      skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript"]
+    },
+    {
+      name: "Insider",
+      place: "Turkey, Istanbul",
+      date: "Jan, 2021 - Feb, 2022",
+      position: "Technical Account Manager",
+      description: "Helping clients with their integrations, continuous deployment, API Fundamentals, gateways",
+      skills: ["Json", "MS Office", "Troubleshooting", "CRM", "Mentoring"]
+    },
+    {
+      name: "Insider",
+      place: "Turkey, Istanbul",
+      date: "Oct, 2020 - Jan, 2021",
+      position: "Project Manager",
       description: "part of team include project managers and developers to create technically feasible design, creating 95% of CRM of the company ,creating user experience and interface using adobe XD for best user solution ,finishing 80% of tasks before the target ",
-      skills: ["figma", "Adobe XD"]
+      skills: ["agile", "management", "team work", "MS Office"]
+    },
+    {
+      name: "Insider",
+      place: "Turkey, Istanbul",
+      date: "Feb, 2018 - Oct, 2021",
+      position: "Key Account Manager",
+      description: "part of team include project managers and developers to create technically feasible design, creating 95% of CRM of the company ,creating user experience and interface using adobe XD for best user solution ,finishing 80% of tasks before the target ",
+      skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript"]
     },
   ],
   skills: [
@@ -78,7 +86,7 @@ let info = {
     {
       title: "Language",
       info: [
-        "Python","Javascript","TypeScript","Java","C#"],
+        "Python","Javascript","TypeScript","Vue"],
       icon: "fa fa-code"
     },
     {
@@ -89,13 +97,13 @@ let info = {
     },
     {
       title: "web technologies",
-      info: ["Vue", "React", "Node"],
+      info: ["Vue", "NodeJS"],
       icon: "fas fa-laptop-code"
     },
   ],
   portfolio_design: [
     {
-      name: "Keep it Green",
+      name: "Keep it",
       title: "UI/UX Design",
       pictures: [
         {
