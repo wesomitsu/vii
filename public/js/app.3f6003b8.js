@@ -1129,7 +1129,7 @@
 					}, [t._v(" read more ")],), a("button", {
                         staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
                         attrs: {
-                            href: ""+t.desgin_info.visit+""
+                            href: ""+all_info+""
                         },staticStyle: {
 							height: "31px",
 							"margin-top": "5px"
