@@ -1130,7 +1130,7 @@
 								return a.preventDefault(), t.showDesignModalFn(e)
 							}
 						}
-					}, [t._v(" read more ")])])]
+					}, [t._v(" read more ")],[t._v(" visit website ")],)])]
                     , 1)
 				})), 0), a("br")]), a("v-tab", {
 					attrs: {
