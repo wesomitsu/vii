@@ -1126,7 +1126,7 @@
 								return a.preventDefault(), t.showDesignModalFn(e)
 							}
 						}
-					}, [t._v(" read more ")],), e.visit ? a("button", {
+					}, [t._v(" read more ")],), a("a", {
                         staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
                         attrs: {
                             href: ""+e.visit+""
@@ -1136,7 +1136,7 @@
 						},
 						on: {
 							click: function(a) {
-								return e.preventDefault(), t.open(e.visit)
+								return e.preventDefault(), window.open(e.visit)
 							}
 						}
 					}, [t._v(" Visit ")],)])]
