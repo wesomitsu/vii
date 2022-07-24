@@ -452,8 +452,8 @@
 					icon: "fas fa-laptop-code"
 				}],
 				portfolio_design: [{
-					name: "Keep it Green",
-					title: "UI/UX Design",
+					name: "Integral Relationship",
+					title: "Integral Relationship",
 					pictures: [{
 						img: a("d80a"),
 						title: "MoodBoard"
@@ -461,15 +461,15 @@
 						img: a("54e7"),
 						title: "show"
 					}],
-					technologies: ["Figma", "Photoshop"],
-					category: "Visual Design",
+					technologies: ["WordPress", "Javascript", "Json", "Gutenberg", "HTML&CSS"],
+					category: "Web Development",
 					github: "",
-					date: "Jan, 2022",
+					date: "May, 2022",
 					visit: "",
 					description: ""
 				}, {
 					name: "Digital agency website",
-					title: "UI/UX Design",
+					title: "Zendesk Portal",
 					pictures: [{
 						img: a("6413"),
 						title: "MoodBoard"
@@ -489,15 +489,15 @@
 						img: a("3732"),
 						title: "App Elements"
 					}],
-					technologies: ["Figma", "Illustrator"],
-					category: "Visual Design",
+					technologies: ["Figma", "HTML", "CSS", "Javascript"],
+					category: "Web Development",
 					github: "",
 					date: "Dec, 2021",
 					visit: "",
 					description: ""
 				}, {
 					name: "Credit card design",
-					title: "Illustration",
+					title: "Fast Food",
 					pictures: [{
 						img: a("7364"),
 						title: "MoodBoard"
@@ -520,8 +520,8 @@
 						img: a("76ca"),
 						title: "Neumorphism"
 					}],
-					technologies: ["Figma", "Illustrator"],
-					category: "Visual Design",
+					technologies: ["HTML5", "CSS3", "Javascript"],
+					category: "web development",
 					github: "",
 					date: "Dec, 2021",
 					visit: "",
@@ -1129,7 +1129,7 @@
 					}
 				}, [a("v-tab", {
 					attrs: {
-						title: "design"
+						title: "development"
 					}
 				}, [a("div", {
 					staticClass: "row"
@@ -1201,7 +1201,7 @@
 					}, [t._v(" read more ")])])], 1)
 				})), 0), a("br")]), a("v-tab", {
 					attrs: {
-						title: "development"
+						title: "games"
 					}
 				}, [a("br"), a("div", {
 					staticClass: "row"
