@@ -742,7 +742,7 @@
 						}
 					}
 				}, [a("i", {
-					staticClass: "fab fa-behance"
+					staticClass: "fab fa-instagram"
 				})]), a("button", {
 					directives: [{
 						name: "tooltip",
@@ -2105,7 +2105,7 @@
 						}
 					}
 				}, [a("i", {
-					staticClass: "fab fa-behance"
+					staticClass: "fab fa-instagram"
 				})]), a("button", {
 					staticClass: "btn btn-outline-secondary mx-2",
 					on: {
