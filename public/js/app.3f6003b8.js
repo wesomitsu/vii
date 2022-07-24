@@ -1130,27 +1130,7 @@
 								return a.preventDefault(), t.showDesignModalFn(e)
 							}
 						}
-					}, [t._v(" read more ")],),[a("button", {
-					staticClass: "btn-sm btn btn-outline-secondary no-outline",
-					attrs: {
-						href: ""
-					},
-					on: {
-						click: function(e) {
-							return e.preventDefault(), t.showModal(e)
-						}
-					}
-				}, [t._v(" read more ")]), t.portfolio.visit ? a("button", {
-					staticClass: "btn-sm btn btn-outline-secondary no-outline ml-4",
-					attrs: {
-						href: "#"
-					},
-					on: {
-						click: function(e) {
-							return e.preventDefault(), t.open(t.portfolio.visit)
-						}
-					}
-				}, [t._v(" visit website ")]) : t._e()]])]
+					}, [t._v(" read more ")],)])]
                     , 1)
 				})), 0), a("br")]), a("v-tab", {
 					attrs: {
