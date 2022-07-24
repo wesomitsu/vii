@@ -1129,14 +1129,14 @@
 					}, [t._v(" read more ")],), a("button", {
                         staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
                         attrs: {
-                            href: ""+desgin_info.visit+""
+                            href: ""+t.desgin_info.visit+""
                         },staticStyle: {
 							height: "31px",
 							"margin-top": "5px"
 						},
 						on: {
 							click: function(a) {
-								return e.preventDefault(), t.open(desgin_info.visit)
+								return e.preventDefault(), t.open(t.desgin_info.visit)
 							}
 						}
 					}, [t._v(" Visit ")],)])]
