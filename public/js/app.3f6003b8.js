@@ -461,14 +461,14 @@
 						img: a("54e7"),
 						title: "show"
 					}],
-					technologies: ["WordPress", "Javascript", "Json", "Gutenberg", "HTML&CSS"],
+					technologies: ["WordPress", "Js&HTML&CSS", "Gutenberg"],
 					category: "Web Development",
 					github: "",
 					date: "May, 2022",
 					visit: "",
 					description: ""
 				}, {
-					name: "Digital agency website",
+					name: "Ticketing System",
 					title: "Zendesk Portal",
 					pictures: [{
 						img: a("6413"),
@@ -496,7 +496,7 @@
 					visit: "",
 					description: ""
 				}, {
-					name: "Credit card design",
+					name: "web development",
 					title: "Fast Food",
 					pictures: [{
 						img: a("7364"),
@@ -527,8 +527,8 @@
 					visit: "",
 					description: ""
 				}, {
-					name: "BOOKSI",
-					title: "E-Book library - UI/UX Design",
+					name: "web campaigns",
+					title: "Web Campaigns",
 					pictures: [{
 						img: a("2d98"),
 						title: "Cover"
@@ -554,44 +554,6 @@
 					date: "Nov, 2021",
 					visit: "",
 					description: " BOOKSI is Ebook android app for easy read books."
-				}, {
-					name: "Quiet Weather",
-					title: "UI/UX Design",
-					pictures: [{
-						img: a("d738"),
-						title: "MoodBoard"
-					}, {
-						img: a("2a9d"),
-						title: "show"
-					}, {
-						img: a("0611"),
-						title: "components"
-					}],
-					technologies: ["Figma", "Illustration"],
-					category: "Visual Design",
-					github: "",
-					date: "Nov, 2021",
-					visit: "",
-					description: "Quiet Weather is a react native app by openweathermap api, i designed the ui/ux and coding it in react native, enjoy it!"
-				}, {
-					name: "Pill Reminder",
-					title: "Pill Reminder - Mockup Design",
-					pictures: [{
-						img: a("c671"),
-						title: "Moodboard"
-					}, {
-						img: a("7073"),
-						title: "Mockups 1"
-					}, {
-						img: a("1b59"),
-						title: "Mockups 2"
-					}],
-					technologies: ["XD", "Illustrator"],
-					category: "Visual Design",
-					github: "",
-					date: "Apr, 2021",
-					visit: "",
-					description: "pill reminder app for nessecary drugs for the day."
 				}],
 				portfolio: [{
 					name: "Diary App",
