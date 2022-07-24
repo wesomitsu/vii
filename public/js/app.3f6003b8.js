@@ -380,7 +380,7 @@
 						blur: !1
 					}
 				},
-				description: "hey there, my name is Wathek Al Zoubi I'm a Technical Project Manager 5+ experience & Frontend Developer with 3+ experience, and this is profile is my first project in vuejs.",
+				description: "hey there, my name is Wathek Al Zoubi I'm a Technical Project Manager 5+ experience & Frontend Developer with 3+ experience, and this is profile is my first project in vuejs. I am also a custom WordPress theme and plugin development expert. I fully embraced the Gutenberg editor and can create custom blocks from scratch for any conceivable need.",
 				links: {
 					linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
 					github: "https://github.com/wesomitsu",
