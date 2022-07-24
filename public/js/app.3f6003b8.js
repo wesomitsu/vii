@@ -1948,9 +1948,9 @@
 			At = [],
 			Nt = {
 				emailjs: {
-					serviceID: "gmail",
-					templateID: "template_zHretJ0d",
-					userID: "user_8g0rh3d6Qj1QZBEU8USls"
+					serviceID: "service_1220k2c",
+					templateID: "template_2pe5t28",
+					userID: "2EnA8AHlnTbnXvIgL"
 				}
 			},
 			Lt = Nt,
@@ -2032,7 +2032,7 @@
 								user_email: this.email,
 								from_name: this.name,
 								message_html: this.text,
-								to_name: "wathek.z@hotmail.com"
+								to_name: "Wathek"
 							};
 							Ft.a.send(Lt.emailjs.serviceID, Lt.emailjs.templateID, e, Lt.emailjs.userID).then((function(e) {
 								t.showSnackbar = !0, t.snackbarMessage = "Thanks! Message recieved.", t.snackbarColor = "#1aa260", t.email = "", t.text = "", t.name = ""
