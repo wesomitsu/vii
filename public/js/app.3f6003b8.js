@@ -465,7 +465,7 @@
 					category: "Web Development",
 					github: "",
 					date: "May, 2022",
-					visit: "",
+					visit: "https://integralrelationship.com/",
 					description: ""
 				}, {
 					name: "Ticketing System",
