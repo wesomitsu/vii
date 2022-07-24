@@ -1133,7 +1133,7 @@
                         },
 						on: {
 							click: function(a) {
-								return e.preventDefault(), t.open(p.portfolio_design.visit)
+								return e.preventDefault(), p.open(p.portfolio_design.visit)
 							}
 						}
 					}, [t._v(" Visit ")],)])]
