@@ -1126,7 +1126,18 @@
 								return a.preventDefault(), t.showDesignModalFn(e)
 							}
 						}
-					}, [t._v(" read more ")],)])]
+					}, [t._v(" read more ")],),a("button", {
+						staticClass: "btn-sm btn btn-outline-secondary no-outline d",
+						staticStyle: {
+							height: "31px",
+							"margin-top": "5px"
+						},
+						on: {
+							click: function(a) {
+								return a.preventDefault(), t.showDesignModalFn(e)
+							}
+						}
+					}, [t._v(" Visit ")],)])]
                     , 1)
 				})), 0), a("br")]), a("v-tab", {
 					attrs: {
