@@ -384,7 +384,7 @@
 				links: {
 					linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
 					github: "https://github.com/wesomitsu",
-					behance: "https://www.behance.net/mahymohab",
+					behance: "https://www.instagram.com/wesomitsu/",
 					resume: "https://drive.google.com/file/d/1xviDhLZnDPkYBiMOCZCnFHPQy4Rn3DXM/view"
 				},
 				education: [{
