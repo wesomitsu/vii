@@ -472,22 +472,13 @@
 					title: "Zendesk Portal",
 					pictures: [{
 						img: a("6413"),
-						title: "MoodBoard"
+						title: "Main Page"
 					}, {
 						img: a("d19b"),
-						title: "App Elements"
+						title: "Submiting page"
 					}, {
 						img: a("cc85"),
-						title: "App Elements"
-					}, {
-						img: a("0dd5"),
-						title: "App Elements"
-					}, {
-						img: a("dd79"),
-						title: "App Elements"
-					}, {
-						img: a("3732"),
-						title: "App Elements"
+						title: "Login page"
 					}],
 					technologies: ["Figma", "HTML", "CSS", "Javascript"],
 					category: "Web Development",
