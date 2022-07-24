@@ -499,7 +499,7 @@
 						img: a("6615"),
 						title: "footer page"
 					}],
-					technologies: ["Javascript", "HTML", "CSS", "bootstrap"],
+					technologies: ["Javascript", "HTML", "CSS"],
 					category: "Web Development",
 					github: "http://skywalker-arc.herokuapp.com/",
 					date: "May, 2022",
