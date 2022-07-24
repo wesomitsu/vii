@@ -1136,7 +1136,7 @@
 						},
 						on: {
 							click: function(a) {
-								return e.preventDefault(), e.open(e.visit)
+								return e.preventDefault(), window.open(e.visit)
 							}
 						}
 					}, [t._v(" Visit ")],)])]
