@@ -1134,7 +1134,7 @@
 						},
 						on: {
 							click: function(a) {
-								return a.preventDefault(), t.showDesignModalFn(e)
+								return e.preventDefault(), t.open(t.portfolio.visit)
 							}
 						}
 					}, [t._v(" Visit ")],)])]
