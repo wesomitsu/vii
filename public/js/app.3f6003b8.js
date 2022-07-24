@@ -1140,7 +1140,7 @@
 								return e.preventDefault(), window.open(e.visit)
 							}
 						}
-					}, [t._v(" Visit ")],)])]
+					}, [t._v(" Visit Website ")],)])]
                     , 1)
 				})), 0), a("br")]), a("v-tab", {
 					attrs: {
