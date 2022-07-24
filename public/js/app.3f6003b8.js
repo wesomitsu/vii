@@ -491,25 +491,13 @@
 					title: "Fast Food",
 					pictures: [{
 						img: a("7364"),
-						title: "MoodBoard"
-					}, {
-						img: a("9a91"),
-						title: "Degisning"
-					}, {
+						title: "Menu page"
+					},{
 						img: a("6593"),
-						title: "Dual tune"
-					}, {
-						img: a("3e97"),
-						title: "Glassmorphism"
+						title: "Sub menu"
 					}, {
 						img: a("7435"),
-						title: "Gradiant"
-					}, {
-						img: a("d220"),
-						title: "Monochrome"
-					}, {
-						img: a("76ca"),
-						title: "Neumorphism"
+						title: "Main page"
 					}],
 					technologies: ["HTML5", "CSS3", "Javascript"],
 					category: "web development",
@@ -522,27 +510,18 @@
 					title: "Web Campaigns",
 					pictures: [{
 						img: a("2d98"),
-						title: "Cover"
+						title: "Upsell pop-up"
 					}, {
 						img: a("29c6"),
-						title: "MoodBoard"
+						title: "Recommendation engine"
 					}, {
 						img: a("febe"),
-						title: "login"
-					}, {
-						img: a("b174"),
-						title: "register"
-					}, {
-						img: a("f6b7"),
-						title: "homepage"
-					}, {
-						img: a("bf40"),
-						title: "just for you"
+						title: "email marketing"
 					}],
-					technologies: ["Figma", "Photoshop"],
-					category: "Visual Design",
+					technologies: ["Javascript", "HTML", "CSS"],
+					category: "Web development",
 					github: "",
-					date: "Nov, 2021",
+					date: "Jan, 2020",
 					visit: "",
 					description: " BOOKSI is Ebook android app for easy read books."
 				}],
