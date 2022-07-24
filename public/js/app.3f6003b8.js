@@ -2035,7 +2035,7 @@
 								to_name: "wathek.z@hotmail.com"
 							};
 							Ft.a.send(Lt.emailjs.serviceID, Lt.emailjs.templateID, e, Lt.emailjs.userID).then((function(e) {
-								t.showSnackbar = !0, t.snackbarMessage = "Thanks! Message recieved.", t.snackbarColor = "#1aa260", t.email = "wathek.z@hotmail.com", t.text = "", t.name = ""
+								t.showSnackbar = !0, t.snackbarMessage = "Thanks! Message recieved.", t.snackbarColor = "#1aa260", t.email = "", t.text = "", t.name = ""
 							}), (function(e) {
 								t.showSnackbar = !0, t.snackbarMessage = "Oops! Something went wrong.", t.snackbarColor = "#64808E"
 							}))
