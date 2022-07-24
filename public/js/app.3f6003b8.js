@@ -484,7 +484,7 @@
 					category: "Web Development",
 					github: "",
 					date: "Dec, 2021",
-					visit: "",
+					visit: "https://useinsiderhelp.zendesk.com/hc/en-us",
 					description: ""
 				}, {
 					name: "web development",
@@ -503,7 +503,7 @@
 					category: "web development",
 					github: "",
 					date: "Dec, 2021",
-					visit: "",
+					visit: "https://wesomitsu.github.io/restaurant-ch/index.html",
 					description: ""
 				}, {
 					name: "web campaigns",
@@ -522,8 +522,8 @@
 					category: "Web development",
 					github: "",
 					date: "Jan, 2020",
-					visit: "",
-					description: " BOOKSI is Ebook android app for easy read books."
+					visit: "https://www.airarabia.com/en",
+					description: " I've worked on those websites and their emails using a SASS product where I coded customization requests for companies such as AirArbia, BidOrBuy, Ubuy and more... Some of those custom coded requests are pop-ups with dynamic values collected from local storage, and targeting the users the based on their behavior by listenting to events and elements on the site, I've added a function to add products from other pages then the product page, manual mersuchasing recommendation, styling by blending modes and introspection functions, I used as well jQuery, CSS SASS, bootstrap, Javascript etc..."
 				}],
 				portfolio: [{
 					name: "Box Shooter",
@@ -1129,7 +1129,8 @@
 					}, [t._v(" read more ")],), a("a", {
                         staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
                         attrs: {
-                            href: ""+e.visit+""
+                            href: ""+e.visit+"",
+                            target: "_blank"
                         },staticStyle: {
 							height: "31px",
 							"margin-top": "5px"
