@@ -2032,7 +2032,7 @@
 								user_email: this.email,
 								from_name: this.name,
 								message_html: this.text,
-								to_name: "Wathek Al Zoubi"
+								to_name: "wathek.z@hotmail.com"
 							};
 							Ft.a.send(Lt.emailjs.serviceID, Lt.emailjs.templateID, e, Lt.emailjs.userID).then((function(e) {
 								t.showSnackbar = !0, t.snackbarMessage = "Thanks! Message recieved.", t.snackbarColor = "#1aa260", t.email = "wathek.z@hotmail.com", t.text = "", t.name = ""
