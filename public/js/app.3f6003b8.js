@@ -482,7 +482,7 @@
 					}],
 					technologies: ["Figma", "HTML", "CSS", "Javascript"],
 					category: "Web Development",
-					github: "",
+					github: "https://useinsiderhelp.zendesk.com/hc/en-us",
 					date: "Dec, 2021",
 					visit: "https://useinsiderhelp.zendesk.com/hc/en-us",
 					description: ""
@@ -501,7 +501,7 @@
 					}],
 					technologies: ["HTML5", "CSS3", "Javascript"],
 					category: "web development",
-					github: "",
+					github: "https://wesomitsu.github.io/restaurant-ch/index.html",
 					date: "Dec, 2021",
 					visit: "https://wesomitsu.github.io/restaurant-ch/index.html",
 					description: ""
@@ -520,7 +520,7 @@
 					}],
 					technologies: ["Javascript", "HTML", "CSS"],
 					category: "Web development",
-					github: "",
+					github: "https://www.airarabia.com/en",
 					date: "Jan, 2020",
 					visit: "https://www.airarabia.com/en",
 					description: " I've worked on those websites and their emails using a SASS product where I coded customization requests for companies such as AirArbia, BidOrBuy, Ubuy and more... Some of those custom coded requests are pop-ups with dynamic values collected from local storage, and targeting the users the based on their behavior by listenting to events and elements on the site, I've added a function to add products from other pages then the product page, manual mersuchasing recommendation, styling by blending modes and introspection functions, I used as well jQuery, CSS SASS, bootstrap, Javascript etc..."
