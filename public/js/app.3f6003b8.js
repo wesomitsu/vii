@@ -461,7 +461,7 @@
 						img: a("54e7"),
 						title: "Full disclosure: Website requests for redesign & setting up database based on users behaviours and collecting leads of their users which is all GDPR complaint, to collect this data I used as a dynamic values on the website campaigns and emails which I am using their dyanmic data values after connecting it to Zoho CRM. Site is built with WordPress via a custom theme and I hard coded the redesign requests and campagains, added pop-ups that is targeting specific audience, A/B testing split has been also done via using local storage, add a service map powered by Google Maps, done 3rd party integrations, this was my second live project to make use of SASS. The site is fully mobile responsive design, and a “Users Database” built with custom post types."
 					}],
-					technologies: ["WordPress", "Js&HTML&CSS", "Gutenberg"],
+					technologies: ["WordPress", "Js", "Gutenberg"],
 					category: "Web Development",
 					github: "https://integralrelationship.com/",
 					date: "May, 2022",
