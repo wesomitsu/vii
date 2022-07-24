@@ -433,6 +433,13 @@
 					position: "Key Account Manager",
 					description: "Offering ideas and marketing campaigns to optimize the website and the business as a whole depending on the analysis.",
 					skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "JavaSript", "Analysis"]
+				},{
+					name: "IMPR HUMANITARIAN",
+					place: "Turkey, Mersin",
+					date: "Oct, 2020 - Jan, 2021",
+					position: "IT Specialist/Meal",
+					description: "Assist Monitoring and Evaluation team in all M&E tasks including monitoring reports and implementation of assessments, evaluation and impact studies.",
+					skills: ["Kobo", "Data entry", "Analysis"]
 				}],
 				skills: [{
 					title: "",
