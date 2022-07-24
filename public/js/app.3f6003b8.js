@@ -556,7 +556,7 @@
 					description: " BOOKSI is Ebook android app for easy read books."
 				}],
 				portfolio: [{
-					name: "Diary App",
+					name: "Box Shooter",
 					pictures: [{
 						img: a("be10")
 					}, {
@@ -564,14 +564,14 @@
 					}, {
 						img: a("1330")
 					}],
-					technologies: ["react", "scss", "local storage"],
-					category: "Web App",
-					date: "Aug, 2021 - 20 days",
-					github: "https://github.com/mahy209/notes-react-app.git",
-					visit: "https://github.com/mahy209/notes-react-app.git",
-					description: " Diary react app with some new features: Dark mode, upload images, tags, filter search with title/content/tag "
+					technologies: ["C#", "Github", "Unity"],
+					category: "Video Game",
+					date: "Feb, 2019",
+					github: "https://wesomitsu.github.io/Box-Shooter-v2/",
+					visit: "https://wesomitsu.github.io/Box-Shooter-v2/",
+					description: "I\'ve been experimenting with the animations blocks where I replicated them when destoryed. I used the Unity Engine and Maya to handle all of the animation and coded using C# the timer, screen and movment. "
 				}, {
-					name: "Online Examination",
+					name: "Ground Alien",
 					pictures: [{
 						img: a("029f")
 					}, {
@@ -583,29 +583,12 @@
 					}, {
 						img: a("3ae0")
 					}],
-					technologies: ["HTML", "CSS", "JavaSript", "JQuery", "PHP", "MySQL"],
-					category: "Web App",
-					date: "Apr, 2021 - May, 2021",
-					github: "https://github.com/mahy209/online-examination.git",
-					visit: "https://github.com/mahy209/online-examination.git",
-					description: "Online Examination System Today Online Examination System has become a fast growing examination method because of its speed and accuracy. It is also needed less manpower to execute the examination. Almost all organizations now-a-days, are conducting their objective exams by online examination system, it saves students time in examinations. Organizations can also easily check the performance of the student that they give in an examination. As a result of this, organizations are releasing results in less time. It also helps the environment by saving paper. According to today’s requirement, online examination project in php is very useful to learn it. What is an online examination system? In an online examination system examine get their user id and password with his/her admit card. This id is already saved in the examination server. When examine login to the server he/she get his/her profile already register. On the certain time examine gets the message to start the examination. All answers given by examine are saved into the server with his/her profile information. Online examination system also allows to correct the answer if the examine needed to change any answer in the examination time duration, however, after the time duration any change will not allow. This also makes c checking the answer easy and error proof as computers are more accurate than man and provide fast results too. Php is a web base language so we can create an online examination system in PHP. Administrator of Online Examination has multiple features such as Add, Delete, Update Topics and Question. To Login as Admin put inside your browser."
-				}, {
-					name: "MyFlix.com",
-					pictures: [{
-						img: a("cc76")
-					}, {
-						img: a("230d")
-					}, {
-						img: a("b843")
-					}, {
-						img: a("7b17")
-					}],
-					technologies: ["react", "css", "TMDB"],
-					category: "Web App",
-					date: "Aug, 2021 - 10 days",
-					github: "https://github.com/mahy209/MyFlix-react-app.git",
-					visit: "https://github.com/mahy209/MyFlix-react-app.git",
-					description: " flix.com is a netflix clone using React JS and TMDB with courusal and search engine. "
+					technologies: ["Javascript", "Unity", "Maya"],
+					category: "Video Game",
+					date: "Aug, 2019",
+					github: "https://wesomitsu.itch.io/groundalien",
+					visit: "https://wesomitsu.itch.io/groundalien",
+					description: "I used the Unity Engine and Maya to handle all of the animation on the page, and it even works on mobile devices, used also mobile analog and turning motion, I used C# and asset. It was a lot of fun working on this university project with assets, enemy on hit damage can kill your character."
 				}]
 			},
 			p = d,
