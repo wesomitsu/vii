@@ -383,9 +383,9 @@
 				description: "hey there, I'm Wathek Al Zoubi I'm a Project Manager & a Frontend Developer with 5+ experience, and 1+ experience with vuejs.",
 				links: {
 					linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
-					github: "https://github.com/mahy209",
+					github: "https://github.com/wesomitsu",
 					behance: "https://www.behance.net/mahymohab",
-					resume: "https://drive.google.com/file/d/1W0pzOo1Gb-W70BYKehOfZ4qaJt7m1_7O/view?usp=sharing"
+					resume: "https://drive.google.com/file/d/1xviDhLZnDPkYBiMOCZCnFHPQy4Rn3DXM/view"
 				},
 				education: [{
 					name: "Kiron Open Higher Education",
@@ -729,8 +729,8 @@
 					directives: [{
 						name: "tooltip",
 						rawName: "v-tooltip.bottom",
-						value: "behance",
-						expression: "'behance'",
+						value: "social media",
+						expression: "'social media'",
 						modifiers: {
 							bottom: !0
 						}
