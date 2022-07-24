@@ -380,7 +380,7 @@
 						blur: !1
 					}
 				},
-				description: "hey there, I'm Wathek Al Zoubi I'm a Project Manager 5+ experience & Frontend Developer with 2+ experience, and this is profile is my first project in vuejs.",
+				description: "hey there, my name is Wathek Al Zoubi I'm a Technical Project Manager 5+ experience & Frontend Developer with 2+ experience, and this is profile is my first project in vuejs.",
 				links: {
 					linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
 					github: "https://github.com/wesomitsu",
@@ -433,13 +433,6 @@
 					position: "Key Account Manager",
 					description: "Offering ideas and marketing campaigns to optimize the website and the business as a whole depending on the analysis.",
 					skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "JavaSript", "Analysis"]
-				},{
-					name: "IMPR HUMANITARIAN",
-					place: "Turkey, Mersin",
-					date: "Oct, 2020 - Jan, 2021",
-					position: "IT Specialist/Meal",
-					description: "Assist Monitoring and Evaluation team in all M&E tasks including monitoring reports and implementation of assessments, evaluation and impact studies.",
-					skills: ["Kobo", "Data entry", "Analysis"]
 				}],
 				skills: [{
 					title: "",
