@@ -380,12 +380,12 @@
 						blur: !1
 					}
 				},
-				description: "hey there, I'm Wathek Al Zoubi I'm a Project Manager & a Frontend Developer with 5+ experience, and 1+ experience with vuejs.",
+				description: "hey there, I'm Wathek Al Zoubi I'm a Project Manager 5+ experience & Frontend Developer with 2+ experience, and this is profile is my first project in vuejs.",
 				links: {
 					linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
 					github: "https://github.com/wesomitsu",
 					behance: "https://www.instagram.com/wesomitsu/",
-					resume: "https://drive.google.com/file/d/1xviDhLZnDPkYBiMOCZCnFHPQy4Rn3DXM/view"
+					resume: "https://drive.google.com/file/d/1NY8cSx1LfVVBvnAgXb1axgudkMJtPVLh/view"
 				},
 				education: [{
 					name: "Kiron Open Higher Education",
