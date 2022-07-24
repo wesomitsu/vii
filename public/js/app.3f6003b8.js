@@ -1127,13 +1127,14 @@
 							}
 						}
 					}, [t._v(" read more ")],),a("button", {
-                        staticClass: "btn-sm btn btn-outline-secondary no-outline ml-4",
-                        attrs: {
-                            href: "#"
-                        },
+						staticClass: "btn-sm btn btn-outline-secondary no-outline d",
+						staticStyle: {
+							height: "31px",
+							"margin-top": "5px"
+						},
 						on: {
 							click: function(a) {
-								return e.preventDefault(), t.open(t.portfolio.visit)
+								return e.preventDefault(), t.open(t.portfolio_design.visit)
 							}
 						}
 					}, [t._v(" Visit ")],)])]
