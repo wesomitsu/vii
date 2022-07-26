@@ -385,7 +385,7 @@
 					linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
 					github: "https://github.com/wesomitsu",
 					behance: "https://www.instagram.com/wesomitsu/",
-					resume: "https://drive.google.com/file/d/1NY8cSx1LfVVBvnAgXb1axgudkMJtPVLh/view"
+					resume: "https://drive.google.com/file/d/102yVMY4QZl1zQ6NDjEKaq4NUA1G0vQg1/view"
 				},
 				education: [{
 					name: "Kiron Open Higher Education",
