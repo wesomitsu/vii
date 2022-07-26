@@ -400,7 +400,7 @@
 				}],
 				experience: [{
 					name: "Freelancer",
-					place: "",
+					place: "Turkey, Istanbul",
 					date: "May, 2022 - present",
 					position: "Web Developer",
 					description: "",
