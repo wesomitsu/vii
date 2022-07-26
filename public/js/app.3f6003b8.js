@@ -408,30 +408,23 @@
 				}, {
 					name: "Insider",
 					place: "Turkey, Istanbul",
-					date: "Nov, 2021 - Jun, 2022",
+					date: "Feb, 2021 - May, 2022",
 					position: "Technical Project Manager",
 					description: "Managing Teir2 team, using Utilized Six Sigma tools (E.g: Zendesk, Jira, Trello)",
 					skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript"]
 				}, {
 					name: "Insider",
 					place: "Turkey, Istanbul",
-					date: "Jan, 2021 - Feb, 2022",
+					date: "Jan, 2020 - Feb, 2021",
 					position: "Technical Account Manager",
 					description: "Helping clients with their integrations, continuous deployment, API Fundamentals, gateways",
 					skills: ["Json", "MS Office", "Troubleshooting", "CRM", "Mentoring"]
 				}, {
 					name: "Insider",
 					place: "Turkey, Istanbul",
-					date: "Oct, 2020 - Jan, 2021",
-					position: "Project Manager",
-					description: "Managing industry leading brands development support team's pipeline, with 50+ developers, 40+ QA testers, and 150+ internal stakeholders.",
-					skills: ["agile", "management", "team work", "MS Office"]
-				},{
-					name: "Insider",
-					place: "Turkey, Istanbul",
-					date: "Oct, 2020 - Jan, 2021",
-					position: "Key Account Manager",
-					description: "Offering ideas and marketing campaigns to optimize the website and the business as a whole depending on the analysis.",
+					date: "Oct, 2020 - Jan, 2020",
+					position: "Conversion Rate Optimization Specialist",
+					description: "Create and execute deliverables that help inform the ideal experiences for users. This could include items such as website audits, web analytics reviews, user journeys analysis, heuristic reviews, wireframes, information architecture reviews, task flows, user scenarios and persona development.",
 					skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "JavaSript", "Analysis"]
 				}],
 				skills: [{
