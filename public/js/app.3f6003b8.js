@@ -568,22 +568,22 @@
 					visit: "https://wesomitsu.itch.io/groundalien",
 					description: "I used the Unity Engine and Maya to handle all of the animation on the page, and it even works on mobile devices, used also mobile analog and turning motion, I used C# and asset. It was a lot of fun working on this university project with assets, enemy on hit damage can kill your character."
 				}, {
-					name: "MyFlix.com",
+					name: "",
 					pictures: [{
-						img: a("cc76")
+						img: a("")
 					}, {
-						img: a("230d")
+						img: a("")
 					}, {
-						img: a("b843")
+						img: a("")
 					}, {
-						img: a("7b17")
+						img: a("")
 					}],
-					technologies: ["react", "css", "TMDB"],
-					category: "Web App",
-					date: "Aug, 2021 - 10 days",
-					github: "https://github.com/mahy209/MyFlix-react-app.git",
-					visit: "https://github.com/mahy209/MyFlix-react-app.git",
-					description: " flix.com is a netflix clone using React JS and TMDB with courusal and search engine. "
+					technologies: [""],
+					category: "",
+					date: "",
+					github: "",
+					visit: "",
+					description: ""
 				}]
 			},
 			p = d,
