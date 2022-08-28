@@ -465,20 +465,29 @@
 					title: "Full Page Customization",
 					pictures: [{
 						img: a("7998"),
-						title: "Product"
+						title: "Product - Bag A Win"
 					}, {
 						img: a("7997"),
-						title: "Product Details"
+						title: "Product Details - Bag A Win"
 					}, {
 						img: a("7999"),
-						title: "Header"
+						title: "Header - Bag A Win"
+					}, {
+						img: a("7996"),
+						title: "Header - Pop's Health"
+					}, {
+						img: a("7995"),
+						title: "Pages Lists - Pop's Health"
+					}, {
+						img: a("7994"),
+						title: "Menu list - Pop's Health"
 					}],
 					technologies: ["HTML", "CSS", "Javascript", "jQuery"],
 					category: "Web Development",
 					github: "https://projects.lizamallick.me/bagawin-2/product/saint-laurent-monogram-wallet-on-chain/",
 					date: "Aug, 2022",
 					visit: "https://projects.lizamallick.me/bagawin-2/product/saint-laurent-monogram-wallet-on-chain/",
-					description: ""
+					description: "I applied full page customization requests on [Pop's Health & Bag A Win] to change the page design to the UI/UX best practices and clients requests"
 				},{
 					name: "Ticketing System",
 					title: "Zendesk Portal",
@@ -2270,6 +2279,15 @@
 	"6e96": function(t, e, a) {},
 	7073: function(t, e, a) {
 		t.exports = a.p + "img/1.93db7c11.png"
+	},
+	7994: function(t, e, a) {
+		t.exports = a.p + "img/popshealth_1.png"
+	},
+	7995: function(t, e, a) {
+		t.exports = a.p + "img/popshealth_2.png"
+	},
+	7996: function(t, e, a) {
+		t.exports = a.p + "img/popshealth_3.png"
 	},
 	7997: function(t, e, a) {
 		t.exports = a.p + "img/bag_3.png"
