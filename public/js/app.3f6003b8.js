@@ -462,6 +462,25 @@
 					description: ""
 				}, {
 					name: "Ticketing System",
+					title: "Full Page Customization",
+					pictures: [{
+						img: a("7998"),
+						title: "Product"
+					}, {
+						img: a("7997"),
+						title: "Product Details"
+					}, {
+						img: a("7999"),
+						title: "Header"
+					}],
+					technologies: ["HTML", "CSS", "Javascript", "jQuery"],
+					category: "Web Development",
+					github: "https://projects.lizamallick.me/bagawin-2/product/saint-laurent-monogram-wallet-on-chain/",
+					date: "Aug, 2022",
+					visit: "https://projects.lizamallick.me/bagawin-2/product/saint-laurent-monogram-wallet-on-chain/",
+					description: ""
+				},{
+					name: "Ticketing System",
 					title: "Zendesk Portal",
 					pictures: [{
 						img: a("6413"),
@@ -2251,6 +2270,15 @@
 	"6e96": function(t, e, a) {},
 	7073: function(t, e, a) {
 		t.exports = a.p + "img/1.93db7c11.png"
+	},
+	7997: function(t, e, a) {
+		t.exports = a.p + "img/bag_3.png"
+	},
+	7998: function(t, e, a) {
+		t.exports = a.p + "img/bag_2.png"
+	},
+	7999: function(t, e, a) {
+		t.exports = a.p + "img/bag_1.png"
 	},
 	7364: function(t, e, a) {
 		t.exports = a.p + "img/behance cover.fbfa249e.png"
