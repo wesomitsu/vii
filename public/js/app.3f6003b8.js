@@ -1966,7 +1966,8 @@
 					attrs: {
 						"data-aos": "fade",
 						"data-aos-once": "true",
-						"data-aos-duration": "1000"
+						"data-aos-duration": "1000",
+						"data-aos-offset": "0"
 					},
 					on: {
 						click: function(e) {
