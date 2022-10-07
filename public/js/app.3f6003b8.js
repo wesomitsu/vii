@@ -1964,7 +1964,7 @@
 				})]), a("button", {
 					staticClass: "mt-1 btn mb-3",
 					attrs: {
-						"data-aos": "fadeoff",
+						"data-aos": "none",
 						"data-aos-once": "true",
 						"data-aos-duration": "1000",
 						"data-aos-offset": "50"
