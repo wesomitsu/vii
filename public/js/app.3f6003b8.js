@@ -1964,10 +1964,10 @@
 				})]), a("button", {
 					staticClass: "mt-1 btn mb-3",
 					attrs: {
-						"data-aos": "none",
-						"data-aos-once": "true",
-						"data-aos-duration": "1000",
-						"data-aos-offset": "50",
+						// "data-aos": "none",
+						// "data-aos-once": "true",
+						// "data-aos-duration": "1000",
+						// "data-aos-offset": "50",
 						"style":"transition-delay: 0.8s;"
 					},
 					on: {
