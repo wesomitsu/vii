@@ -433,7 +433,7 @@
 					icon: "fa fa-pencil-square-o"
 				}, {
 					title: "Language",
-					info: ["Python", "Javascript", "TypeScript"],
+					info: ["Php", "Javascript", "TypeScript"],
 					icon: "fa fa-code"
 				}, {
 					title: "Front-end",
