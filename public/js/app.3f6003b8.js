@@ -380,7 +380,7 @@
 						blur: !1
 					}
 				},
-				description: "hey there, my name is Wathek Al Zoubi I'm a Technical Project Manager 5+ experience & Frontend Developer with 3+ experience, and this is profile is my first project in vuejs. I am also a custom WordPress theme and plugin development expert. I fully embraced the Gutenberg editor and can create custom blocks from scratch for any conceivable need.",
+				description: "hey there, my name is Wathek Al Zoubi I'm a Technical Project Manager/CRO Specialist 5+ experience & Frontend Developer with 3+ experience, and this is profile is my first project in vuejs. I am also a WordPress development expert. I fully embraced the Gutenberg editor and can create custom blocks from scratch for any conceivable need.",
 				links: {
 					linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
 					github: "https://github.com/wesomitsu",
@@ -460,7 +460,26 @@
 					date: "May, 2022",
 					visit: "https://integralrelationship.com/",
 					description: ""
-				}, {
+				},{
+					name: "Website Redesign",
+					title: "Bahar Group",
+					pictures: [{
+						img: a("1201"),
+						title: "Homepage"
+					}, {
+						img: a("1202"),
+						title: "University Ppage"
+					}, {
+						img: a("1203"),
+						title: "Majorsguide Page"
+					}],
+					technologies: ["HTML", "CSS", "Javascript", "jQuery", "php", "WordPress"],
+					category: "Web Development",
+					github: "https://bahar-egitim.com/ar/",
+					date: "Nov, 2022",
+					visit: "https://bahar-egitim.com/ar",
+					description: "I've worked on redesigning the website to improve (User experience, SEO, Design, User Tracking) by using UI/UX best practices, I did that by applying the latests boostraps and styling plus animating the elements, all was done by checking the following (Heatmap by using Hotjar, User behavior tracking by using GA, A/B testing by using google optimize)"
+				},{
 					name: "Requests",
 					title: "Full Page Customization",
 					pictures: [{
@@ -2295,6 +2314,15 @@
 	},
 	7998: function(t, e, a) {
 		t.exports = a.p + "img/bag_2.png"
+	},
+	1203: function(t, e, a) {
+		t.exports = a.p + "img/bge.png"
+	},
+	1201: function(t, e, a) {
+		t.exports = a.p + "img/bgq.png"
+	},
+	1203: function(t, e, a) {
+		t.exports = a.p + "img/bgw.png"
 	},
 	7999: function(t, e, a) {
 		t.exports = a.p + "img/bag_1.png"
