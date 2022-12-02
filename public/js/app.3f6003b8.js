@@ -473,7 +473,7 @@
 						img: a("1203"),
 						title: "Majorsguide Page"
 					}],
-					technologies: ["HTML", "CSS", "Javascript", "jQuery", "php", "WordPress"],
+					technologies: ["HTML", "CSS", "Javascript", "php", "WordPress"],
 					category: "Web Development",
 					github: "https://bahar-egitim.com/ar/",
 					date: "Nov, 2022",
