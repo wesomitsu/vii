@@ -448,6 +448,9 @@
 					name: "Integral Relationship",
 					title: "Integral Relationship",
 					pictures: [{
+						img: a("d888a"),
+						title: "Book recommendation"
+					},{
 						img: a("d80a"),
 						title: "Book recommendation"
 					}, {
@@ -2424,6 +2427,9 @@
 	},
 	d738: function(t, e, a) {
 		t.exports = a.p + "img/Wooden Hand iPhone 12 Pro.e1d8f5e0.png"
+	},
+	d888a: function(t, e, a) {
+		t.exports = a.p + "img/icq.png"
 	},
 	d80a: function(t, e, a) {
 		t.exports = a.p + "img/cover.14137616.png"
