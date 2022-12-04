@@ -4,14 +4,16 @@
   "description": "Personal Portfolio",
   "main": "main.js",
   "scripts": {
-    "deploy": "sh deploy.sh",
+    "deploy": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "execa": "latest",
     "express": "^4.16.4",
+    "node-fetch": "^2.6.1",
     "nodemon": "^2.0.19"
   }
 }
