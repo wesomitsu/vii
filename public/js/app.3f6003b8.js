@@ -544,9 +544,9 @@
 					}],
 					technologies: ["Javascript", "HTML", "CSS"],
 					category: "Web Development",
-					github: "http://skywalker-arc.herokuapp.com/",
+					github: "https://wesomitsu.github.io/skywalker/",
 					date: "May, 2022",
-					visit: "http://skywalker-arc.herokuapp.com/",
+					visit: "https://wesomitsu.github.io/skywalker/",
 					description: ""
 				}, {
 					name: "web development",
