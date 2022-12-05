@@ -14,14 +14,24 @@
 
 <script>
 import Navbar from "./components/Navbar.vue";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Home from "./components/Home.vue";
+import About from "./components/About.vue";
+import Skills from "./components/Skills.vue";
+import Portfolio from "./components/Portfolio.vue";
+import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 
 import info from "../info";
+
+export const routes = [
+  { path: '/Navbar', component: Navbar },
+  { path: '/Home', component: Home },
+  { path: '/About', component: About },
+  { path: '/Skills', component: Skills },
+  { path: '/Portfolio', component: Portfolio },
+  { path: '/Contact', component: Contact },
+  { path: '/Footer', component: Footer }
+];
 
 export default {
   name: "App",
@@ -42,7 +52,7 @@ export default {
   },
   created() {
     if (this.config.use_cookies) {
-      this.nightMode = this.$cookie.get("nightMode") === "true" ? true : false;
+      this.nightMode = this.$cookies.get("nightMode") === "true" ? true : false;
     }
   },
   mounted() {
@@ -56,7 +66,7 @@ export default {
   methods: {
     switchMode(mode) {
       if (this.config.use_cookies) {
-        this.$cookie.set("nightMode", mode);
+        this.$cookies.set("nightMode", mode);
       }
       this.nightMode = mode;
     },
