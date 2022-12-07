@@ -464,8 +464,8 @@
 					visit: "https://integralrelationship.com/",
 					description: ""
 				},{
-					name: "Ibrahim Kalil MD Clinic",
-					title: "Ibrahim Kalil MD Clinic",
+					name: "Ibrahim Khalil MD Clinic",
+					title: "Ibrahim Khalil MD Clinic",
 					pictures: [{
 						img: a("1301"),
 						title: "Category page"
