@@ -464,6 +464,28 @@
 					visit: "https://integralrelationship.com/",
 					description: ""
 				},{
+					name: "Ibrahimk Kalilmd Clinic",
+					title: "Ibrahimk Kalilmd Clinic",
+					pictures: [{
+						img: a("1301"),
+						title: "Category page"
+					}, {
+						img: a("1302"),
+						title: "Description list of the category"
+					},{
+						img: a("1303"),
+						title: "Surgery explaining page"
+					},{
+						img: a("1304"),
+						title: "Mobile homepage view"
+					}],
+					technologies: ["HTML", "CSS", "Javascript", "php"],
+					category: "Web Development",
+					github: "http://ibrahimkhalilmd.com/",
+					date: "Dec, 2022",
+					visit: "http://ibrahimkhalilmd.com/",
+					description: "I've worked on redesigning the website to improve (User experience, SEO, Design, User Tracking) by using UI/UX best practices, I did that by applying the latests boostraps and styling plus animating the elements, all was done by checking the following (Heatmap by using Hotjar, User behavior tracking by using GA, A/B testing by using google optimize)"
+				},{
 					name: "Website Redesign",
 					title: "Bahar Group",
 					pictures: [{
@@ -2320,6 +2342,18 @@
 	},
 	1202: function(t, e, a) {
 		t.exports = a.p + "img/bge.png"
+	},
+	1301: function(t, e, a) {
+		t.exports = a.p + "img/ikq.png"
+	},
+	1302: function(t, e, a) {
+		t.exports = a.p + "img/ikw.png"
+	},
+	1303: function(t, e, a) {
+		t.exports = a.p + "img/ike.png"
+	},
+	1304: function(t, e, a) {
+		t.exports = a.p + "img/ikr.png"
 	},
 	1201: function(t, e, a) {
 		t.exports = a.p + "img/bgq.png"
