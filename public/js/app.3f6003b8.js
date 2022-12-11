@@ -422,7 +422,7 @@
 				}, {
 					name: "Insider",
 					place: "Turkey, Istanbul",
-					date: "Oct, 2020 - Jan, 2020",
+					date: "Jan, 2018 - Jan, 2020",
 					position: "Conversion Rate Optimization Specialist",
 					description: "Create and execute deliverables that help inform the ideal experiences for users. This could include items such as website audits, web analytics reviews, user journeys analysis, heuristic reviews, wireframes, information architecture reviews, task flows, user scenarios and persona development.",
 					skills: ["figma", "HTML5", "CSS3", "Bootstrap", "JQuery", "JavaSript", "Analysis"]
