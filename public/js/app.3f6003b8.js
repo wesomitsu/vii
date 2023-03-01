@@ -445,6 +445,28 @@
 					icon: "fas fa-laptop-code"
 				}],
 				portfolio_design: [{
+					name: "Social Shot",
+					title: "Social Shot",
+					pictures: [{
+						img: a("d8890c"),
+						title: "Food Menu main page view"
+					},{
+						img: a("d8891c"),
+						title: "Homepage"
+					},{
+						img: a("d8892c"),
+						title: "Booking page"
+					}, {
+						img: a("d8893c"),
+						title: "Installing WordPress from the web hosting, fixed the errors showing on the web hosting, installing the theme and plugins needed, setting up a booking system."
+					}],
+					technologies: ["WordPress","Php","Js"],
+					category: "Web Development",
+					github: "http://socialshot.com.sa/",
+					date: "-",
+					visit: "http://socialshot.com.sa/",
+					description: ""
+				},{
 					name: "Integral Relationship",
 					title: "Integral Relationship",
 					pictures: [{
@@ -2464,6 +2486,18 @@
 	},
 	d888a: function(t, e, a) {
 		t.exports = a.p + "img/icq.png"
+	},
+	d8890c: function(t, e, a) {
+		t.exports = a.p + "img/0299231.png"
+	},
+	d8891c: function(t, e, a) {
+		t.exports = a.p + "img/017331.png"
+	},
+	d8892c: function(t, e, a) {
+		t.exports = a.p + "img/3910210.png"
+	},
+	d8893c: function(t, e, a) {
+		t.exports = a.p + "img/1002312.png"
 	},
 	d80a: function(t, e, a) {
 		t.exports = a.p + "img/cover.14137616.png"
