@@ -1917,7 +1917,7 @@
                         desgin_info: p.portfolio_design,
                         portfolio_info: [],
                         showModal: !1,
-                        showDesignModal: 1,
+                        showDesignModal: !1,
                         modal_info: {},
                         design_modal_info: {},
                         number: 3,
