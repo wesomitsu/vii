@@ -475,7 +475,7 @@
                     description: ""
                 },{
                     name: "Viral Engage",
-                    title: "Social Shot",
+                    title: "Viral Engage",
                     pictures: [{
                         img: a("d0913141c"),
                         title: "Marketing"
