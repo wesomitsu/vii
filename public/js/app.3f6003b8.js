@@ -2581,7 +2581,7 @@
         t.exports = a.p + "img/000333.png"
     },
     d000334c: function(t, e, a) {
-        t.exports = a.p + "img/000334.png"
+        t.exports = a.p + "img/000334.jpeg"
     },
     d0913141c: function(t, e, a) {
         t.exports = a.p + "img/0913141.png"
