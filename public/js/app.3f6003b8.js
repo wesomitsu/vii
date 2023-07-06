@@ -399,9 +399,16 @@
                     "Front-end developing"]
                 }],
                 experience: [{
+                    name: "Call Center Studio",
+                    place: "Turkey, Istanbul",
+                    date: "Mar, 2023 - present",
+                    position: "Project Manager",
+                    description: "",
+                    skills: ["Json", "M&E", "Analysis", "CRM"]
+                },{
                     name: "Freelancer",
                     place: "Turkey, Istanbul",
-                    date: "May, 2022 - present",
+                    date: "May, 2022 - Mar, 2023",
                     position: "Web Developer",
                     description: "",
                     skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "TypeSript", "VueJS", "WordPress"]
@@ -463,51 +470,7 @@
                     technologies: ["WordPress","Php","Js"],
                     category: "Web Development",
                     github: "http://socialshot.com.sa/",
-                    date: "-",
-                    visit: "http://socialshot.com.sa/",
-                    description: ""
-                },{
-                    name: "HeloRobo",
-                    title: "HeloRobo",
-                    pictures: [{
-                        img: a("d000331c"),
-                        title: "Form section"
-                    },{
-                        img: a("d000332c"),
-                        title: "Plan Section"
-                    },{
-                        img: a("d000333c"),
-                        title: "Mobile main page"
-                    }, {
-                        img: a("d000334c"),
-                        title: "Fixing bugs, content alignments, aligning on Ui/Ux best practices and strategy planning. Plugins installtion and Theme customization."
-                    }],
-                    technologies: ["WordPress","Php","Js"],
-                    category: "Web Development",
-                    github: "https://www.helorobo.com/",
-                    date: "-",
-                    visit: "https://www.helorobo.com/",
-                    description: ""
-                },{
-                    name: "Social Shot",
-                    title: "Social Shot",
-                    pictures: [{
-                        img: a("d8890c"),
-                        title: "Food Menu main page view"
-                    },{
-                        img: a("d8891c"),
-                        title: "Homepage"
-                    },{
-                        img: a("d8892c"),
-                        title: "Booking page"
-                    }, {
-                        img: a("d8893c"),
-                        title: "Installing WordPress from the web hosting, fixed the errors showing on the web hosting, installing the theme and plugins needed, setting up a booking system."
-                    }],
-                    technologies: ["WordPress","Php","Js"],
-                    category: "Web Development",
-                    github: "http://socialshot.com.sa/",
-                    date: "-",
+                    date: "Mar, 2023",
                     visit: "http://socialshot.com.sa/",
                     description: ""
                 },{
@@ -532,8 +495,52 @@
                     technologies: ["WordPress","Php","Js"],
                     category: "Web Development",
                     github: "https://www.viralengage.xyz/",
-                    date: "-",
+                    date: "Feb, 2023",
                     visit: "https://www.viralengage.xyz/",
+                    description: ""
+                },{
+                    name: "HeloRobo",
+                    title: "HeloRobo",
+                    pictures: [{
+                        img: a("d000331c"),
+                        title: "Form section"
+                    },{
+                        img: a("d000332c"),
+                        title: "Plan Section"
+                    },{
+                        img: a("d000333c"),
+                        title: "Mobile main page"
+                    }, {
+                        img: a("d000334c"),
+                        title: "Fixing bugs, content alignments, aligning on Ui/Ux best practices and strategy planning. Plugins installtion and Theme customization."
+                    }],
+                    technologies: ["WordPress","Php","Js"],
+                    category: "Web Development",
+                    github: "https://www.helorobo.com/",
+                    date: "Dec, 2022",
+                    visit: "https://www.helorobo.com/",
+                    description: ""
+                },{
+                    name: "Social Shot",
+                    title: "Social Shot",
+                    pictures: [{
+                        img: a("d8890c"),
+                        title: "Food Menu main page view"
+                    },{
+                        img: a("d8891c"),
+                        title: "Homepage"
+                    },{
+                        img: a("d8892c"),
+                        title: "Booking page"
+                    }, {
+                        img: a("d8893c"),
+                        title: "Installing WordPress from the web hosting, fixed the errors showing on the web hosting, installing the theme and plugins needed, setting up a booking system."
+                    }],
+                    technologies: ["WordPress","Php","Js"],
+                    category: "Web Development",
+                    github: "http://socialshot.com.sa/",
+                    date: "Aug, 2022",
+                    visit: "http://socialshot.com.sa/",
                     description: ""
                 },{
                     name: "Integral Relationship",
