@@ -408,7 +408,7 @@
                 },{
                     name: "Freelancer",
                     place: "Turkey, Istanbul",
-                    date: "May, 2022 - Mar, 2023",
+                    date: "May, 2022",
                     position: "Web Developer",
                     description: "",
                     skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "TypeSript", "VueJS", "WordPress"]
@@ -470,7 +470,7 @@
                     technologies: ["WordPress","Php","Js"],
                     category: "Web Development",
                     github: "http://socialshot.com.sa/",
-                    date: "Mar, 2023",
+                    date: "-",
                     visit: "http://socialshot.com.sa/",
                     description: ""
                 },{
@@ -495,7 +495,7 @@
                     technologies: ["WordPress","Php","Js"],
                     category: "Web Development",
                     github: "https://www.viralengage.xyz/",
-                    date: "Feb, 2023",
+                    date: "-",
                     visit: "https://www.viralengage.xyz/",
                     description: ""
                 },{
