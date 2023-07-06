@@ -401,7 +401,7 @@
                 experience: [{
                     name: "Call Center Studio",
                     place: "Turkey, Istanbul",
-                    date: "Mar, 2023 - present",
+                    date: "Dec, 2022 - present",
                     position: "Project Manager",
                     description: "",
                     skills: ["Json", "M&E", "Analysis", "CRM"]
