@@ -469,9 +469,9 @@
                     }],
                     technologies: ["WordPress","Php","Js"],
                     category: "Web Development",
-                    github: "http://socialshot.com.sa/",
+                    github: "http://www.cloudifytechs.com/",
                     date: "-",
-                    visit: "http://socialshot.com.sa/",
+                    visit: "http://www.cloudifytechs.com/",
                     description: ""
                 },{
                     name: "Viral Engage",
