@@ -380,7 +380,7 @@
                         blur: !1
                     }
                 },
-                description: "Hey there, my name is Wathek Al Zoubi I'm a Technical Project Manager/CRO Specialist 5+ experience & Frontend Developer with 3+ experience. I am also a WordPress development expert. I fully embraced the Gutenberg/Elementor editor and can create custom blocks from scratch for any conceivable need.",
+                description: "Hey there, my name is Wathek Al Zoubi I'm a Technical Project Manager/CRO Specialist 5+ experience & Frontend Developer with 4+ experience. I am also a WordPress development expert. I fully embraced the Gutenberg/Elementor editor and can create custom blocks from scratch for any conceivable need.",
                 links: {
                     linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
                     github: "https://github.com/wesomitsu",
@@ -410,8 +410,8 @@
                     place: "Turkey, Istanbul",
                     date: "May, 2022",
                     position: "Web Developer",
-                    description: "",
-                    skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "TypeSript", "VueJS", "WordPress"]
+                    description: "I've helped clients with 3rd party integrations and setups from GA, GTM and Zendesk automated ticketing. I also did web development and fixes.",
+                    skills: ["HTML5", "CSS3", "API", "JQuery", "Json", "JavaSript", "TypeSript", "VueJS", "WordPress"]
                 }, {
                     name: "Insider",
                     place: "Turkey, Istanbul",
