@@ -486,7 +486,7 @@
                     name: "WebForHosts",
                     title: "WebForHosts",
                     pictures: [{
-                        img: a("mg1"),
+                        img: a("mg1ksml"),
                         title: "Top section"
                     },{
                         img: a("mg2"),
@@ -2603,7 +2603,7 @@
             s = a.n(i);
         s.a
     },
-    mg1: function(t, e, a) {
+    mg1ksml: function(t, e, a) {
         t.exports = a.p + "img/mg1.png"
     },
     mg2: function(t, e, a) {
