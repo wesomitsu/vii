@@ -486,7 +486,7 @@
                     name: "WebForHosts",
                     title: "WebForHosts",
                     pictures: [{
-                        img: a("mg1ksml"),
+                        img: a("d3128cmsk"),
                         title: "Top section"
                     },{
                         img: a("mg2"),
@@ -612,7 +612,7 @@
                         title: "Book recommendation"
                     },{
                         img: a("d80a"),
-                        title: "Book recommendation"
+                        title: "Site Overview"
                     }, {
                         img: a("54e7"),
                         title: "Full disclosure: Website requests for redesign & setting up database based on users behaviours and collecting leads of their users which is all GDPR complaint, to collect this data I used as a dynamic values on the website campaigns and emails which I am using their dyanmic data values after connecting it to Zoho CRM. Site is built with WordPress via a custom theme and I hard coded the redesign requests and campagains, added pop-ups that is targeting specific audience, A/B testing split has been also done via using local storage, add a service map powered by Google Maps, done 3rd party integrations, this was my second live project to make use of SASS. The site is fully mobile responsive design, and a “Users Database” built with custom post types."
@@ -2603,7 +2603,7 @@
             s = a.n(i);
         s.a
     },
-    mg1ksml: function(t, e, a) {
+    d3128cmsk: function(t, e, a) {
         t.exports = a.p + "img/mg1.png"
     },
     mg2: function(t, e, a) {
