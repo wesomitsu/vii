@@ -452,6 +452,68 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_design: [{
+                    name: "Crib Surfer",
+                    title: "Crib Surfer",
+                    pictures: [{
+                        img: a("sm1"),
+                        title: "Search Widget"
+                    },{
+                        img: a("sm2"),
+                        title: "Updates Banner"
+                    },{
+                        img: a("sm3"),
+                        title: "What we offer section"
+                    },{
+                        img: a("sm4"),
+                        title: "Content Targeting"
+                    },{
+                        img: a("sm5"),
+                        title: "User Targeting Recommendation"
+                    },{
+                        img: a("sm6"),
+                        title: "Booking funnel"
+                    },{
+                        img: a("sm7"),
+                        title: "Website redesign for the homepage, booking funnel, and the membership. Also, Setting web push and email automation via applying different flows. Fixing bugs on the websites and error logs. Backup, as well as content creation, was also done. Basic SEO on the website was updated."
+                    }],
+                    technologies: ["Figma","Elementor","Js","CSS"],
+                    category: "Web Development",
+                    github: "https://www.cribsurfer.com/",
+                    date: "-",
+                    visit: "https://www.cribsurfer.com/",
+                    description: ""
+                },{
+                    name: "WebForHosts",
+                    title: "WebForHosts",
+                    pictures: [{
+                        img: a("mg1"),
+                        title: "Top section"
+                    },{
+                        img: a("mg2"),
+                        title: "Booking System Widget"
+                    },{
+                        img: a("mg3"),
+                        title: "Content Targeting"
+                    },{
+                        img: a("mg4"),
+                        title: "Content Control"
+                    },{
+                        img: a("mg5"),
+                        title: "Contact Form"
+                    },{
+                        img: a("mg6"),
+                        title: "Pricing Table"
+                    },{
+                        img: a("mg7"),
+                        title: "Creating a website from zero, installing WordPress changing the files of the themes, designing a custom homepage, payment setting, and funnel was also set alongside the products and the content including all features. Setting web push and email automation via applying different flows. Basic SEO on the website was updated."
+                    }],
+                    technologies: ["Elementor","Js","CSS","cPanel"],
+                    category: "Web Development",
+                    github: "https://webforhosts.co.uk/",
+                    date: "-",
+                    visit: "https://webforhosts.co.uk/",
+                    description: ""
+                },{
                     name: "Cloudify Techs",
                     title: "Cloudify Techs",
                     pictures: [{
@@ -2540,6 +2602,48 @@
         var i = a("44a2"),
             s = a.n(i);
         s.a
+    },
+    mg1: function(t, e, a) {
+        t.exports = a.p + "img/mg1.png"
+    },
+    mg2: function(t, e, a) {
+        t.exports = a.p + "img/mg2.png"
+    },
+    mg3: function(t, e, a) {
+        t.exports = a.p + "img/mg3.png"
+    },
+    mg4: function(t, e, a) {
+        t.exports = a.p + "img/mg4.png"
+    },
+    mg5: function(t, e, a) {
+        t.exports = a.p + "img/mg5.png"
+    },
+    mg6: function(t, e, a) {
+        t.exports = a.p + "img/mg6.png"
+    },
+    mg7: function(t, e, a) {
+        t.exports = a.p + "img/mg7.png"
+    },
+    sm1: function(t, e, a) {
+        t.exports = a.p + "img/sm1.png"
+    },
+    sm2: function(t, e, a) {
+        t.exports = a.p + "img/sm2.png"
+    },
+    sm3: function(t, e, a) {
+        t.exports = a.p + "img/sm3.png"
+    },
+    sm4: function(t, e, a) {
+        t.exports = a.p + "img/sm4.png"
+    },
+    sm5: function(t, e, a) {
+        t.exports = a.p + "img/sm5.png"
+    },
+    sm6: function(t, e, a) {
+        t.exports = a.p + "img/sm6.png"
+    },
+    sm7: function(t, e, a) {
+        t.exports = a.p + "img/sm7.png"
     },
     c671: function(t, e, a) {
         t.exports = a.p + "img/Web 1.17c41172.png"
