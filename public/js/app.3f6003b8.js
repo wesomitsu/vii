@@ -505,7 +505,7 @@
                         title: "Pricing Table"
                     },{
                         img: a("mg7"),
-                        title: "Creating a website from zero, installing WordPress changing the files of the themes, designing a custom homepage, payment setting, and funnel was also set alongside the products and the content including all features. Setting web push and email automation via applying different flows. Basic SEO on the website was updated."
+                        title: "Creating a website from zero, installing WordPress changing the files of the themes, designing a custom homepage, payment setting, and funnel was also set alongside the products and the content including all features. Setting web push and email automation via applying different flows. SEO setup on the website. Running Google, Meta, and Instagram ads."
                     }],
                     technologies: ["Elementor","Js","CSS","cPanel"],
                     category: "Web Development",
