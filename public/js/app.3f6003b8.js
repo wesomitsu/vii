@@ -455,10 +455,10 @@
                     name: "tbtk",
                     title: "Turkish Society for History of Science",
                     pictures: [{
-                        img: a("sp1"),
+                        img: a("sp2"),
                         title: "Homepage"
                     },{
-                        img: a("sp2"),
+                        img: a("sp1"),
                         title: "event page"
                     },{
                         img: a("sp3"),
