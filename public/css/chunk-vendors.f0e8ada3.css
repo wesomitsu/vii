@@ -1221,3 +1221,11 @@
 .col-xl-4.col-bg-4.col-md-6.col-sm-12:nth-child(3) {
     display: none;
 }
+/*new*/
+.mt-2 div.title2 {
+    width: 300px;
+}
+
+.mt-2 {
+    justify-content: space-around;
+}
