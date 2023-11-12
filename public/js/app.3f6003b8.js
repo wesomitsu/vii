@@ -2026,8 +2026,8 @@
                 data: function() {
                     return {
                         all_info: p.portfolio,
-                        desgin_info: !p.portfolio_design,
-                        portfolio_info: [],
+                        desgin_info: p.portfolio_design,
+                        portfolio_info: ['<div class="example-slide">Slide 1</div>', '<div class="example-slide">Slide 2</div>', '<div class="example-slide">Slide 3</div>'],
                         showModal: !1,
                         showDesignModal: !1,
                         modal_info: {},
