@@ -2025,7 +2025,7 @@
                 },
                 data: function() {
                     return {
-                        all_info: p.portfolio_design,
+                        all_info: p.portfolio,
                         desgin_info: p.portfolio_design,
                         portfolio_info: [],
                         showModal: !1,
