@@ -452,6 +452,25 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_design: [{
+                    name: "tbtk",
+                    title: "Turkish Society for History of Science",
+                    pictures: [{
+                        img: a("sp1"),
+                        title: "Homepage"
+                    },{
+                        img: a("sp2"),
+                        title: "event page"
+                    },{
+                        img: a("sp3"),
+                        title: "The website has been reviewed and debugged to fix the language problem on the website and backup the website, and checked the errors from the console errors to the theme."
+                    }],
+                    technologies: ["Figma","Elementor","Js","CSS"],
+                    category: "Web Development",
+                    github: "https://www.restohub.co/",
+                    date: "-",
+                    visit: "https://www.restohub.co/",
+                    description: ""
+                },{
                     name: "RestoHub",
                     title: "Resto Hub",
                     pictures: [{
@@ -2654,6 +2673,15 @@
     },
     mg7: function(t, e, a) {
         t.exports = a.p + "img/mg7.png"
+    },
+    sp1: function(t, e, a) {
+        t.exports = a.p + "img/mnc1.png"
+    },
+    sp2: function(t, e, a) {
+        t.exports = a.p + "img/mnc2.png"
+    },
+    sp3: function(t, e, a) {
+        t.exports = a.p + "img/mnc3.png"
     },
     so1: function(t, e, a) {
         t.exports = a.p + "img/1ksml.png"
