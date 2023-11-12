@@ -452,6 +452,37 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_design: [{
+                    name: "RestoHub",
+                    title: "Resto Hub",
+                    pictures: [{
+                        img: a("sm1"),
+                        title: "Homepage"
+                    },{
+                        img: a("sm2"),
+                        title: "category page"
+                    },{
+                        img: a("sm3"),
+                        title: "product page"
+                    },{
+                        img: a("sm4"),
+                        title: "cart page"
+                    },{
+                        img: a("sm5"),
+                        title: "checkout page"
+                    },{
+                        img: a("sm6"),
+                        title: "content"
+                    },{
+                        img: a("sm7"),
+                        title: "The website has been reviewed and debugged to fix all bugs happening on the website, from the console errors to checkout funcationality making sure is all aligned with the security protocol."
+                    }],
+                    technologies: ["Figma","Elementor","Js","CSS"],
+                    category: "Web Development",
+                    github: "https://www.restohub.co/",
+                    date: "-",
+                    visit: "https://www.restohub.co/",
+                    description: ""
+                },{
                     name: "Crib Surfer",
                     title: "Crib Surfer",
                     pictures: [{
@@ -2623,6 +2654,27 @@
     },
     mg7: function(t, e, a) {
         t.exports = a.p + "img/mg7.png"
+    },
+    so1: function(t, e, a) {
+        t.exports = a.p + "img/1ksml.png"
+    },
+    so2: function(t, e, a) {
+        t.exports = a.p + "img/2ksml.png"
+    },
+    so3: function(t, e, a) {
+        t.exports = a.p + "img/3ksml.png"
+    },
+    so4: function(t, e, a) {
+        t.exports = a.p + "img/4ksml.png"
+    },
+    so5: function(t, e, a) {
+        t.exports = a.p + "img/5ksml.png"
+    },
+    so6: function(t, e, a) {
+        t.exports = a.p + "img/6ksml.png"
+    },
+    so7: function(t, e, a) {
+        t.exports = a.p + "img/7ksml.png"
     },
     sm1: function(t, e, a) {
         t.exports = a.p + "img/sm1.png"
