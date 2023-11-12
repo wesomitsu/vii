@@ -455,25 +455,25 @@
                     name: "RestoHub",
                     title: "Resto Hub",
                     pictures: [{
-                        img: a("sm1"),
+                        img: a("so1"),
                         title: "Homepage"
                     },{
-                        img: a("sm2"),
+                        img: a("so2"),
                         title: "category page"
                     },{
-                        img: a("sm3"),
+                        img: a("so3"),
                         title: "product page"
                     },{
-                        img: a("sm4"),
+                        img: a("so4"),
                         title: "cart page"
                     },{
-                        img: a("sm5"),
+                        img: a("so5"),
                         title: "checkout page"
                     },{
-                        img: a("sm6"),
+                        img: a("so6"),
                         title: "content"
                     },{
-                        img: a("sm7"),
+                        img: a("so7"),
                         title: "The website has been reviewed and debugged to fix all bugs happening on the website, from the console errors to checkout funcationality making sure is all aligned with the security protocol."
                     }],
                     technologies: ["Figma","Elementor","Js","CSS"],
