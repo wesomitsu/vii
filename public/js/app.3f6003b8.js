@@ -2027,14 +2027,14 @@
                     return {
                         all_info: p.portfolio,
                         desgin_info: p.portfolio_design,
-                        portfolio_info: ['<div class="example-slide">Slide 1</div>', '<div class="example-slide">Slide 2</div>', '<div class="example-slide">Slide 3</div>'],
+                        portfolio_info: [],
                         showModal: !1,
                         showDesignModal: !1,
                         modal_info: {},
                         design_modal_info: {},
                         number: 3,
                         showBtn: "show more",
-                        shower: 0,
+                        shower: 3,
                         data: ['<div class="example-slide">Slide 1</div>', '<div class="example-slide">Slide 2</div>', '<div class="example-slide">Slide 3</div>']
                     }
                 },
