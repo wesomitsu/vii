@@ -1583,7 +1583,7 @@
                         window.open(t, "_blank")
                     },
                     showModal: function() {
-                        this.$emit("show", this.portfolio)
+                        this.$emit("show", this.portfolio_design)
                     }
                 }
             },
@@ -2065,7 +2065,7 @@
                     },
                     showMore: function() {
                         if (this.number != this.all_info.length && (this.number += 3, window.scrollBy({
-                                top: document.getElementsByClassName("vueperslide")[0].clientHeight,
+                                top: document.getElementsByClassName("smcard")[0].clientHeight,
                                 behavior: "smooth"
                             }), this.number > this.all_info.length && (this.number = this.all_info.length)), this.number == this.all_info.length && 0 == this.shower) this.shower = 1, this.showBtn = "show less";
                         else if (this.number == this.all_info.length && 1 == this.shower) {
