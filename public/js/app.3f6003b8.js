@@ -868,32 +868,6 @@
                     description: " flix.com is a netflix clone using React JS and TMDB with courusal and search engine. "
                 }]
             },
-            //test
-             t._l(t.portfolio_info, (function(e, i) {
-                    return a("div", {
-                        key: e.name,
-                        staticClass: "col-xl-4 col-bg-4 col-md-6 col-sm-12"
-                    }, [a("Card", {
-                        style: {
-                            "transition-delay": i % 3 / 4.2 + "s"
-                        },
-                        attrs: {
-                            portfolio: e,
-                            "data-aos": "fade-up",
-                            nightMode: t.nightMode,
-                            "data-aos-offset": "100",
-                            "data-aos-delay": "10",
-                            "data-aos-duration": "500",
-                            "data-aos-easing": "ease-in-out",
-                            "data-aos-mirror": "true",
-                            "data-aos-once": "true"
-                        },
-                        on: {
-                            show: t.showModalFn
-                        }
-                    })], 1)
-                })),
-            //test
             p = d,
             u = {
                 name: "Logo",
