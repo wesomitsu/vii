@@ -1008,8 +1008,8 @@
                     directives: [{
                         name: "tooltip",
                         rawName: "v-tooltip.bottom",
-                        value: "social media",
-                        expression: "'social media'",
+                        value: "Instagram",
+                        expression: "'Instagram'",
                         modifiers: {
                             bottom: !0
                         }
