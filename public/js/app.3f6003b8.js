@@ -1003,7 +1003,7 @@
                         }
                     }
                 }, [a("i", {
-                    staticClass: "fab fa-fiverr"
+                    staticClass: "fab fa-eercast"
                 })]),a("button", {
                     directives: [{
                         name: "tooltip",
