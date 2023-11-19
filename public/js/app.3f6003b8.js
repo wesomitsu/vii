@@ -385,6 +385,7 @@
                     linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
                     github: "https://github.com/wesomitsu",
                     behance: "https://www.instagram.com/wesomitsu/",
+                    fiverr: "https://www.fiverr.com/wesomitsu",
                     resume: "https://drive.google.com/file/d/1T40jYXW7DKlR57myG5rAMT2v2L00eZq3clNuW5_dqYw/view"
                 },
                 education: [{
@@ -989,6 +990,24 @@
                     directives: [{
                         name: "tooltip",
                         rawName: "v-tooltip.bottom",
+                        value: "fiverr",
+                        expression: "'fiverr'",
+                        modifiers: {
+                            bottom: !0
+                        }
+                    }],
+                    staticClass: "btn btn-outline-secondary mx-2",
+                    on: {
+                        click: function(e) {
+                            return t.open("fiverr")
+                        }
+                    }
+                }, [a("i", {
+                    staticClass: "fab fa-fiverr"
+                })]),a("button", {
+                    directives: [{
+                        name: "tooltip",
+                        rawName: "v-tooltip.bottom",
                         value: "social media",
                         expression: "'social media'",
                         modifiers: {
@@ -1057,6 +1076,7 @@
                         linkedin: p.links.linkedin,
                         github: p.links.github,
                         behance: p.links.behance,
+                        fiverr: p.links.fiverr,
                         resume: p.links.resume
                     }
                 },
@@ -1068,6 +1088,9 @@
                                 break;
                             case "github":
                                 window.open(this.github, "_blank");
+                                break;
+                                case "fiverr":
+                                window.open(this.fiverr, "_blank");
                                 break;
                             case "behance":
                                 window.open(this.behance, "_blank");
