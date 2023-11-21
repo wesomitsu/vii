@@ -560,9 +560,9 @@
                     }],
                     technologies: ["Elementor","Js","CSS","cPanel"],
                     category: "Web Development",
-                    github: "https://webforhosts.co.uk/",
+                    github: "https://webforhosts.com/",
                     date: "-",
-                    visit: "https://webforhosts.co.uk/",
+                    visit: "https://webforhosts.com/",
                     description: ""
                 },{
                     name: "Cloudify Techs",
@@ -739,9 +739,9 @@
                     }],
                     technologies: ["HTML", "CSS", "Javascript", "jQuery"],
                     category: "Web Development",
-                    github: "https://projects.lizamallick.me/bagawin-2/product/saint-laurent-monogram-wallet-on-chain/",
+                    github: "https://www.airarabia.com/",
                     date: "Aug, 2022",
-                    visit: "https://projects.lizamallick.me/bagawin-2/product/saint-laurent-monogram-wallet-on-chain/",
+                    visit: "https://www.airarabia.com/",
                     description: "I applied full page customization requests on [Pop's Health & Bag A Win] to change the page design to the UI/UX best practices and clients requests"
                 },{
                     name: "Ticketing System",
