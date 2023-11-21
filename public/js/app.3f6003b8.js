@@ -739,9 +739,9 @@
                     }],
                     technologies: ["HTML", "CSS", "Javascript", "jQuery"],
                     category: "Web Development",
-                    github: "https://www.airarabia.com/",
+                    github: "https://www.bobshop.co.za/",
                     date: "Aug, 2022",
-                    visit: "https://www.airarabia.com/",
+                    visit: "https://www.bobshop.co.za/",
                     description: "I applied full page customization requests on [Pop's Health & Bag A Win] to change the page design to the UI/UX best practices and clients requests"
                 },{
                     name: "Ticketing System",
