@@ -586,7 +586,7 @@
                     technologies: ["Elementor","Js","CSS","cPanel"],
                     category: "Web Development",
                     github: "https://webforhosts.com/",
-                    date: "-",
+                    date: "Mar, 2023",
                     visit: "https://webforhosts.com/",
                     description: ""
                 },{
@@ -608,7 +608,7 @@
                     technologies: ["WordPress","Php","Js"],
                     category: "Web Development",
                     github: "http://www.cloudifytechs.com/",
-                    date: "-",
+                    date: "Feb, 2023",
                     visit: "http://www.cloudifytechs.com/",
                     description: ""
                 },{
@@ -633,7 +633,7 @@
                     technologies: ["WordPress","Php","Js"],
                     category: "Web Development",
                     github: "https://www.viralengage.xyz/",
-                    date: "-",
+                    date: "Jan, 2023",
                     visit: "https://www.viralengage.xyz/",
                     description: ""
                 },{
