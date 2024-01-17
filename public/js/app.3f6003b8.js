@@ -457,8 +457,27 @@
                     title: "Cloudify Nexa",
                     pictures: [{
                         img: a("nexa2"),
+                        title: "Client Area"
+                    },{
+                        img: a("nexa1"),
                         title: "Homepage"
                     },{
+                        img: a("nexa3"),
+                        title: "Users Dashboard"
+                    },{
+                        img: a("nexa4"),
+                        title: "Users Affiliate Dashboard"
+                    },{
+                        img: a("nexa5"),
+                        title: "knowledge. Overall the whole site was created to contain users dashboard on ticketing as well as on affiliate members and making them able to join both, payment, SEO and automation has been all done with the design, I have taken even the design to be implemented on the website."
+                    }],
+                    technologies: ["Figma","Elementor","Js","CSS"],
+                    category: "Web Development",
+                    github: "https://tbtk.org.tr/en/home/",
+                    date: "-",
+                    visit: "https://tbtk.org.tr/en/home/",
+                    description: ""
+                },{
                     name: "tbtk",
                     title: "Turkish Society for History of Science",
                     pictures: [{
