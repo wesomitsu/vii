@@ -453,6 +453,12 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_design: [{
+                    name: "CloudifyNexa",
+                    title: "Cloudify Nexa",
+                    pictures: [{
+                        img: a("nexa2"),
+                        title: "Homepage"
+                    },{
                     name: "tbtk",
                     title: "Turkish Society for History of Science",
                     pictures: [{
@@ -2699,6 +2705,21 @@
     },
     sp1: function(t, e, a) {
         t.exports = a.p + "img/mnc1.png"
+    },
+    nexa1: function(t, e, a) {
+        t.exports = a.p + "img/nexa1.png"
+    },
+    nexa2: function(t, e, a) {
+        t.exports = a.p + "img/nexa2.png"
+    },
+    nexa3: function(t, e, a) {
+        t.exports = a.p + "img/nexa3.png"
+    },
+    nexa4: function(t, e, a) {
+        t.exports = a.p + "img/nexa4.png"
+    },
+    nexa5: function(t, e, a) {
+        t.exports = a.p + "img/nexa5.png"
     },
     sp2: function(t, e, a) {
         t.exports = a.p + "img/mnc2.png"
