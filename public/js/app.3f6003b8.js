@@ -385,7 +385,7 @@
                     linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
                     github: "https://github.com/wesomitsu",
                     behance: "https://www.instagram.com/wesomitsu/",
-                    fiverr: "https://www.fiverr.com/wesomitsu",
+                    fiverr: "https://www.upwork.com/freelancers/~01aea4c2a72f379fa9",
                     resume: "https://drive.google.com/file/d/1T40jYXW7DKlR57myG5rAMT2v2L00eZq3clNuW5_dqYw/view"
                 },
                 education: [{
