@@ -374,6 +374,7 @@
                 name: "Wathek Al Zoubi",
                 logo_name: "Wathek",
                 flat_picture: a("9f2c"),
+                data: ['<div class="example-slide">Slide 1</div>', '<div class="example-slide">Slide 2</div>', '<div class="example-slide">Slide 3</div>'],
                 config: {
                     use_cookies: !0,
                     navbar: {
