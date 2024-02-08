@@ -36,31 +36,25 @@
     <script src=/js/chunk-vendors.4c62a4cb.js></script>
     <script src=/js/app.3f6003b8.js></script>
     
-    <script>function hideLogoWhenAvailable() {
-  const observer = new MutationObserver((mutationsList, observer) => {
-    mutationsList.forEach((mutation) => {
-      if (mutation.type === 'childList') {
-        const splineViewer = document.querySelector('#myId');
+    <script>
+      function hideLogoWhenAvailable() {
+  const splineViewer = document.querySelector('#myId');
 
-        if (splineViewer) {
-          const shadowRoot = splineViewer.shadowRoot;
-          const logoElement = shadowRoot.getElementById('logo');
+  if (splineViewer) {
+    const shadowRoot = splineViewer.shadowRoot;
+    const logoElement = shadowRoot.getElementById('logo');
 
-          if (logoElement) {
-            logoElement.style.display = 'none';
-            observer.disconnect();
-          }
-        }
-      }
-    });
-  });
-
-  // Observe changes to the entire document, including subtree
-  observer.observe(document, { childList: true, subtree: true });
+    if (logoElement) {
+      logoElement.style.display = 'none';
+    }
+  }
 }
 
-// Start observing the document for changes
-hideLogoWhenAvailable();
+// Start hiding the logo after a short delay
+setTimeout(() => {
+  hideLogoWhenAvailable();
+}, 1000); // Adjust the delay as needed
+
     </script>
     <script>jQuery('#myId').appendTo('.col-xl-6.col-bg-6.col-md-6.col-sm-12.text-center');
 </script>
