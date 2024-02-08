@@ -38,36 +38,6 @@
     
     <script>jQuery('#myId').appendTo('.col-xl-6.col-bg-6.col-md-6.col-sm-12.text-center');
  
-      function hideLogoWhenAvailable() {
-  console.log('Checking for the element...');
-  const splineViewer = document.querySelector('#myId');
-
-  if (splineViewer) {
-    console.log('Spline Viewer found.');
-    const shadowRoot = splineViewer.shadowRoot;
-    const logoElement = shadowRoot.getElementById('logo');
-
-    if (logoElement) {
-      console.log('Logo element found. Hiding...');
-      logoElement.style.display = 'none';
-      clearInterval(checkInterval); // Stop checking once the element is found
-    }
-  }
-}
-
-let checkInterval;
-
-// Start checking every 250 milliseconds
-checkInterval = setInterval(() => {
-  hideLogoWhenAvailable();
-}, 250);
-
-// Stop checking after 3 seconds
-setTimeout(() => {
-  clearInterval(checkInterval);
-  console.log('Checking stopped after 3 seconds.');
-}, 3000);
-
 </script>
   </body>
 </html>
