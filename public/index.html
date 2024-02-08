@@ -59,13 +59,13 @@ let checkInterval;
 // Start checking every 250 milliseconds
 checkInterval = setInterval(() => {
   hideLogoWhenAvailable();
-}, 250);
+}, 550);
 
 // Stop checking after 3 seconds
 setTimeout(() => {
   clearInterval(checkInterval);
   console.log('Checking stopped after 3 seconds.');
-}, 3000);
+}, 5000);
 
 </script>
   </body>
