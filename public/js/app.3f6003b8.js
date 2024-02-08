@@ -373,7 +373,7 @@
             d = {
                 name: "Wathek Al Zoubi",
                 logo_name: "Wathek",
-                data: '<div class="test-slide">dwadw</div>',
+                html_logo: "<img class='test' src='path/to/your/logo.png' alt='Wathek Logo'>", 
                 config: {
                     use_cookies: !0,
                     navbar: {
