@@ -373,12 +373,7 @@
             d = {
                 name: "Wathek Al Zoubi",
                 logo_name: "Wathek",
-                flat_picture: a("9f2c")import { Application } from '@splinetool/runtime';
-
-const canvas = document.getElementById('canvas3d');
-const app = new Application(canvas);
-app.load('https://prod.spline.design/PVvUekzVhfkg339J/scene.splinecode');
-,
+                flat_picture: a("9f2c"),
                 config: {
                     use_cookies: !0,
                     navbar: {
