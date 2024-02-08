@@ -11,9 +11,8 @@
     >
       <div class="row align-items-center">
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
-          
-          <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.51/build/spline-viewer.js"></script>
-<spline-viewer url="https://prod.spline.design/PVvUekzVhfkg339J/scene.splinecode"></spline-viewer>
+          <img :src="picture" />
+
         </div>
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
           <span
