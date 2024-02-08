@@ -1222,10 +1222,8 @@
     display: none;
 }
 /*new*/
-@media only screen and (max-width: 767px) {
-    spline-viewer#myId {
-        height: 350px;
-    }
+spline-viewer#myId {
+    height: 350px;
 }
 
 /*3d control*/
