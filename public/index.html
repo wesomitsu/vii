@@ -37,6 +37,7 @@
     <script src=/js/app.3f6003b8.js></script>
     
     <script>jQuery('#myId').appendTo('.col-xl-6.col-bg-6.col-md-6.col-sm-12.text-center');
+ 
       function hideLogoWhenAvailable() {
   console.log('Checking for the element...');
   const splineViewer = document.querySelector('#myId');
@@ -59,13 +60,13 @@ let checkInterval;
 // Start checking every 250 milliseconds
 checkInterval = setInterval(() => {
   hideLogoWhenAvailable();
-}, 550);
+}, 250);
 
 // Stop checking after 3 seconds
 setTimeout(() => {
   clearInterval(checkInterval);
   console.log('Checking stopped after 3 seconds.');
-}, 5000);
+}, 3000);
 
 </script>
   </body>
