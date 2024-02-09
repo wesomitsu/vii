@@ -385,7 +385,7 @@
                     linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
                     github: "https://github.com/wesomitsu",
                     behance: "https://www.instagram.com/wesomitsu/",
-                    fiverr: "https://www.upwork.com/freelancers/~01aea4c2a72f379fa9",
+                    Upwork: "https://www.upwork.com/freelancers/~01aea4c2a72f379fa9",
                     resume: "https://drive.google.com/file/d/1T40jYXW7DKlR57myG5rAMT2v2L00eZq3clNuW5_dqYw/view"
                 },
                 education: [{
@@ -1015,8 +1015,8 @@
                     directives: [{
                         name: "tooltip",
                         rawName: "v-tooltip.bottom",
-                        value: "fiverr",
-                        expression: "'fiverr'",
+                        value: "Upwork",
+                        expression: "'Upwork'",
                         modifiers: {
                             bottom: !0
                         }
@@ -1024,7 +1024,7 @@
                     staticClass: "btn btn-outline-secondary mx-2",
                     on: {
                         click: function(e) {
-                            return t.open("fiverr")
+                            return t.open("Upwork")
                         }
                     }
                 }, [a("i", {
@@ -1101,7 +1101,7 @@
                         linkedin: p.links.linkedin,
                         github: p.links.github,
                         behance: p.links.behance,
-                        fiverr: p.links.fiverr,
+                        Upwork: p.links.Upwork,
                         resume: p.links.resume
                     }
                 },
@@ -1114,8 +1114,8 @@
                             case "github":
                                 window.open(this.github, "_blank");
                                 break;
-                                case "fiverr":
-                                window.open(this.fiverr, "_blank");
+                                case "Upwork":
+                                window.open(this.Upwork, "_blank");
                                 break;
                             case "behance":
                                 window.open(this.behance, "_blank");
