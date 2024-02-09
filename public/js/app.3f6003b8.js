@@ -1028,7 +1028,7 @@
                         }
                     }
                 }, [a("i", {
-                    staticClass: "fab fa-eercast"
+                    staticClass: "fa-brands fa-upwork"
                 })]),a("button", {
                     directives: [{
                         name: "tooltip",
