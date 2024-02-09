@@ -36,7 +36,7 @@
     <script src=/js/chunk-vendors.4c62a4cb.js></script>
     <script src=/js/app.3f6003b8.js></script>
     
-    <script async>jQuery('#myId').appendTo('.col-xl-6.col-bg-6.col-md-6.col-sm-12.text-center');
+    <script async>
  function hideLogoWhenAvailable() {
   const splineViewer = document.querySelector('#myId');
 
@@ -51,12 +51,12 @@
 }
 
 // Run the function 5 times with a 500ms delay between each run
-for (let i = 0; i < 9; i++) {
+for (let i = 0; i < 12; i++) {
   setTimeout(() => {
     hideLogoWhenAvailable();
-  }, i * 550);
+  }, i * 450);
 }
-
+jQuery('#myId').appendTo('.col-xl-6.col-bg-6.col-md-6.col-sm-12.text-center');
 </script>
   </body>
 </html>
