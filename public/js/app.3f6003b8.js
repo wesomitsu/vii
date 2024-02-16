@@ -400,9 +400,16 @@
                     "Front-end developing"]
                 }],
                 experience: [{
+                    name: "Smart Vision",
+                    place: "Turkey, Istanbul",
+                    date: "Dec, 2023 - present",
+                    position: "Product Manager",
+                    description: "",
+                    skills: ["Figma", "APM", "CRM", "Strategic thinking"]
+                },{
                     name: "Call Center Studio",
                     place: "Turkey, Istanbul",
-                    date: "Dec, 2022 - present",
+                    date: "Dec, 2022 - Dec, 2023",
                     position: "Project Manager",
                     description: "",
                     skills: ["Json", "M&E", "Analysis", "CRM"]
