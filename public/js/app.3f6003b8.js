@@ -407,7 +407,7 @@
                     description: "",
                     skills: ["Figma", "APM", "CRM", "Strategic thinking"]
                 },{
-                    name: "Call Center Studio",
+                    name: "AloTech",
                     place: "Turkey, Istanbul",
                     date: "Dec, 2022 - Dec, 2023",
                     position: "Project Manager",
