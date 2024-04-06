@@ -284,21 +284,6 @@
                         "text-light": t.nightMode
                     },
                     attrs: {
-                        href: "/testimonials"
-                    },
-                    on: {
-                        click: function(e) {
-                            return e.preventDefault(), t.$emit("scroll", "testimonials")
-                        }
-                    }
-                }, [t._v("Testimonials")])]), a("li", {
-                    staticClass: "nav-item mx-2 "
-                }, [a("a", {
-                    staticClass: "nav-link",
-                    class: {
-                        "text-light": t.nightMode
-                    },
-                    attrs: {
                         href: "/portfolio"
                     },
                     on: {
@@ -309,6 +294,21 @@
                 }, [t._v("Portfolio")])]), a("li", {
                     staticClass: "nav-item mx-2"
                 }, [a("a", {
+                    staticClass: "nav-link",
+                    class: {
+                        "text-light": t.nightMode
+                    },
+                    attrs: {
+                        href: "/testimonials"
+                    },
+                    on: {
+                        click: function(e) {
+                            return e.preventDefault(), t.$emit("scroll", "testimonials")
+                        }
+                    }
+                }, [t._v("Testimonials")])]), a("li", {
+                    staticClass: "nav-item mx-2 "
+                },[a("a", {
                     staticClass: "nav-link",
                     class: {
                         "text-light": t.nightMode
