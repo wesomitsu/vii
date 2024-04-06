@@ -197,6 +197,11 @@
                         id: "portfolio",
                         nightMode: t.nightMode
                     }
+                }), a("Testimonials", {
+                    attrs: {
+                        id: "testimonials",
+                        nightMode: t.nightMode
+                    }
                 }), a("Contact", {
                     attrs: {
                         id: "contact",
