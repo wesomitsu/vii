@@ -400,7 +400,7 @@
                         blur: !1
                     }
                 },
-                description: "Hey there, my name is Wathek Al Zoubi I'm a Creative Developer with over 9 years of combined experience in CRO/Product Development. I am also a WordPress expert. I fully embraced the Gutenberg/Elementor editor and can create custom blocks from scratch for any conceivable need.",
+                description: "Hey there, my name is Wathek Al Zoubi I'm a Creative Developer with over 7 years of combined experience in CRO/Product Development. I am also a WordPress expert. I fully embraced the Gutenberg/Elementor editor and can create custom blocks from scratch for any conceivable need.",
                 links: {
                     linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
                     github: "https://github.com/wesomitsu",
