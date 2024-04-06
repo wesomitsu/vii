@@ -276,7 +276,7 @@
                             return e.preventDefault(), t.$emit("scroll", "skills")
                         }
                     }
-                }, [t._v("Testimonials")])]), a("li", {
+                }, [t._v("Skills")])]), a("li", {
                     staticClass: "nav-item mx-2 "
                 }, [a("a", {
                     staticClass: "nav-link",
