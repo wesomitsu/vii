@@ -305,43 +305,54 @@ jQuery(document).on('click', '.mini-szi', function() {
     jQuery('.mini-szi').toggleClass('mini');
     jQuery('div#app-cover').toggleClass('mini');
 });
+//hide logo
+window.addEventListener('load', function() {
+  function addCustomStyle() {
+    const splineViewer = document.querySelector('#myId');
 
-function hideLogoWhenAvailable() {
-  const splineViewer = document.querySelector('#myId');
-
-  if (splineViewer) {
-    const shadowRoot = splineViewer.shadowRoot;
-    const logoElement = shadowRoot.getElementById('logo');
-
-    if (logoElement) {
-      logoElement.style.display = 'none';
-      return true; // Indicate that the logo was found and hidden
-    }
-  }
-
-  return false; // Indicate that the logo was not found
-}
-
-function pollForLogoHide() {
-  const maxAttempts = 12; // Maximum number of attempts
-  let attempt = 0;
-
-  function poll() {
-    attempt++;
-
-    if (hideLogoWhenAvailable() || attempt >= maxAttempts) {
-      // If logo is found or maximum attempts reached, stop polling
-      return;
+    if (splineViewer) {
+      const shadowRoot = splineViewer.shadowRoot;
+      
+      if (shadowRoot) {
+        const style = document.createElement('style');
+        style.textContent = `
+          #logo {
+            display: none !important;
+          }
+        `;
+        shadowRoot.appendChild(style);
+        return true; // Indicate that the style was added
+      }
     }
 
-    setTimeout(poll, 450); // Poll again after 450ms
+    return false; // Indicate that the style was not added
   }
 
-  poll(); // Start the polling process
-}
+  function pollForStyleAddition() {
+    let attempt = 0;
+    const maxAttempts = 20; // Maximum number of attempts
+    const maxDelay = 1000; // Maximum delay between attempts (milliseconds)
 
-// Start polling for logo hide
-pollForLogoHide();
+    function poll() {
+      attempt++;
+
+      if (addCustomStyle() || attempt >= maxAttempts) {
+        // If style is added or maximum attempts reached, stop polling
+        return;
+      }
+
+      // Increase delay between attempts progressively
+      const delay = Math.min(50 * attempt, maxDelay);
+      setTimeout(poll, delay);
+    }
+
+    poll(); // Start the polling process
+  }
+
+  // Start polling for adding custom style
+  pollForStyleAddition();
+});
+
 </script>
   </body>
 </html>
