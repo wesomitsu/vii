@@ -2103,3 +2103,10 @@ div#app-cover.mini {
 .mini-szi.mini:after {
     content: "+";
 }
+
+#player-track,
+#player-content,
+.mini-szi,
+#app-cover {
+    transition: all 0.3s cubic-bezier(0, 1.04, 0.98, 1.11);
+}
