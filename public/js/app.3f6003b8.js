@@ -639,31 +639,6 @@
                     visit: "http://www.cloudifytechs.com/",
                     description: ""
                 },{
-                    name: "Viral Engage",
-                    title: "Viral Engage",
-                    pictures: [{
-                        img: a("d0913141c"),
-                        title: "Marketing"
-                    },{
-                        img: a("d0913142c"),
-                        title: "Homepage top"
-                    },{
-                        img: a("d0913143c"),
-                        title: "services"
-                    },{
-                        img: a("d0913144c"),
-                        title: "promo"
-                    }, {
-                        img: a("d0913145c"),
-                        title: "Installing WordPress from the web hosting, content and SEO, installing the theme and plugins needed, setting up a booking system."
-                    }],
-                    technologies: ["WordPress","Php","Js"],
-                    category: "Web Development",
-                    github: "https://www.viralengage.xyz/",
-                    date: "Jan, 2023",
-                    visit: "https://www.viralengage.xyz/",
-                    description: ""
-                },{
                     name: "HeloRobo",
                     title: "HeloRobo",
                     pictures: [{
@@ -726,28 +701,6 @@
                     date: "May, 2022",
                     visit: "https://integralrelationship.com/",
                     description: ""
-                },{
-                    name: "Ibrahim Khalil MD Clinic",
-                    title: "Ibrahim Khalil MD Clinic",
-                    pictures: [{
-                        img: a("1301"),
-                        title: "Category page"
-                    }, {
-                        img: a("1302"),
-                        title: "Description list of the category"
-                    },{
-                        img: a("1303"),
-                        title: "Surgery explaining page"
-                    },{
-                        img: a("1304"),
-                        title: "Mobile homepage view"
-                    }],
-                    technologies: ["HTML", "CSS", "Javascript", "php"],
-                    category: "Web Development",
-                    github: "http://ibrahimkhalilmd.com/",
-                    date: "Dec, 2022",
-                    visit: "http://ibrahimkhalilmd.com/",
-                    description: "I've worked on redesigning the website to improve (User experience, SEO, Design, User Tracking) by using UI/UX best practices, I did that by applying the latests boostraps and styling plus animating the elements, all was done by checking the following (Heatmap by using Hotjar, User behavior tracking by using GA, A/B testing by using google optimize)"
                 },{
                     name: "Website Redesign",
                     title: "Bahar Group",
@@ -833,26 +786,7 @@
                     date: "May, 2022",
                     visit: "https://wesomitsu.github.io/skywalker/",
                     description: ""
-                }, {
-                    name: "web development",
-                    title: "Fast Food",
-                    pictures: [{
-                        img: a("7364"),
-                        title: "Menu page"
-                    },{
-                        img: a("6593"),
-                        title: "Sub menu"
-                    }, {
-                        img: a("7435"),
-                        title: "Main page"
-                    }],
-                    technologies: ["HTML5", "CSS3", "Javascript"],
-                    category: "web development",
-                    github: "https://wesomitsu.github.io/restaurant-ch/index.html",
-                    date: "Dec, 2021",
-                    visit: "https://wesomitsu.github.io/restaurant-ch/index.html",
-                    description: ""
-                }, {
+                },{
                     name: "web campaigns",
                     title: "Web Campaigns",
                     pictures: [{
