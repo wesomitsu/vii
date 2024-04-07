@@ -2083,3 +2083,31 @@ img[data-v-04ee2dd8] {
 .text-light #player-track{
   background-color:#262c30f0;
 }
+
+div#player-content.mini {
+    width: 0px;
+}
+
+div#player-track.mini {
+    display: none;
+}
+
+.mini-szi {position: absolute;right: 0;background: #ffffff;margin: -10px;border-radius: 50px;padding: 0px 12px 0px 12px;font-size: 23px;font-weight: bold;color: #789fc9;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;cursor: pointer;z-index: 9;top: 0;content: "+";}
+
+.text-light .mini-szi {
+    background: #779ec9;
+    color:#d7dee7
+}
+.mini-szi.mini {right: -4.5cm;}
+
+div#app-cover.mini {
+    width: 0cm;
+}
+
+.mini-szi:after {
+    content: "-";
+}
+
+.mini-szi.mini:after {
+    content: "+";
+}
