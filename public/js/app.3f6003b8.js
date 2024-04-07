@@ -661,28 +661,6 @@
                     visit: "https://www.helorobo.com/",
                     description: ""
                 },{
-                    name: "Social Shot",
-                    title: "Social Shot",
-                    pictures: [{
-                        img: a("d8890c"),
-                        title: "Food Menu main page view"
-                    },{
-                        img: a("d8891c"),
-                        title: "Homepage"
-                    },{
-                        img: a("d8892c"),
-                        title: "Booking page"
-                    }, {
-                        img: a("d8893c"),
-                        title: "Installing WordPress from the web hosting, fixed the errors showing on the web hosting, installing the theme and plugins needed, setting up a booking system."
-                    }],
-                    technologies: ["WordPress","Php","Js"],
-                    category: "Web Development",
-                    github: "http://socialshot.com.sa/",
-                    date: "Aug, 2022",
-                    visit: "http://socialshot.com.sa/",
-                    description: ""
-                },{
                     name: "Integral Relationship",
                     title: "Integral Relationship",
                     pictures: [{
@@ -720,34 +698,6 @@
                     date: "Nov, 2022",
                     visit: "https://bahar-egitim.com/ar",
                     description: "I've worked on redesigning the website to improve (User experience, SEO, Design, User Tracking) by using UI/UX best practices, I did that by applying the latests boostraps and styling plus animating the elements, all was done by checking the following (Heatmap by using Hotjar, User behavior tracking by using GA, A/B testing by using google optimize)"
-                },{
-                    name: "Requests",
-                    title: "Full Page Customization",
-                    pictures: [{
-                        img: a("7998"),
-                        title: "Product - Bag A Win"
-                    }, {
-                        img: a("7997"),
-                        title: "Product Details - Bag A Win"
-                    }, {
-                        img: a("7999"),
-                        title: "Header - Bag A Win"
-                    }, {
-                        img: a("7996"),
-                        title: "Header - Pop's Health"
-                    }, {
-                        img: a("7995"),
-                        title: "Pages Lists - Pop's Health"
-                    }, {
-                        img: a("7994"),
-                        title: "Menu list - Pop's Health"
-                    }],
-                    technologies: ["HTML", "CSS", "Javascript", "jQuery"],
-                    category: "Web Development",
-                    github: "https://www.bobshop.co.za/",
-                    date: "Aug, 2022",
-                    visit: "https://www.bobshop.co.za/",
-                    description: "I applied full page customization requests on [Pop's Health & Bag A Win] to change the page design to the UI/UX best practices and clients requests"
                 },{
                     name: "Ticketing System",
                     title: "Zendesk Portal",
