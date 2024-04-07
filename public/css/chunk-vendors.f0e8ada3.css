@@ -1452,9 +1452,6 @@ img[data-v-04ee2dd8] {
   background-color: #CCDEEF !important;
 }
 
-
-
-
 @media only screen and (max-width: 767px) {
   .testimonials .item{
     width:250px;
@@ -1498,9 +1495,6 @@ img[data-v-04ee2dd8] {
   }  
 }
 
-
-
-
 .center-button-upwork {
     display: flex;
     justify-content: center;
@@ -1510,7 +1504,13 @@ img[data-v-04ee2dd8] {
 .center-button-upwork a.btn-sm.btn.btn-outline-secondary.no-outline.mw-4 {
     height: auto !important;
 }
+.text-light .bg-light#testimonials .bg-secondary {
+    background-color:#626970 !important
+}
 
+.bg-light#testimonials .bg-secondary {
+    background-color:rgba(0,0,0,.1) !important
+}
 /*music player*/
 
 
@@ -1775,22 +1775,14 @@ img[data-v-04ee2dd8] {
 .button:hover {
   background-color: #d6d6de;
 }
-
 .button:hover i {
   color: #fff;
 }
-
-
 @media (max-width: 767px) {
   div#app-cover {
     display:none !important;
   }
 }
-
-
-
-
-
 
 #app-cover {
   position: fixed;
