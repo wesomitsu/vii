@@ -2110,3 +2110,8 @@ div#app-cover.mini {
 #app-cover {
     transition: all 0.3s cubic-bezier(0, 1.04, 0.98, 1.11);
 }
+
+/*game read more not working so hide it*/
+section#p-games button.btn-sm.btn.btn-outline-secondary.no-outline:not(.ml-4) {
+    display:none;
+}
