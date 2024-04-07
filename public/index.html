@@ -43,20 +43,15 @@
 
   if (splineViewer) {
     const shadowRoot = splineViewer.shadowRoot;
-    const logoElement = shadowRoot.getElementById('logo');
-
-    if (logoElement) {
-      logoElement.style.display = 'none';
+console.log(shadowRoot)
+    if (shadowRoot) {
+      const styleTag = document.createElement('style');
+      styleTag.textContent = '#logo { display: none !important; }'; // CSS rule to hide the logo
+      shadowRoot.appendChild(styleTag); // Append the <style> tag to the shadowRoot
     }
   }
 }
-
-// Run the function 5 times with a 500ms delay between each run
-for (let i = 0; i < 12; i++) {
-  setTimeout(() => {
-    hideLogoWhenAvailable();
-  }, i * 450);
-}
+hideLogoWhenAvailable();
 jQuery('#myId').appendTo('.col-xl-6.col-bg-6.col-md-6.col-sm-12.text-center');
 var sectionTs = '<div data-v-689a4a1d="" class="py-4 p-st bg-light" id="testimonials"> <div data-v-4b4254a0="" data-aos="fade" data-aos-once="true" data-aos-duration="1000" class="text-center aos-init aos-animate"><span data-v-4b4254a0="" class="title text-center text-light">Testimonials.</span></div><hr data-v-4b4254a0="" width="50%" class="bg-secondary"><div class="slider"> <input type="radio" name="testimonial" id="t-1"> <input type="radio" name="testimonial" id="t-2"> <input type="radio" name="testimonial" id="t-3" checked=""> <input type="radio" name="testimonial" id="t-4"> <input type="radio" name="testimonial" id="t-5"> <div class="testimonials"> <label class="item" for="t-1"> <img src="https://www.upwork.com/ab/g/pub/wom/bnr/eyJwZXJzb25VaWQiOiI3OTAwMzg0MzQwMzE5NjAwNjQiLCJjb250cmFjdFJpZCI6IjM2MzA1NzM1IiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIn0=" alt="picture"> </label> <label class="item" for="t-2"> <img src="https://www.upwork.com/ab/g/pub/wom/bnr/eyJwZXJzb25VaWQiOiI3OTAwMzg0MzQwMzE5NjAwNjQiLCJjb250cmFjdFJpZCI6IjM2MjQxNTE1IiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIn0=" alt="picture"> </label> <label class="item" for="t-3"> <img src="https://www.upwork.com/ab/g/pub/wom/bnr/eyJwZXJzb25VaWQiOiI3OTAwMzg0MzQwMzE5NjAwNjQiLCJjb250cmFjdFJpZCI6IjM2MjQ0ODQzIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIn0=" alt="picture"> </label> <label class="item" for="t-4"> <img src="https://www.upwork.com/ab/g/pub/wom/bnr/eyJwZXJzb25VaWQiOiI3OTAwMzg0MzQwMzE5NjAwNjQiLCJjb250cmFjdFJpZCI6IjM1NjI0Mjk1IiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIn0=" alt="picture"> </label> <label class="item" for="t-5"> <img src="https://www.upwork.com/ab/g/pub/wom/bnr/eyJwZXJzb25VaWQiOiI3OTAwMzg0MzQwMzE5NjAwNjQiLCJjb250cmFjdFJpZCI6IjM2MzIwMzA4IiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIn0=" alt="picture"> </label> </div> <div class="center-button-upwork"><a data-v-4b4254a0="" href="https://www.upwork.com/freelancers/~01aea4c2a72f379fa9" target="_blank" class="btn-sm btn btn-outline-secondary no-outline mw-4" style="height: 31px; margin-top: 5px;"> View More </a></div> <div class="dots"> <label for="t-1"></label> <label for="t-2"></label> <label for="t-3"></label> <label for="t-4"></label> <label for="t-5"></label> </div> </div> </div>';
 jQuery('#contact').before(sectionTs);
