@@ -2361,7 +2361,7 @@
                     staticStyle: {
                         color: "white"
                     }
-                }, [a("span", [t._v("© 2023 Copyright: Wathek Al Zoubi")])])
+                }, [a("span", [t._v("© 2024 Copyright: Wathek Al Zoubi")])])
             }],
             Yt = {
                 name: "Footer",
