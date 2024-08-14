@@ -2115,3 +2115,22 @@ div#app-cover.mini {
 section#p-games button.btn-sm.btn.btn-outline-secondary.no-outline:not(.ml-4) {
     display:none;
 }
+
+/*badge*/
+.air3-icon.lg {
+    width: 30px;
+    margin-right: 10px;
+}
+
+span.air3-badge-tagline {
+    display: flex;
+    align-items: center;
+}
+
+a.link-badge{
+    color:#fff;
+}
+
+a.link-badge:hover {
+    text-decoration: none !important;
+}
