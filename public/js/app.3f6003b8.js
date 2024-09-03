@@ -2881,7 +2881,7 @@
         t.exports = a.p + "img/Group-5604-2-1-1152x2048.png"
     },
     nexa1: function(t, e, a) {
-        t.exports = a.p + "img/actionplatform.gif"
+        t.exports = a.p + "img/codestun.gif"
     },
     nexa2: function(t, e, a) {
         t.exports = a.p + "img/nexa2.png"
