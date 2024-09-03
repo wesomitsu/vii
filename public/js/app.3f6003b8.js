@@ -552,6 +552,41 @@
                     visit: "https://apps.apple.com/in/app/keshah/id6450676544",
                     description: ""
                 },{
+                    name: "AloTech",
+                    title: "AloTech IVR/ICR/AI",
+                    pictures: [{
+                        img: a("alotech1"),
+                        title: "In my role as a Project Manager at AloTech, I managed a range of technical projects for clients, focusing on their onboarding processes and the integration of key technologies: "+
+" IVR and ICR Setup: Led the setup and configuration of Interactive Voice Response (IVR) and Interactive Call Response (ICR) systems. Worked closely with clients to customize these systems according to their business requirements, ensuring seamless integration with their existing infrastructure."+
+" Strategy Flow Development: Designed and implemented strategy flows for both IVR and ICR systems. These flows were tailored to optimize customer interaction and improve overall service efficiency. I ensured that the strategies aligned with the clients' business objectives and provided a smooth user experience."+
+" CRM Integration: Connected IVR and ICR systems to clients' Customer Relationship Management (CRM) platforms, enabling efficient data management and customer tracking. This integration helped clients to better understand and serve their customers, leading to improved satisfaction and retention rates."+
+" Chatbot Implementation: Managed the deployment of AI-driven chatbots, enhancing clients' customer service capabilities. I oversaw the customization of these chatbots to handle specific queries and tasks, reducing the need for human intervention and increasing operational efficiency."+
+" Automation Campaigns: Set up and managed automation campaigns to streamline communication and marketing efforts. These campaigns were designed to engage customers at various touchpoints, providing personalized and timely interactions." +
+" Quality Assurance and Testing: Ensured that all technical implementations were thoroughly tested and met high-quality standards. I worked with clients to gather feedback and make necessary adjustments to improve the performance and effectiveness of the systems." +
+" Client Training and Support: Provided training sessions to clients, helping them to understand and effectively use the new systems. I also offered ongoing support to address any issues and ensure smooth operation." +
+" Project Coordination: Coordinated with cross-functional teams, including developers, designers, and technical support, to ensure that projects were completed on time and within budget. I managed the entire project lifecycle, from initial planning to final delivery, ensuring alignment with client expectations." +
+" Stakeholder Communication: Maintained regular communication with stakeholders, providing updates on project progress and addressing any concerns. I ensured that all parties were informed and aligned throughout the project." +
+" Performance Monitoring: Monitored the performance of the implemented systems, making adjustments as needed to optimize functionality and achieve desired outcomes. I used key performance indicators (KPIs) to track success and report results to clients."
+                    },{
+                        img: a("alotech2"),
+                        title: "All Chat Channels Support, designed to ease customer support work with ICR. The flows are in the backend."
+                    },{
+                        img: a("alotech3"),
+                        title: "Call Center System, designed with IVR flow and inbound/outbound calls. The flows are in the backend."
+                    },{
+                        img: a("alotech4"),
+                        title: "Support tracking system, therefore, the same agent can keep track of their progress."
+                    },{
+                        img: a("alotech5"),
+                        title: "Some of the companies I've worked with."
+                    }],
+                    technologies: ["DialogFlow","Zendesk","Draw io", "Looker"],
+                    category: "All in One AI-Powered Contact Center Software",
+                    github: "https://alotech.com.tr/",
+                    date: "Feb, 2024",
+                    visit: "https://alotech.com.tr/",
+                    description: ""
+                },{
                     name: "CloudifyNexa",
                     title: "Cloudify Nexa",
                     pictures: [{
@@ -2811,6 +2846,21 @@
     },
     ins8: function(t, e, a) {
         t.exports = a.p + "img/602702bcb3c2a800183ccbc6.webp"
+    },
+    alotech1: function(t, e, a) {
+        t.exports = a.p + "img/alotechggg.gif"
+    },
+    alotech2: function(t, e, a) {
+        t.exports = a.p + "img/tab1.png.webp"
+    },
+    alotech3: function(t, e, a) {
+        t.exports = a.p + "img/tab2-2.png.webp"
+    },
+    alotech4: function(t, e, a) {
+        t.exports = a.p + "img/3455.png.webp"
+    },
+    alotech5: function(t, e, a) {
+        t.exports = a.p + "img/alotechpartners.png"
     },
     kesha1: function(t, e, a) {
         t.exports = a.p + "img/FINAL__no_txt__AdobeExpress.gif"
