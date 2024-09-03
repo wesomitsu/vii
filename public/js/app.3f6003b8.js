@@ -590,7 +590,7 @@
                     name: "CloudifyNexa",
                     title: "Cloudify Nexa",
                     pictures: [{
-                        img: a("nexa5"),
+                        img: a("nexa1"),
                         title: "As a Product Manager and Developer for Cloudify Nexa, an outsourcing company specializing in technical support for website and app development, I was responsible for a range of activities:" +
                         "Product Planning: Developed a comprehensive product plan that outlined project objectives, timelines, and deliverables, ensuring alignment with business goals." +
                         "Technical Team Management: Implemented a round-robin ticketing system to efficiently manage and distribute tasks among the technical team. This system streamlined workflow and improved response times." +
@@ -2881,7 +2881,7 @@
         t.exports = a.p + "img/Group-5604-2-1-1152x2048.png"
     },
     nexa1: function(t, e, a) {
-        t.exports = a.p + "img/nexa1.png"
+        t.exports = a.p + "img/actionplatform.gif"
     },
     nexa2: function(t, e, a) {
         t.exports = a.p + "img/nexa2.png"
@@ -2894,9 +2894,6 @@
     },
     nexa5: function(t, e, a) {
         t.exports = a.p + "img/nexa5.png"
-    },
-    nexa6: function(t, e, a) {
-        t.exports = a.p + "img/"
     },
     sp2: function(t, e, a) {
         t.exports = a.p + "img/mnc2.png"
