@@ -2893,7 +2893,7 @@
         t.exports = a.p + "img/nexa5.png"
     },
     nexa6: function(t, e, a) {
-        t.exports = a.p + "img/mob-dev.gif"
+        t.exports = a.p + "img/actionplatform.gif"
     },
     sp2: function(t, e, a) {
         t.exports = a.p + "img/mnc2.png"
