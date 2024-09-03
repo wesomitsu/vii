@@ -479,7 +479,283 @@
                     info: ["Vue", "Node"],
                     icon: "fas fa-laptop-code"
                 }],
-                portfolio_design: [{
+                portfolio_design_p: [{
+                    name: "CloudifyNexa",
+                    title: "Cloudify Nexa",
+                    pictures: [{
+                        img: a("nexa2"),
+                        title: "Client Area"
+                    },{
+                        img: a("nexa1"),
+                        title: "Homepage"
+                    },{
+                        img: a("nexa3"),
+                        title: "Users Dashboard"
+                    },{
+                        img: a("nexa4"),
+                        title: "Users Affiliate Dashboard"
+                    },{
+                        img: a("nexa5"),
+                        title: "knowledge. Overall the whole site was created to contain users dashboard on ticketing as well as on affiliate members and making them able to join both, payment, SEO and automation has been all done with the design, I have taken even the design to be implemented on the website."
+                    }],
+                    technologies: ["Figma","Elementor","Js","CSS"],
+                    category: "Web Development",
+                    github: "https://www.cloudifynexa.com/",
+                    date: "Dec, 2023",
+                    visit: "https://www.cloudifynexa.com/",
+                    description: ""
+                },{
+                    name: "tbtk",
+                    title: "Society for History of Science",
+                    pictures: [{
+                        img: a("sp2"),
+                        title: "Homepage"
+                    },{
+                        img: a("sp1"),
+                        title: "event page"
+                    },{
+                        img: a("sp3"),
+                        title: "The website has been reviewed and debugged to fix the language problem on the website and backup the website, and checked the errors from the console errors to the theme."
+                    }],
+                    technologies: ["Figma","Elementor","Js","CSS"],
+                    category: "Web Development",
+                    github: "https://tbtk.org.tr/en/home/",
+                    date: "Aug, 2023",
+                    visit: "https://tbtk.org.tr/en/home/",
+                    description: ""
+                },{
+                    name: "RestoHub",
+                    title: "Resto Hub",
+                    pictures: [{
+                        img: a("so1"),
+                        title: "Homepage"
+                    },{
+                        img: a("so2"),
+                        title: "category page"
+                    },{
+                        img: a("so3"),
+                        title: "product page"
+                    },{
+                        img: a("so4"),
+                        title: "cart page"
+                    },{
+                        img: a("so5"),
+                        title: "checkout page"
+                    },{
+                        img: a("so6"),
+                        title: "content"
+                    },{
+                        img: a("so7"),
+                        title: "The website has been reviewed and debugged to fix all bugs happening on the website, from the console errors to checkout funcationality making sure is all aligned with the security protocol."
+                    }],
+                    technologies: ["Figma","Elementor","Js","CSS"],
+                    category: "Web Development",
+                    github: "https://www.restohub.co/",
+                    date: "May, 2023",
+                    visit: "https://www.restohub.co/",
+                    description: ""
+                },{
+                    name: "Crib Surfer",
+                    title: "Crib Surfer",
+                    pictures: [{
+                        img: a("sm1"),
+                        title: "Search Widget"
+                    },{
+                        img: a("sm2"),
+                        title: "Updates Banner"
+                    },{
+                        img: a("sm3"),
+                        title: "What we offer section"
+                    },{
+                        img: a("sm4"),
+                        title: "Content Targeting"
+                    },{
+                        img: a("sm5"),
+                        title: "User Targeting Recommendation"
+                    },{
+                        img: a("sm6"),
+                        title: "Booking funnel"
+                    },{
+                        img: a("sm7"),
+                        title: "Website redesign for the homepage, booking funnel, and the membership. Also, Setting web push and email automation via applying different flows. Fixing bugs on the websites and error logs. Backup, as well as content creation, was also done. Basic SEO on the website was updated."
+                    }],
+                    technologies: ["Figma","Elementor","Js","CSS"],
+                    category: "Web Development",
+                    github: "https://www.cribsurfer.com/",
+                    date: "Mar, 2023",
+                    visit: "https://www.cribsurfer.com/",
+                    description: ""
+                },{
+                    name: "WebForHosts",
+                    title: "WebForHosts",
+                    pictures: [{
+                        img: a("d3128cmsk"),
+                        title: "Top section"
+                    },{
+                        img: a("mg2"),
+                        title: "Booking System Widget"
+                    },{
+                        img: a("mg3"),
+                        title: "Content Targeting"
+                    },{
+                        img: a("mg4"),
+                        title: "Content Control"
+                    },{
+                        img: a("mg5"),
+                        title: "Contact Form"
+                    },{
+                        img: a("mg6"),
+                        title: "Pricing Table"
+                    },{
+                        img: a("mg7"),
+                        title: "Creating a website from zero, installing WordPress changing the files of the themes, designing a custom homepage, payment setting, and funnel was also set alongside the products and the content including all features. Setting web push and email automation via applying different flows. SEO setup on the website. Running Google, Meta, and Instagram ads."
+                    }],
+                    technologies: ["Elementor","Js","CSS","cPanel"],
+                    category: "Web Development",
+                    github: "https://webforhosts.com/",
+                    date: "Mar, 2023",
+                    visit: "https://webforhosts.com/",
+                    description: ""
+                },{
+                    name: "Cloudify Techs",
+                    title: "Cloudify Techs",
+                    pictures: [{
+                        img: a("d3128831c"),
+                        title: "Form section"
+                    },{
+                        img: a("d3128832c"),
+                        title: "Plan Section"
+                    },{
+                        img: a("d3128833c"),
+                        title: "Mobile main page"
+                    }, {
+                        img: a("d3128834c"),
+                        title: "Installing theme on WordPress and setting up email and mail automations on the hosting server, designing 3d embeded animation elements and custom design the theme."
+                    }],
+                    technologies: ["WordPress","Php","Js"],
+                    category: "Web Development",
+                    github: "http://www.cloudifytechs.com/",
+                    date: "Feb, 2023",
+                    visit: "http://www.cloudifytechs.com/",
+                    description: ""
+                },{
+                    name: "HeloRobo",
+                    title: "HeloRobo",
+                    pictures: [{
+                        img: a("d000331c"),
+                        title: "Form section"
+                    },{
+                        img: a("d000332c"),
+                        title: "Plan Section"
+                    },{
+                        img: a("d000333c"),
+                        title: "Mobile main page"
+                    }, {
+                        img: a("d000334c"),
+                        title: "Fixing bugs, content alignments, aligning on Ui/Ux best practices and strategy planning. Plugins installtion and Theme customization."
+                    }],
+                    technologies: ["WordPress","Php","Js"],
+                    category: "Web Development",
+                    github: "https://www.helorobo.com/",
+                    date: "Dec, 2022",
+                    visit: "https://www.helorobo.com/",
+                    description: ""
+                },{
+                    name: "Integral Relationship",
+                    title: "Integral Relationship",
+                    pictures: [{
+                        img: a("d888a"),
+                        title: "Book recommendation"
+                    },{
+                        img: a("d80a"),
+                        title: "Site Overview"
+                    }, {
+                        img: a("54e7"),
+                        title: "Full disclosure: Website requests for redesign & setting up database based on users behaviours and collecting leads of their users which is all GDPR complaint, to collect this data I used as a dynamic values on the website campaigns and emails which I am using their dyanmic data values after connecting it to Zoho CRM. Site is built with WordPress via a custom theme and I hard coded the redesign requests and campagains, added pop-ups that is targeting specific audience, A/B testing split has been also done via using local storage, add a service map powered by Google Maps, done 3rd party integrations, this was my second live project to make use of SASS. The site is fully mobile responsive design, and a “Users Database” built with custom post types."
+                    }],
+                    technologies: ["WordPress", "Js", "Gutenberg"],
+                    category: "Web Development",
+                    github: "https://integralrelationship.com/",
+                    date: "May, 2022",
+                    visit: "https://integralrelationship.com/",
+                    description: ""
+                },{
+                    name: "Website Redesign",
+                    title: "Bahar Group",
+                    pictures: [{
+                        img: a("1201"),
+                        title: "Homepage"
+                    }, {
+                        img: a("1202"),
+                        title: "University Ppage"
+                    },{
+                        img: a("1203"),
+                        title: "Majorsguide Page"
+                    }],
+                    technologies: ["HTML", "CSS", "Javascript", "php"],
+                    category: "Web Development",
+                    github: "https://bahar-egitim.com/ar/",
+                    date: "Nov, 2022",
+                    visit: "https://bahar-egitim.com/ar",
+                    description: "I've worked on redesigning the website to improve (User experience, SEO, Design, User Tracking) by using UI/UX best practices, I did that by applying the latests boostraps and styling plus animating the elements, all was done by checking the following (Heatmap by using Hotjar, User behavior tracking by using GA, A/B testing by using google optimize)"
+                },{
+                    name: "Ticketing System",
+                    title: "Zendesk Portal",
+                    pictures: [{
+                        img: a("6413"),
+                        title: "Main Page"
+                    }, {
+                        img: a("d19b"),
+                        title: "Submiting page"
+                    }, {
+                        img: a("cc85"),
+                        title: "Login page"
+                    }],
+                    technologies: ["Figma", "HTML", "CSS", "Javascript"],
+                    category: "Web Development",
+                    github: "https://useinsiderhelp.zendesk.com/hc/en-us",
+                    date: "Dec, 2021",
+                    visit: "https://useinsiderhelp.zendesk.com/hc/en-us",
+                    description: ""
+                },{
+                    name: "portfolio",
+                    title: "portfolio",
+                    pictures: [{
+                        img: a("6613"),
+                        title: "Main Page"
+                    }, {
+                        img: a("6614"),
+                        title: "product page"
+                    }, {
+                        img: a("6615"),
+                        title: "footer page"
+                    }],
+                    technologies: ["Javascript", "HTML", "CSS"],
+                    category: "Web Development",
+                    github: "https://wesomitsu.github.io/skywalker/",
+                    date: "May, 2022",
+                    visit: "https://wesomitsu.github.io/skywalker/",
+                    description: ""
+                },{
+                    name: "web campaigns",
+                    title: "Web Campaigns",
+                    pictures: [{
+                        img: a("2d98"),
+                        title: "Upsell pop-up"
+                    }, {
+                        img: a("29c6"),
+                        title: "Recommendation engine"
+                    }, {
+                        img: a("febe"),
+                        title: "email marketing"
+                    }],
+                    technologies: ["Javascript", "HTML", "CSS"],
+                    category: "Web development",
+                    github: "https://www.airarabia.com/en",
+                    date: "Jan, 2020",
+                    visit: "https://www.airarabia.com/en",
+                    description: " I've worked on those websites and their emails using a SASS product where I coded customization requests for companies such as AirArbia, BidOrBuy, Ubuy and more... Some of those custom coded requests are pop-ups with dynamic values collected from local storage, and targeting the users the based on their behavior by listenting to events and elements on the site, I've added a function to add products from other pages then the product page, manual mersuchasing recommendation, styling by blending modes and introspection functions, I used as well jQuery, CSS SASS, bootstrap, Javascript etc..."
+                }],portfolio_design: [{
                     name: "CloudifyNexa",
                     title: "Cloudify Nexa",
                     pictures: [{
@@ -1275,222 +1551,222 @@
             K = (a("a219"), Object(m["a"])(z, X, G, !1, null, "c71fcfc2", null)),
             Q = K.exports,
             q = function() {
-                var t = this,
-                    e = t.$createElement,
-                    a = t._self._c || e;
-                return a("div", {
-                    staticClass: "py-4 p-st",
+    var t = this,
+        e = t.$createElement,
+        a = t._self._c || e;
+    return a("div", {
+        staticClass: "py-4 p-st",
+        class: {
+            "bg-light": !t.nightMode,
+            "bg-dark2": t.nightMode,
+            "text-light": t.nightMode
+        }
+    }, [
+        a("div", { staticClass: "container" }, [
+            a("div", {
+                staticClass: "text-center",
+                attrs: {
+                    "data-aos": "fade",
+                    "data-aos-once": "true",
+                    "data-aos-duration": "1000"
+                }
+            }, [
+                a("span", {
+                    staticClass: "title text-center",
                     class: {
-                        "bg-light": !t.nightMode,
-                        "bg-dark2": t.nightMode,
+                        pgray: !t.nightMode,
                         "text-light": t.nightMode
                     }
-                }, [
-                    a("div", { staticClass: "container" }, [
-                        a("div", {
-                            staticClass: "text-center",
-                            attrs: {
-                                "data-aos": "fade",
-                                "data-aos-once": "true",
-                                "data-aos-duration": "1000"
-                            }
+                }, [t._v("Portfolio.")])
+            ]),
+            a("hr", {
+                class: {
+                    pgray: !t.nightMode,
+                    "bg-secondary": t.nightMode
+                },
+                attrs: {
+                    width: "50%"
+                }
+            }),
+            a("vue-tabs", {
+                attrs: {
+                    activeTextColor: t.nightMode ? "#dfdfdf" : "#535A5E"
+                }
+            }, [
+                a("v-tab", { attrs: { title: "development" } }, [
+                    a("div", { staticClass: "row" }, t._l(t.desgin_info, function(e, i) {
+                        return a("div", {
+                            key: i,
+                            staticClass: "col-xl-6 col-bg-6 col-md-12 col-sm-12",
+                            class: { "mt-4": true },
+                            staticStyle: { position: "relative" }
                         }, [
-                            a("span", {
-                                staticClass: "title text-center",
-                                class: {
-                                    pgray: !t.nightMode,
-                                    "text-light": t.nightMode
+                            a("vueper-slides", {
+                                staticStyle: { position: "absolute" },
+                                attrs: {
+                                    "dragging-distance": 50,
+                                    "fixed-height": "300px",
+                                    bullets: false,
+                                    "slide-content-outside": "bottom"
+                                },
+                                on: {
+                                    click: function(a) { return a.preventDefault(), t.showDesignModalFn(e) }
                                 }
-                            }, [t._v("Portfolio.")])
-                        ]),
-                        a("hr", {
-                            class: {
-                                pgray: !t.nightMode,
-                                "bg-secondary": t.nightMode
-                            },
-                            attrs: {
-                                width: "50%"
-                            }
-                        }),
-                        a("vue-tabs", {
-                            attrs: {
-                                activeTextColor: t.nightMode ? "#dfdfdf" : "#535A5E"
-                            }
-                        }, [
-                            a("v-tab", { attrs: { title: "development" } }, [
-                                a("div", { staticClass: "row" }, t._l(t.desgin_info, function(e, i) {
-                                    return a("div", {
-                                        key: i,
-                                        staticClass: "col-xl-6 col-bg-6 col-md-12 col-sm-12",
-                                        class: { "mt-4": true },
-                                        staticStyle: { position: "relative" }
-                                    }, [
-                                        a("vueper-slides", {
-                                            staticStyle: { position: "absolute" },
-                                            attrs: {
-                                                "dragging-distance": 50,
-                                                "fixed-height": "300px",
-                                                bullets: false,
-                                                "slide-content-outside": "bottom"
-                                            },
-                                            on: {
-                                                click: function(a) { return a.preventDefault(), t.showDesignModalFn(e) }
-                                            }
-                                        }, t._l(e.pictures, function(t, e) {
-                                            return a("vueper-slide", {
-                                                key: e,
-                                                attrs: { image: t.img }
-                                            })
-                                        }), 1),
-                                        a("div", {
-                                            staticClass: "mt-2",
-                                            staticStyle: {
-                                                width: "100%",
-                                                display: "flex",
-                                                "justify-content": "space-between"
-                                            }
-                                        }, [
-                                            a("div", [
-                                                a("div", {
-                                                    staticClass: "title2",
-                                                    staticStyle: { "font-weight": "500" }
-                                                }, [t._v(t._s(e.title))]),
-                                                t._l(e.technologies, function(e) {
-                                                    return a("span", {
-                                                        key: e,
-                                                        staticClass: "badge mr-2 mb-2",
-                                                        class: { "bg-dark4": t.nightMode }
-                                                    }, [t._v(t._s(e))])
-                                                }),
-                                                t._v(" • "),
-                                                a("span", { staticClass: "date ml-1" }, [t._v(t._s(e.date))])
-                                            ], 2),
-                                            a("button", {
-                                                staticClass: "btn-sm btn btn-outline-secondary no-outline",
-                                                staticStyle: { height: "31px", "margin-top": "5px" },
-                                                on: {
-                                                    click: function(a) { return a.preventDefault(), t.showDesignModalFn(e) }
-                                                }
-                                            }, [t._v(" read more ")]),
-                                            a("a", {
-                                                staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
-                                                attrs: { href: e.visit, target: "_blank" },
-                                                staticStyle: { height: "31px", "margin-top": "5px" },
-                                                on: {
-                                                    click: function(a) { return a.preventDefault(), window.open(e.visit) }
-                                                }
-                                            }, [t._v(" Visit Website ")])
-                                        ])
-                                    ], 1)
-                                }), 0),
-                                a("br")
-                            ]),
-                            a("v-tab", { attrs: { title: "games" } }, [
-                                a("br"),
-                                a("div", { staticClass: "row" }, t._l(t.portfolio_info, function(e, i) {
-                                    return a("div", {
-                                        key: e.name,
-                                        staticClass: "col-xl-4 col-bg-4 col-md-6 col-sm-12"
-                                    }, [
-                                        a("Card", {
-                                            style: { "transition-delay": i % 3 / 4.2 + "s" },
-                                            attrs: {
-                                                portfolio: e,
-                                                "data-aos": "fade-up",
-                                                nightMode: t.nightMode,
-                                                "data-aos-offset": "100",
-                                                "data-aos-delay": "10",
-                                                "data-aos-duration": "500",
-                                                "data-aos-easing": "ease-in-out",
-                                                "data-aos-mirror": "true",
-                                                "data-aos-once": "true"
-                                            },
-                                            on: { show: t.showModalFn }
-                                        })
-                                    ], 1)
-                                }), 0),
-                                "show less" !== t.showBtn ? a("div", {
-                                    staticClass: "text-center py-3"
-                                }, [
-                                    a("button", {
-                                        staticClass: "btn",
-                                        on: { click: function(e) { return e.preventDefault(), t.showMore(e) } }
-                                    }, [t._v(t._s(t.showBtn))])
-                                ]) : t._e()
-                            ]),
-                            // New "projects" tab
-                            a("v-tab", { attrs: { title: "projects" } }, [
-                                a("div", { staticClass: "row" }, t._l(t.desgin_info, function(e, i) {
-                                    return a("div", {
-                                        key: i,
-                                        staticClass: "col-xl-6 col-bg-6 col-md-12 col-sm-12",
-                                        class: { "mt-4": true },
-                                        staticStyle: { position: "relative" }
-                                    }, [
-                                        a("vueper-slides", {
-                                            staticStyle: { position: "absolute" },
-                                            attrs: {
-                                                "dragging-distance": 50,
-                                                "fixed-height": "300px",
-                                                bullets: false,
-                                                "slide-content-outside": "bottom"
-                                            },
-                                            on: {
-                                                click: function(a) { return a.preventDefault(), t.showDesignModalFn(e) }
-                                            }
-                                        }, t._l(e.pictures, function(t, e) {
-                                            return a("vueper-slide", {
-                                                key: e,
-                                                attrs: { image: t.img }
-                                            })
-                                        }), 1),
-                                        a("div", {
-                                            staticClass: "mt-2",
-                                            staticStyle: {
-                                                width: "100%",
-                                                display: "flex",
-                                                "justify-content": "space-between"
-                                            }
-                                        }, [
-                                            a("div", [
-                                                a("div", {
-                                                    staticClass: "title2",
-                                                    staticStyle: { "font-weight": "500" }
-                                                }, [t._v(t._s(e.title))]),
-                                                t._l(e.technologies, function(e) {
-                                                    return a("span", {
-                                                        key: e,
-                                                        staticClass: "badge mr-2 mb-2",
-                                                        class: { "bg-dark4": t.nightMode }
-                                                    }, [t._v(t._s(e))])
-                                                }),
-                                                t._v(" • "),
-                                                a("span", { staticClass: "date ml-1" }, [t._v(t._s(e.date))])
-                                            ], 2),
-                                            a("button", {
-                                                staticClass: "btn-sm btn btn-outline-secondary no-outline",
-                                                staticStyle: { height: "31px", "margin-top": "5px" },
-                                                on: {
-                                                    click: function(a) { return a.preventDefault(), t.showDesignModalFn(e) }
-                                                }
-                                            }, [t._v(" read more ")]),
-                                            a("a", {
-                                                staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
-                                                attrs: { href: e.visit, target: "_blank" },
-                                                staticStyle: { height: "31px", "margin-top": "5px" },
-                                                on: {
-                                                    click: function(a) { return a.preventDefault(), window.open(e.visit) }
-                                                }
-                                            }, [t._v(" Visit Website ")])
-                                        ])
-                                    ], 1)
-                                }), 0),
-                                a("br")
+                            }, t._l(e.pictures, function(t, e) {
+                                return a("vueper-slide", {
+                                    key: e,
+                                    attrs: { image: t.img }
+                                })
+                            }), 1),
+                            a("div", {
+                                staticClass: "mt-2",
+                                staticStyle: {
+                                    width: "100%",
+                                    display: "flex",
+                                    "justify-content": "space-between"
+                                }
+                            }, [
+                                a("div", [
+                                    a("div", {
+                                        staticClass: "title2",
+                                        staticStyle: { "font-weight": "500" }
+                                    }, [t._v(t._s(e.title))]),
+                                    t._l(e.technologies, function(e) {
+                                        return a("span", {
+                                            key: e,
+                                            staticClass: "badge mr-2 mb-2",
+                                            class: { "bg-dark4": t.nightMode }
+                                        }, [t._v(t._s(e))])
+                                    }),
+                                    t._v(" • "),
+                                    a("span", { staticClass: "date ml-1" }, [t._v(t._s(e.date))])
+                                ], 2),
+                                a("button", {
+                                    staticClass: "btn-sm btn btn-outline-secondary no-outline",
+                                    staticStyle: { height: "31px", "margin-top": "5px" },
+                                    on: {
+                                        click: function(a) { return a.preventDefault(), t.showDesignModalFn(e) }
+                                    }
+                                }, [t._v(" read more ")]),
+                                a("a", {
+                                    staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
+                                    attrs: { href: e.visit, target: "_blank" },
+                                    staticStyle: { height: "31px", "margin-top": "5px" },
+                                    on: {
+                                        click: function(a) { return a.preventDefault(), window.open(e.visit) }
+                                    }
+                                }, [t._v(" Visit Website ")])
                             ])
-                        ])
-                    ])
+                        ], 1)
+                    }), 0),
+                    a("br")
+                ]),
+                a("v-tab", { attrs: { title: "games" } }, [
+                    a("br"),
+                    a("div", { staticClass: "row" }, t._l(t.portfolio_info, function(e, i) {
+                        return a("div", {
+                            key: e.name,
+                            staticClass: "col-xl-4 col-bg-4 col-md-6 col-sm-12"
+                        }, [
+                            a("Card", {
+                                style: { "transition-delay": i % 3 / 4.2 + "s" },
+                                attrs: {
+                                    portfolio: e,
+                                    "data-aos": "fade-up",
+                                    nightMode: t.nightMode,
+                                    "data-aos-offset": "100",
+                                    "data-aos-delay": "10",
+                                    "data-aos-duration": "500",
+                                    "data-aos-easing": "ease-in-out",
+                                    "data-aos-mirror": "true",
+                                    "data-aos-once": "true"
+                                },
+                                on: { show: t.showModalFn }
+                            })
+                        ], 1)
+                    }), 0),
+                    "show less" !== t.showBtn ? a("div", {
+                        staticClass: "text-center py-3"
+                    }, [
+                        a("button", {
+                            staticClass: "btn",
+                            on: { click: function(e) { return e.preventDefault(), t.showMore(e) } }
+                        }, [t._v(t._s(t.showBtn))])
+                    ]) : t._e()
+                ]),
+                // New "projects" tab
+                a("v-tab", { attrs: { title: "projects" } }, [
+                    a("div", { staticClass: "row" }, t._l(t.projects_info, function(e, i) {
+                        return a("div", {
+                            key: i,
+                            staticClass: "col-xl-6 col-bg-6 col-md-12 col-sm-12",
+                            class: { "mt-4": true },
+                            staticStyle: { position: "relative" }
+                        }, [
+                            a("vueper-slides", {
+                                staticStyle: { position: "absolute" },
+                                attrs: {
+                                    "dragging-distance": 50,
+                                    "fixed-height": "300px",
+                                    bullets: false,
+                                    "slide-content-outside": "bottom"
+                                },
+                                on: {
+                                    click: function(a) { return a.preventDefault(), t.showDesignModalFn(e) }
+                                }
+                            }, t._l(e.pictures, function(t, e) {
+                                return a("vueper-slide", {
+                                    key: e,
+                                    attrs: { image: t.img }
+                                })
+                            }), 1),
+                            a("div", {
+                                staticClass: "mt-2",
+                                staticStyle: {
+                                    width: "100%",
+                                    display: "flex",
+                                    "justify-content": "space-between"
+                                }
+                            }, [
+                                a("div", [
+                                    a("div", {
+                                        staticClass: "title2",
+                                        staticStyle: { "font-weight": "500" }
+                                    }, [t._v(t._s(e.title))]),
+                                    t._l(e.technologies, function(e) {
+                                        return a("span", {
+                                            key: e,
+                                            staticClass: "badge mr-2 mb-2",
+                                            class: { "bg-dark4": t.nightMode }
+                                        }, [t._v(t._s(e))])
+                                    }),
+                                    t._v(" • "),
+                                    a("span", { staticClass: "date ml-1" }, [t._v(t._s(e.date))])
+                                ], 2),
+                                a("button", {
+                                    staticClass: "btn-sm btn btn-outline-secondary no-outline",
+                                    staticStyle: { height: "31px", "margin-top": "5px" },
+                                    on: {
+                                        click: function(a) { return a.preventDefault(), t.showDesignModalFn(e) }
+                                    }
+                                }, [t._v(" read more ")]),
+                                a("a", {
+                                    staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
+                                    attrs: { href: e.visit, target: "_blank" },
+                                    staticStyle: { height: "31px", "margin-top": "5px" },
+                                    on: {
+                                        click: function(a) { return a.preventDefault(), window.open(e.visit) }
+                                    }
+                                }, [t._v(" Visit Website ")])
+                            ])
+                        ], 1)
+                    }), 0),
+                    a("br")
                 ])
-            },
+            ])
+        ])
+    ])
+},
             Z = [],
             Y = function() {
                 var t = this,
@@ -2016,6 +2292,7 @@
                     return {
                         all_info: p.portfolio,
                         desgin_info: p.portfolio_design,
+                        projects_info : p.portfolio_design_p,
                         portfolio_info: [],
                         showModal: !1,
                         showDesignModal: !1,
