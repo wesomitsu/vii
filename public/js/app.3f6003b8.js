@@ -580,10 +580,10 @@
                         img: a("alotech5"),
                         title: "Some of the companies I've worked with."
                     }],
-                    technologies: ["DialogFlow","Zendesk","Draw io", "Looker"],
+                    technologies: ["DialogFlow","CRM", "Looker", "Flow"],
                     category: "All in One AI-Powered Contact Center Software",
                     github: "https://alotech.com.tr/",
-                    date: "Feb, 2024",
+                    date: "Jan, 2023",
                     visit: "https://alotech.com.tr/",
                     description: ""
                 },{
