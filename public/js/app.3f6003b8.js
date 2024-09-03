@@ -1336,7 +1336,7 @@
                     a("p", {}, "Description: Overall the whole site was created to contain users dashboard on ticketing as well as on affiliate members and making them able to join both, payment, SEO and automation has been all done with the design, I have taken even the design to be implemented on the website.")
                 ]),
                 // Repeat the structure above for other projects
-            ]),            
+            ])            
         ]),
         a("v-tab", {
             attrs: {
