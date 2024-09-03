@@ -480,6 +480,36 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_pro: [{
+                    name: "KESHAH",
+                    title: "KESHAH Web/App",
+                    pictures: [{
+                        img: a("kesha1"),
+                        title: "As the Product Manager/Developer for the KESHAH project, I was responsible for overseeing and coordinating several key elements using a range of technologies: "+
+" - Landing Page Development: Managed the design and optimization of the landing page with Figma, ensuring that it effectively boosted user engagement and sales. Collaborated with designers and developers to implement the design."+
+" - App Integration: Directed the integration of the KESHAH website with their mobile app using Firestore. This involved overseeing the technical implementation to ensure seamless data synchronization and connectivity."+
+" - Agile Methodology for Deadline Coordination: Employed agile methodologies using Jira to manage project timelines. Conducted sprint planning, stand-up meetings, and retrospectives to ensure iterative progress and timely delivery."+
+" - Cross-Functional Collaboration: Utilized tools like Slack and Trello for effective communication and project management, facilitating coordination among marketing, design, and development teams."+
+" - Stakeholder Management: Engaged with stakeholders to gather requirements and provide updates, ensuring that the project aligned with business goals and expectations."
+                    },{
+                        img: a("kesha2"),
+                        title: "Chat Support with round robin, supporting users with questions and upsell"
+                    },{
+                        img: a("kesha3"),
+                        title: "Video guide, informing the user all they need to know about the product and how it's used"
+                    },{
+                        img: a("kesha4"),
+                        title: "Usage journey, tasks for the users to do and reminding them."
+                    },{
+                        img: a("kesha5"),
+                        title: "On boarding overview, showing the objective the product will deliver"
+                    }],
+                    technologies: ["Figma","Firestore","Miro"],
+                    category: "Health & Wellness",
+                    github: "https://apps.apple.com/in/app/keshah/id6450676544/",
+                    date: "Feb, 2024",
+                    visit: "https://apps.apple.com/in/app/keshah/id6450676544",
+                    description: ""
+                },{
                     name: "CloudifyNexa",
                     title: "Cloudify Nexa",
                     pictures: [{
@@ -514,37 +544,30 @@
                     date: "Dec, 2023",
                     visit: "https://www.cloudifynexa.com/",
                     description: ""
-                },{
-                    name: "KESHAH",
-                    title: "KESHAH Web/App",
-                    pictures: [{
-                        img: a("kesha1"),
-                        title: "As the Product Manager/Developer for the KESHAH project, I was responsible for overseeing and coordinating several key elements using a range of technologies: "+
-" - Landing Page Development: Managed the design and optimization of the landing page with Figma, ensuring that it effectively boosted user engagement and sales. Collaborated with designers and developers to implement the design."+
-" - App Integration: Directed the integration of the KESHAH website with their mobile app using Firestore. This involved overseeing the technical implementation to ensure seamless data synchronization and connectivity."+
-" - Agile Methodology for Deadline Coordination: Employed agile methodologies using Jira to manage project timelines. Conducted sprint planning, stand-up meetings, and retrospectives to ensure iterative progress and timely delivery."+
-" - Cross-Functional Collaboration: Utilized tools like Slack and Trello for effective communication and project management, facilitating coordination among marketing, design, and development teams."+
-" - Stakeholder Management: Engaged with stakeholders to gather requirements and provide updates, ensuring that the project aligned with business goals and expectations."
+                }],portfolio_design: [
+                    {
+                        name: "HeloRobo",
+                        title: "HeloRobo",
+                        pictures: [{
+                            img: a("d000331c"),
+                            title: "Form section"
+                        },{
+                            img: a("d000332c"),
+                            title: "Plan Section"
+                        },{
+                            img: a("d000333c"),
+                            title: "Mobile main page"
+                        }, {
+                            img: a("d000334c"),
+                            title: "Fixing bugs, content alignments, aligning on Ui/Ux best practices and strategy planning. Plugins installtion and Theme customization."
+                        }],
+                        technologies: ["WordPress","Php","Js"],
+                        category: "Web Development",
+                        github: "https://www.helorobo.com/",
+                        date: "Dec, 2022",
+                        visit: "https://www.helorobo.com/",
+                        description: ""
                     },{
-                        img: a("kesha2"),
-                        title: "Chat Support with round robin, supporting users with questions and upsell"
-                    },{
-                        img: a("kesha3"),
-                        title: "Video guide, informing the user all they need to know about the product and how it's used"
-                    },{
-                        img: a("kesha4"),
-                        title: "Usage journey, tasks for the users to do and reminding them."
-                    },{
-                        img: a("kesha5"),
-                        title: "On boarding overview, showing the objective the product will deliver"
-                    }],
-                    technologies: ["Figma","Firestore","Miro"],
-                    category: "Health & Wellness",
-                    github: "https://apps.apple.com/in/app/keshah/id6450676544/",
-                    date: "Feb, 2024",
-                    visit: "https://apps.apple.com/in/app/keshah/id6450676544",
-                    description: ""
-                }],portfolio_design: [{
                     name: "tbtk",
                     title: "Society for History of Science",
                     pictures: [{
@@ -677,28 +700,6 @@
                     github: "http://www.cloudifytechs.com/",
                     date: "Feb, 2023",
                     visit: "http://www.cloudifytechs.com/",
-                    description: ""
-                },{
-                    name: "HeloRobo",
-                    title: "HeloRobo",
-                    pictures: [{
-                        img: a("d000331c"),
-                        title: "Form section"
-                    },{
-                        img: a("d000332c"),
-                        title: "Plan Section"
-                    },{
-                        img: a("d000333c"),
-                        title: "Mobile main page"
-                    }, {
-                        img: a("d000334c"),
-                        title: "Fixing bugs, content alignments, aligning on Ui/Ux best practices and strategy planning. Plugins installtion and Theme customization."
-                    }],
-                    technologies: ["WordPress","Php","Js"],
-                    category: "Web Development",
-                    github: "https://www.helorobo.com/",
-                    date: "Dec, 2022",
-                    visit: "https://www.helorobo.com/",
                     description: ""
                 },{
                     name: "Integral Relationship",
