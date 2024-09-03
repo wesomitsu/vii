@@ -515,7 +515,7 @@
                         img: a("ins7"),
                         title: "Using AI product features to help the users find what they need."
                     }],
-                    technologies: ["Figma","GA","Zendesk", "Gainsight", "Miro"],
+                    technologies: ["GA","Zendesk", "Gainsight", "Miro"],
                     category: "Growth Managment",
                     github: "https://useinsider.com/",
                     date: "Jan, 2018",
