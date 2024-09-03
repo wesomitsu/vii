@@ -590,7 +590,7 @@
                     name: "CloudifyNexa",
                     title: "Cloudify Nexa",
                     pictures: [{
-                        img: a("nexa6"),
+                        img: a("nexa5"),
                         title: "As a Product Manager and Developer for Cloudify Nexa, an outsourcing company specializing in technical support for website and app development, I was responsible for a range of activities:" +
                         "Product Planning: Developed a comprehensive product plan that outlined project objectives, timelines, and deliverables, ensuring alignment with business goals." +
                         "Technical Team Management: Implemented a round-robin ticketing system to efficiently manage and distribute tasks among the technical team. This system streamlined workflow and improved response times." +
