@@ -1314,7 +1314,29 @@
                 title: "development"
             }
         }, [
-            a.d.portfolio_design
+            // Content for development tab
+            a("v-tab", {
+                attrs: {
+                    title: "development"
+                }
+            }, [
+                a("div", { class: "portfolio-item" }, [
+                    a("h3", {}, "Cloudify Nexa"),
+                    a("div", { class: "portfolio-images" }, [
+                        a("img", { src: a("nexa2"), alt: "Client Area" }),
+                        a("img", { src: a("nexa1"), alt: "Homepage" }),
+                        a("img", { src: a("nexa3"), alt: "Users Dashboard" }),
+                        a("img", { src: a("nexa4"), alt: "Users Affiliate Dashboard" }),
+                        a("img", { src: a("nexa5"), alt: "Knowledge" })
+                    ]),
+                    a("p", {}, "Technologies: Figma, Elementor, Js, CSS"),
+                    a("p", {}, "Category: Web Development"),
+                    a("p", {}, "Date: Dec, 2023"),
+                    a("a", { href: "https://www.cloudifynexa.com/", target: "_blank" }, "Visit Project"),
+                    a("p", {}, "Description: Overall the whole site was created to contain users dashboard on ticketing as well as on affiliate members and making them able to join both, payment, SEO and automation has been all done with the design, I have taken even the design to be implemented on the website.")
+                ]),
+                // Repeat the structure above for other projects
+            ]),            
         ]),
         a("v-tab", {
             attrs: {
