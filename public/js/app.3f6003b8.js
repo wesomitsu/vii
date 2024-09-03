@@ -1314,7 +1314,7 @@
                 title: "development"
             }
         }, [
-            portfolio_design,
+            portfolio_design
         ]),
         a("v-tab", {
             attrs: {
