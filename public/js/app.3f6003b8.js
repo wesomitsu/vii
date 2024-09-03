@@ -2848,7 +2848,7 @@
         t.exports = a.p + "img/602702bcb3c2a800183ccbc6.webp"
     },
     ins9: function(t, e, a) {
-        t.exports = a.p + "img/ins clients.png"
+        t.exports = a.p + "img/ins%20clients.png"
     },
     alotech1: function(t, e, a) {
         t.exports = a.p + "img/alotechggg.gif"
