@@ -500,7 +500,7 @@
                         img: a("ins3"),
                         title: "Choosing and customizing the best template the fits the client objective and the users we are targeting."
                     },{
-                        img: a("ins9"),
+                        img: a("inss9"),
                         title: "Some of many clients I've worked with."
                     },{
                         img: a("ins4"),
@@ -2847,7 +2847,7 @@
     ins8: function(t, e, a) {
         t.exports = a.p + "img/602702bcb3c2a800183ccbc6.webp"
     },
-    ins9: function(t, e, a) {
+    inss9: function(t, e, a) {
         t.exports = a.p + "img/ins%20clients.png"
     },
     alotech1: function(t, e, a) {
