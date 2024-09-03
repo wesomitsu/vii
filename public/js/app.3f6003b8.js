@@ -480,7 +480,7 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_pro: [{
-                    name: "Insider Web/App/Marketing/SMS/Email/Web Notifcations/Whatsapp",
+                    name: "Insider Web/App/Marketing(SMS,Email,Web Notifcations,Whatsapp)",
                     title: "Insider",
                     pictures: [{
                         img: a("ins1"),
