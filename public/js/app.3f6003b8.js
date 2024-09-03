@@ -1274,149 +1274,193 @@
             z = R,
             K = (a("a219"), Object(m["a"])(z, X, G, !1, null, "c71fcfc2", null)),
             Q = K.exports,
-           q = function() {
-    var t = this,
-        e = t.$createElement,
-        a = t._self._c || e;
-    return a("div", {
-        staticClass: "py-4 p-st",
-        class: {
-            "bg-light": !t.nightMode, "bg-dark2": t.nightMode, "text-light": t.nightMode
-        }
-    }, [a("div", {
-        staticClass: "container"
-    }, [a("div", {
-        staticClass: "text-center",
-        attrs: {
-            "data-aos": "fade",
-            "data-aos-once": "true",
-            "data-aos-duration": "1000"
-        }
-    }, [a("span", {
-        staticClass: "title text-center",
-        class: {
-            pgray: !t.nightMode, "text-light": t.nightMode
-        }
-    }, [t._v("Portfolio.")])]), a("hr", {
-        class: {
-            pgray: !t.nightMode, "bg-secondary": t.nightMode
-        },
-        attrs: {
-            width: "50%"
-        }
-    }), a("vue-tabs", {
-        attrs: {
-            activeTextColor: t.nightMode ? "#dfdfdf" : "#535A5E"
-        }
-    }, [
-        a("v-tab", {
-            attrs: {
-                title: "development"
-            }
-        }, [
-            // Content for development tab
-            a("v-tab", {
-                attrs: {
-                    title: "development"
-                }
-            }, [
-                a("div", { class: "portfolio-item" }, [
-                    a("h3", {}, "Cloudify Nexa"),
-                    a("div", { class: "portfolio-images" }, [
-                        a("img", { src: a("nexa2"), alt: "Client Area" }),
-                        a("img", { src: a("nexa1"), alt: "Homepage" }),
-                        a("img", { src: a("nexa3"), alt: "Users Dashboard" }),
-                        a("img", { src: a("nexa4"), alt: "Users Affiliate Dashboard" }),
-                        a("img", { src: a("nexa5"), alt: "Knowledge" })
-                    ]),
-                    a("p", {}, "Technologies: Figma, Elementor, Js, CSS"),
-                    a("p", {}, "Category: Web Development"),
-                    a("p", {}, "Date: Dec, 2023"),
-                    a("a", { href: "https://www.cloudifynexa.com/", target: "_blank" }, "Visit Project"),
-                    a("p", {}, "Description: Overall the whole site was created to contain users dashboard on ticketing as well as on affiliate members and making them able to join both, payment, SEO and automation has been all done with the design, I have taken even the design to be implemented on the website.")
-                ]),
-                // Repeat the structure above for other projects
-            ])            
-        ]),
-        a("v-tab", {
-            attrs: {
-                title: "games"
-            }
-        }, [
-            // Content for games tab
-        ]),
-        a("v-tab", {
-            attrs: {
-                title: "projects"
-            }
-        }, [
-            a("br"), 
-            a("div", {
-                staticClass: "row"
-            }, t._l(t.projects_info, function(e, i) {
+            q = function() {
+                var t = this,
+                    e = t.$createElement,
+                    a = t._self._c || e;
                 return a("div", {
-                    key: e.name,
-                    staticClass: "col-xl-4 col-bg-4 col-md-6 col-sm-12"
-                }, [a("Card", {
-                    style: {
-                        "transition-delay": i % 3 / 4.2 + "s"
+                    staticClass: "py-4 p-st",
+                    class: {
+                        "bg-light": !t.nightMode, "bg-dark2": t.nightMode, "text-light": t.nightMode
+                    }
+                }, [a("div", {
+                    staticClass: "container"
+                }, [a("div", {
+                    staticClass: "text-center",
+                    attrs: {
+                        "data-aos": "fade",
+                        "data-aos-once": "true",
+                        "data-aos-duration": "1000"
+                    }
+                }, [a("span", {
+                    staticClass: "title text-center",
+                    class: {
+                        pgray: !t.nightMode, "text-light": t.nightMode
+                    }
+                }, [t._v("Portfolio.")])]), a("hr", {
+                    class: {
+                        pgray: !t.nightMode, "bg-secondary": t.nightMode
                     },
                     attrs: {
-                        portfolio: e,
-                        "data-aos": "fade-up",
-                        nightMode: t.nightMode,
-                        "data-aos-offset": "100",
-                        "data-aos-delay": "10",
-                        "data-aos-duration": "500",
-                        "data-aos-easing": "ease-in-out",
-                        "data-aos-mirror": "true",
-                        "data-aos-once": "true"
+                        width: "50%"
+                    }
+                }), a("vue-tabs", {
+                    attrs: {
+                        activeTextColor: t.nightMode ? "#dfdfdf" : "#535A5E"
+                    }
+                }, [a("v-tab", {
+                    attrs: {
+                        title: "development"
+                    }
+                }, [a("div", {
+                    staticClass: "row"
+                }, t._l(t.desgin_info, (function(e, i) {
+                    return a("div", {
+                        key: i,
+                        staticClass: "col-xl-6 col-bg-6 col-md-12 col-sm-12",
+                        class: {
+                            "mt-4": !0
+                        },
+                        staticStyle: {
+                            position: "relative"
+                        }
+                    }, [a("vueper-slides", {
+                        staticStyle: {
+                            position: "aboslute"
+                        },
+                        attrs: {
+                            "dragging-distance": 50,
+                            "fixed-height": "300px",
+                            bullets: !1,
+                            "slide-content-outside": "bottom"
+                        },
+                        on: {
+                            click: function(a) {
+                                return a.preventDefault(), t.showDesignModalFn(e)
+                            }
+                        }
+                    }, t._l(e.pictures, (function(t, e) {
+                        return a("vueper-slide", {
+                            key: e,
+                            attrs: {
+                                image: t.img
+                            }
+                        })
+                    })), 1), a("div", {
+                        staticClass: "mt-2",
+                        staticStyle: {
+                            width: "100%",
+                            display: "flex",
+                            "justify-content": "space-between"
+                        }
+                    }, [a("div", [a("div", {
+                        staticClass: "title2",
+                        staticStyle: {
+                            "font-weight": "500"
+                        }
+                    }, [t._v(t._s(e.title))]), t._l(e.technologies, (function(e) {
+                        return a("span", {
+                            key: e,
+                            staticClass: "badge mr-2 mb-2",
+                            class: {
+                                "bg-dark4": t.nightMode
+                            }
+                        }, [t._v(t._s(e))])
+                    })), t._v(" • "), a("span", {
+                        staticClass: "date ml-1"
+                    }, [t._v(t._s(e.date))])], 2), a("button", {
+                        staticClass: "btn-sm btn btn-outline-secondary no-outline",
+                        staticStyle: {
+                            height: "31px",
+                            "margin-top": "5px"
+                        },
+                        on: {
+                            click: function(a) {
+                                return a.preventDefault(), t.showDesignModalFn(e)
+                            }
+                        }
+                    }, [t._v(" read more ")],), a("a", {
+                        staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
+                        attrs: {
+                            href: ""+e.visit+"",
+                            target: "_blank"
+                        },staticStyle: {
+                            height: "31px",
+                            "margin-top": "5px"
+                        },
+                        on: {
+                            click: function(a) {
+                                return e.preventDefault(), window.open(e.visit)
+                            }
+                        }
+                    }, [t._v(" Visit Website ")],)])]
+                    , 1)
+                })), 0), a("br")]), a("v-tab", {
+                    attrs: {
+                        title: "games"
+                    }
+                }, [a("br"), a("div", {
+                    staticClass: "row"
+                }, t._l(t.portfolio_info, (function(e, i) {
+                    return a("div", {
+                        key: e.name,
+                        staticClass: "col-xl-4 col-bg-4 col-md-6 col-sm-12"
+                    }, [a("Card", {
+                        style: {
+                            "transition-delay": i % 3 / 4.2 + "s"
+                        },
+                        attrs: {
+                            portfolio: e,
+                            "data-aos": "fade-up",
+                            nightMode: t.nightMode,
+                            "data-aos-offset": "100",
+                            "data-aos-delay": "10",
+                            "data-aos-duration": "500",
+                            "data-aos-easing": "ease-in-out",
+                            "data-aos-mirror": "true",
+                            "data-aos-once": "true"
+                        },
+                        on: {
+                            show: t.showModalFn
+                        }
+                    })], 1)
+                })), 0), "show less" !== t.showBtn ? a("div", {
+                    staticClass: "text-center py-3"
+                }, [a("button", {
+                    staticClass: "btn",
+                    on: {
+                        click: function(e) {
+                            return e.preventDefault(), t.showMore(e)
+                        }
+                    }
+                }, [t._v(t._s(t.showBtn))])]) : t._e()])], 1)], 1), a("transition", {
+                    attrs: {
+                        name: "modal"
+                    }
+                }, [t.showModal ? a("Modal", {
+                    attrs: {
+                        showModal: t.showModal,
+                        portfolio: t.modal_info,
+                        nightMode: t.nightMode
                     },
                     on: {
-                        show: t.showModalFn
+                        close: t.closeModal
                     }
-                })], 1)
-            }), 0), 
-            "show less" !== t.showBtn ? a("div", {
-                staticClass: "text-center py-3"
-            }, [a("button", {
-                staticClass: "btn",
-                on: {
-                    click: function(e) {
-                        return e.preventDefault(), t.showMore(e)
+                }) : t._e()], 1), a("transition", {
+                    attrs: {
+                        name: "modal"
                     }
-                }
-            }, [t._v(t._s(t.showBtn))])]) : t._e()
-        ])
-    ], 1)], 1), a("transition", {
-        attrs: {
-            name: "modal"
-        }
-    }, [t.showModal ? a("Modal", {
-        attrs: {
-            showModal: t.showModal,
-            portfolio: t.modal_info,
-            nightMode: t.nightMode
-        },
-        on: {
-            close: t.closeModal
-        }
-    }) : t._e()], 1), a("transition", {
-        attrs: {
-            name: "modal"
-        }
-    }, [t.showDesignModal ? a("DesignModal", {
-        attrs: {
-            showModal: t.showDesignModal,
-            portfolio: t.design_modal_info,
-            nightMode: t.nightMode
-        },
-        on: {
-            close: t.closeModal
-        }
-    }) : t._e()], 1)], 1)
-},
-
+                }, [t.showDesignModal ? a("DesignModal", {
+                    attrs: {
+                        showModal: t.showDesignModal,
+                        portfolio: t.design_modal_info,
+                        nightMode: t.nightMode
+                    },
+                    on: {
+                        close: t.closeModal
+                    }
+                }) : t._e()], 1)], 1)
+            },
             Z = [],
             Y = function() {
                 var t = this,
