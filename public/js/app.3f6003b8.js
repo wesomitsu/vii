@@ -503,7 +503,7 @@
                         img: a("kesha5"),
                         title: "On boarding overview, showing the objective the product will deliver"
                     }],
-                    technologies: ["Figma","Firestore","Miro", "Google Analytics"],
+                    technologies: ["Figma","Firestore","Miro", "GA"],
                     category: "Health & Wellness",
                     github: "https://apps.apple.com/in/app/keshah/id6450676544/",
                     date: "Feb, 2024",
