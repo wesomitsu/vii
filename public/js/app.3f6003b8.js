@@ -1397,7 +1397,7 @@
                     , 1)
                 })), 0), a("br")]),a("v-tab", {
                     attrs: {
-                        title: "development"
+                        title: "projects"
                     }
                 }, [a("div", {
                     staticClass: "row"
