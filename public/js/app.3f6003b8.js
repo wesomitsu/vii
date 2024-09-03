@@ -516,7 +516,7 @@
                         title: "Using AI product features to help the users find what they need."
                     }],
                     technologies: ["GA","Zendesk", "Gainsight", "Miro"],
-                    category: "Growth Managment",
+                    category: "All in One AI-Powered Growth Managment",
                     github: "https://useinsider.com/",
                     date: "Jan, 2018",
                     visit: "https://useinsider.com/",
