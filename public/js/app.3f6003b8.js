@@ -481,7 +481,7 @@
                 }],
                 portfolio_design_p: [{
                     name: "CloudifyN",
-                    title: "Cloudify Nexa",
+                    title: "Cloudify Na",
                     pictures: [{
                         img: a("nexa2"),
                         title: "Client Area"
