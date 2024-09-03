@@ -485,7 +485,7 @@
                     pictures: [{
                         img: a("kesha1"),
                         title: "As the Product Manager/Developer for the KESHAH project, I was responsible for overseeing and coordinating several key elements using a range of technologies: "+
-"<br> - Landing Page Development: Managed the design and optimization of the landing page with Figma, ensuring that it effectively boosted user engagement and sales. Collaborated with designers and developers to implement the design."+
+" - Landing Page Development: Managed the design and optimization of the landing page with Figma, ensuring that it effectively boosted user engagement and sales. Collaborated with designers and developers to implement the design."+
 " - App Integration: Directed the integration of the KESHAH website with their mobile app using Firestore. This involved overseeing the technical implementation to ensure seamless data synchronization and connectivity."+
 " - Agile Methodology for Deadline Coordination: Employed agile methodologies using Jira to manage project timelines. Conducted sprint planning, stand-up meetings, and retrospectives to ensure iterative progress and timely delivery."+
 " - Cross-Functional Collaboration: Utilized tools like Slack and Trello for effective communication and project management, facilitating coordination among marketing, design, and development teams."+
