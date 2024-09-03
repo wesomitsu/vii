@@ -616,7 +616,7 @@
                         title: "Client Area, a section only for clients, with a knowalage base to help guide the clients and reduce support effort"
                     }],
                     technologies: ["Figma","Trello","Zendesk","Zoho"],
-                    category: "Web Development",
+                    category: "Projects/Development Outsource",
                     github: "https://www.cloudifynexa.com/",
                     date: "Dec, 2023",
                     visit: "https://www.cloudifynexa.com/",
