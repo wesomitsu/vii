@@ -1399,6 +1399,10 @@
                     attrs: {
                         title: "games"
                     }
+                },{
+                    attrs: {
+                        title: "projects"
+                    }
                 }, [a("br"), a("div", {
                     staticClass: "row"
                 }, t._l(t.portfolio_info, (function(e, i) {
