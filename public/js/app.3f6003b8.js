@@ -483,7 +483,7 @@
                     name: "KESHAH",
                     title: "KESHAH Web/App",
                     pictures: [{
-                        img: a("nexa2"),
+                        img: a("kesha1"),
                         title: "As the Product Manager/Developer for the KESHAH project, I was responsible for overseeing and coordinating several key elements using a range of technologies:"+
 "- Landing Page Development: Managed the design and optimization of the landing page with Figma, ensuring that it effectively boosted user engagement and sales. Collaborated with designers and developers to implement the design."+
 "- App Integration: Directed the integration of the KESHAH website with their mobile app using Firestore. This involved overseeing the technical implementation to ensure seamless data synchronization and connectivity."+
