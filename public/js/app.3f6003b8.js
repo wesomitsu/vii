@@ -480,6 +480,49 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_pro: [{
+                    name: "Insider",
+                    title: "Insider Web/App/Marketing/SMS/Email/Web Notifcations/Whatsapp",
+                    pictures: [{
+                        img: a("ins1"),
+                        title: "Technical Project Manager/CRO at Insider (5 Years)"+
+"In my role as a Technical Project Manager and CRO at Insider, I was entrusted with the responsibility of managing and optimizing the performance of both the development and Customer Success Management (CSM) teams. My primary duties included:"+
+"Development Team Oversight: Directed the development pipeline, provided training, and monitored KPIs to ensure that all projects were executed efficiently. I implemented best practices and conducted task grooming sessions to optimize workflow and task completion."+
+"Customer Success Management: Managed the KPIs and feedback mechanisms for the CSM team, ensuring that client satisfaction was consistently high. I played a pivotal role in aligning the team’s efforts with the company’s customer success strategies."+
+"Task and Project Coordination: Ensured the timely and issue-free delivery of all tasks by coordinating effectively with cross-functional teams. My focus was on maintaining high standards of execution and client satisfaction."+
+"Client Growth Management: As the CRO, I led initiatives to drive client growth across mobile apps, websites, and email marketing. I utilized various strategies to maximize engagement and ROI for our clients." +
+"Agile Methodology and Tools: Worked within an agile framework using Jira to manage and track project progress. I also utilized Zendesk for tracking team success and Gainsight for managing CRM activities." +
+"Knowledge Base Development: Played an instrumental role in creating a comprehensive Zendesk portal for clients, which served as a key resource for customer support and information."
+                    },{
+                        title: "Throughout my tenure, I consistently ensured that all teams delivered high-quality results, contributing to both the technical excellence of our products and the satisfaction of our clients."
+                    },{
+                        img: a("ins8"),
+                        title: "Setting up Zendesk backbone and tasks funnel and their types using attrubites, tags and round robin as well as the report tracking to track team efforts."
+                    },{
+                        img: a("ins2"),
+                        title: "Using SMS marketing to help increase sales based on different strategies"
+                    },{
+                        img: a("ins3"),
+                        title: "Choosing and customizing the best template the fits the client objective and the users we are targeting."
+                    },{
+                        img: a("ins4"),
+                        title: "A/B testing to select the best strategy for the targeting audience"
+                    },{
+                        img: a("ins5"),
+                        title: "Using different marketing channels and target the audience and keep them updated with their intrests."
+                    },{
+                        img: a("ins6"),
+                        title: "Customizing the templates for with lead collection, sales and marketing."
+                    },{
+                        img: a("ins7"),
+                        title: "Using AI product features to help the users find what they need."
+                    }],
+                    technologies: ["Figma","Firestore","Miro", "GA"],
+                    category: "Health & Wellness",
+                    github: "https://apps.apple.com/in/app/keshah/id6450676544/",
+                    date: "Feb, 2024",
+                    visit: "https://apps.apple.com/in/app/keshah/id6450676544",
+                    description: ""
+                },{
                     name: "KESHAH",
                     title: "KESHAH Web/App",
                     pictures: [{
@@ -2745,6 +2788,30 @@
     },
     sp1: function(t, e, a) {
         t.exports = a.p + "img/mnc1.png"
+    },
+    ins1: function(t, e, a) {
+        t.exports = a.p + "img/ROI-dashboard.gif"
+    },
+    ins2: function(t, e, a) {
+        t.exports = a.p + "img/personalization_.webp"
+    },
+    ins3: function(t, e, a) {
+        t.exports = a.p + "img/fastest_ttv.webp"
+    },
+    ins4: function(t, e, a) {
+        t.exports = a.p + "img/best.webp"
+    },
+    ins5: function(t, e, a) {
+        t.exports = a.p + "img/Group-1000001792-1.webp"
+    },
+    ins6: function(t, e, a) {
+        t.exports = a.p + "img/1-1.webp"
+    },
+    ins7: function(t, e, a) {
+        t.exports = a.p + "img/2-1.webp"
+    },
+    ins8: function(t, e, a) {
+        t.exports = a.p + "img/602702bcb3c2a800183ccbc6.webp"
     },
     kesha1: function(t, e, a) {
         t.exports = a.p + "img/FINAL__no_txt__AdobeExpress.gif"
