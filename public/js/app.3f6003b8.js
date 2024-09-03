@@ -568,7 +568,7 @@
                         "Performance Monitoring: Monitored project performance and made adjustments to improve efficiency and outcomes, using key performance indicators (KPIs) to track progress." +
                         "Knowledge Base Creation: Developed a comprehensive knowledge base to document processes, guidelines, and best practices, enhancing team productivity and client support."
                     },{
-                        img: a("nexa5"),
+                        img: a("nexa2"),
                         title: "Overview on the Homepage"
                     },{
                         img: a("nexa3"),
@@ -577,7 +577,7 @@
                         img: a("nexa4"),
                         title: "Users Affiliate Dashboard, for users who reffer other users they can get paid"
                     },{
-                        img: a("nexa2"),
+                        img: a("nexa5"),
                         title: "Client Area, a section only for clients, with a knowalage base to help guide the clients and reduce support effort"
                     }],
                     technologies: ["Figma","Trello","Zendesk","Zoho"],
