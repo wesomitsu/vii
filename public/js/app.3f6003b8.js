@@ -1395,6 +1395,93 @@
                         }
                     }, [t._v(" Visit Website ")],)])]
                     , 1)
+                })), 0), a("br")]),[a("v-tab", {
+                    attrs: {
+                        title: "projects"
+                    }
+                }, [a("div", {
+                    staticClass: "row"
+                }, t._l(t.desgin_info, (function(e, i) {
+                    return a("div", {
+                        key: i,
+                        staticClass: "col-xl-6 col-bg-6 col-md-12 col-sm-12",
+                        class: {
+                            "mt-4": !0
+                        },
+                        staticStyle: {
+                            position: "relative"
+                        }
+                    }, [a("vueper-slides", {
+                        staticStyle: {
+                            position: "aboslute"
+                        },
+                        attrs: {
+                            "dragging-distance": 50,
+                            "fixed-height": "300px",
+                            bullets: !1,
+                            "slide-content-outside": "bottom"
+                        },
+                        on: {
+                            click: function(a) {
+                                return a.preventDefault(), t.showDesignModalFn(e)
+                            }
+                        }
+                    }, t._l(e.pictures, (function(t, e) {
+                        return a("vueper-slide", {
+                            key: e,
+                            attrs: {
+                                image: t.img
+                            }
+                        })
+                    })), 1), a("div", {
+                        staticClass: "mt-2",
+                        staticStyle: {
+                            width: "100%",
+                            display: "flex",
+                            "justify-content": "space-between"
+                        }
+                    }, [a("div", [a("div", {
+                        staticClass: "title2",
+                        staticStyle: {
+                            "font-weight": "500"
+                        }
+                    }, [t._v(t._s(e.title))]), t._l(e.technologies, (function(e) {
+                        return a("span", {
+                            key: e,
+                            staticClass: "badge mr-2 mb-2",
+                            class: {
+                                "bg-dark4": t.nightMode
+                            }
+                        }, [t._v(t._s(e))])
+                    })), t._v(" • "), a("span", {
+                        staticClass: "date ml-1"
+                    }, [t._v(t._s(e.date))])], 2), a("button", {
+                        staticClass: "btn-sm btn btn-outline-secondary no-outline",
+                        staticStyle: {
+                            height: "31px",
+                            "margin-top": "5px"
+                        },
+                        on: {
+                            click: function(a) {
+                                return a.preventDefault(), t.showDesignModalFn(e)
+                            }
+                        }
+                    }, [t._v(" read more ")],), a("a", {
+                        staticClass: "btn-sm btn btn-outline-secondary no-outline mw-4",
+                        attrs: {
+                            href: ""+e.visit+"",
+                            target: "_blank"
+                        },staticStyle: {
+                            height: "31px",
+                            "margin-top": "5px"
+                        },
+                        on: {
+                            click: function(a) {
+                                return e.preventDefault(), window.open(e.visit)
+                            }
+                        }
+                    }, [t._v(" Visit Website ")],)])]
+                    , 1)
                 })), 0), a("br")]), a("v-tab", {
                     attrs: {
                         title: "games"
