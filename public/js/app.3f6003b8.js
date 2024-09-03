@@ -1398,7 +1398,7 @@
                 })), 0), a("br")]), a("v-tab", {
                     attrs: {
                         title: "games",
-                        title:"projects"
+                        titles:"projects"
                     }
                 }, [a("br"), a("div", {
                     staticClass: "row"
