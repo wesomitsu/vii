@@ -480,6 +480,41 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_pro: [{
+                    name: "CloudifyNexa",
+                    title: "Cloudify Nexa",
+                    pictures: [{
+                        img: a("nexa5"),
+                        title: "As a Product Manager and Developer for Cloudify Nexa, an outsourcing company specializing in technical support for website and app development, I was responsible for a range of activities:" +
+                        "Product Planning: Developed a comprehensive product plan that outlined project objectives, timelines, and deliverables, ensuring alignment with business goals." +
+                        "Technical Team Management: Implemented a round-robin ticketing system to efficiently manage and distribute tasks among the technical team. This system streamlined workflow and improved response times." +
+                        "Form Creation and CRM Integration: Designed and developed a user information form to collect necessary data from clients. Integrated this form with the CRM system to facilitate seamless data management and client interaction." +
+                        "Website Development: Led the development of the website, ensuring it met functional and aesthetic requirements. Collaborated with designers and developers to deliver a high-quality end product." +
+                        "Client Requirements Gathering: Engaged with clients to gather and define their requirements, ensuring that the final deliverables met their needs and expectations." +
+                        "Project Coordination: Managed the project lifecycle from initiation through delivery, including planning, execution, monitoring, and closing. Coordinated with various teams to ensure timely and successful project completion." +
+                        "Quality Assurance: Oversaw testing and quality assurance processes to ensure that all deliverables were free of defects and met the required standards." +
+                        "Stakeholder Communication: Regularly communicated with stakeholders to provide updates, gather feedback, and adjust project plans as necessary to address any issues or changes in scope." +
+                        "Performance Monitoring: Monitored project performance and made adjustments to improve efficiency and outcomes, using key performance indicators (KPIs) to track progress." +
+                        "Knowledge Base Creation: Developed a comprehensive knowledge base to document processes, guidelines, and best practices, enhancing team productivity and client support."
+                    },{
+                        img: a("nexa1"),
+                        title: "Overview on the Homepage"
+                    },{
+                        img: a("nexa3"),
+                        title: "Clients Dashboard, where they manage their requests"
+                    },{
+                        img: a("nexa4"),
+                        title: "Users Affiliate Dashboard, for users who reffer other users they can get paid"
+                    },{
+                        img: a("nexa2"),
+                        title: "Client Area, a section only for clients, with a knowalage base to help guide the clients and reduce support effort"
+                    }],
+                    technologies: ["Figma","Elementor","Js","CSS"],
+                    category: "Web Development",
+                    github: "https://www.cloudifynexa.com/",
+                    date: "Dec, 2023",
+                    visit: "https://www.cloudifynexa.com/",
+                    description: ""
+                },{
                     name: "KESHAH",
                     title: "KESHAH Web/App",
                     pictures: [{
@@ -510,31 +545,6 @@
                     visit: "https://apps.apple.com/in/app/keshah/id6450676544",
                     description: ""
                 }],portfolio_design: [{
-                    name: "CloudifyNexa",
-                    title: "Cloudify Nexa",
-                    pictures: [{
-                        img: a("nexa2"),
-                        title: "Client Area"
-                    },{
-                        img: a("nexa1"),
-                        title: "Homepage"
-                    },{
-                        img: a("nexa3"),
-                        title: "Users Dashboard"
-                    },{
-                        img: a("nexa4"),
-                        title: "Users Affiliate Dashboard"
-                    },{
-                        img: a("nexa5"),
-                        title: "knowledge. Overall the whole site was created to contain users dashboard on ticketing as well as on affiliate members and making them able to join both, payment, SEO and automation has been all done with the design, I have taken even the design to be implemented on the website."
-                    }],
-                    technologies: ["Figma","Elementor","Js","CSS"],
-                    category: "Web Development",
-                    github: "https://www.cloudifynexa.com/",
-                    date: "Dec, 2023",
-                    visit: "https://www.cloudifynexa.com/",
-                    description: ""
-                },{
                     name: "tbtk",
                     title: "Society for History of Science",
                     pictures: [{
@@ -746,25 +756,6 @@
                     github: "https://useinsiderhelp.zendesk.com/hc/en-us",
                     date: "Dec, 2021",
                     visit: "https://useinsiderhelp.zendesk.com/hc/en-us",
-                    description: ""
-                },{
-                    name: "portfolio",
-                    title: "portfolio",
-                    pictures: [{
-                        img: a("6613"),
-                        title: "Main Page"
-                    }, {
-                        img: a("6614"),
-                        title: "product page"
-                    }, {
-                        img: a("6615"),
-                        title: "footer page"
-                    }],
-                    technologies: ["Javascript", "HTML", "CSS"],
-                    category: "Web Development",
-                    github: "https://wesomitsu.github.io/skywalker/",
-                    date: "May, 2022",
-                    visit: "https://wesomitsu.github.io/skywalker/",
                     description: ""
                 },{
                     name: "web campaigns",
