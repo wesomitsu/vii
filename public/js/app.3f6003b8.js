@@ -480,11 +480,16 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_pro: [{
-                    name: "CloudifyNexa",
-                    title: "Cloudify Na",
+                    name: "KESHAH",
+                    title: "KESHAH Web/App",
                     pictures: [{
                         img: a("nexa2"),
-                        title: "Client Area"
+                        title: "As the Product Manager/Developer for the KESHAH project, I was responsible for overseeing and coordinating several key elements using a range of technologies:"+
+"- Landing Page Development: Managed the design and optimization of the landing page with Figma, ensuring that it effectively boosted user engagement and sales. Collaborated with designers and developers to implement the design."+
+"- App Integration: Directed the integration of the KESHAH website with their mobile app using Firestore. This involved overseeing the technical implementation to ensure seamless data synchronization and connectivity."+
+"- Agile Methodology for Deadline Coordination: Employed agile methodologies using Jira to manage project timelines. Conducted sprint planning, stand-up meetings, and retrospectives to ensure iterative progress and timely delivery."+
+"- Cross-Functional Collaboration: Utilized tools like Slack and Trello for effective communication and project management, facilitating coordination among marketing, design, and development teams."+
+"- Stakeholder Management: Engaged with stakeholders to gather requirements and provide updates, ensuring that the project aligned with business goals and expectations."
                     },{
                         img: a("nexa1"),
                         title: "Homepage"
@@ -496,13 +501,13 @@
                         title: "Users Affiliate Dashboard"
                     },{
                         img: a("nexa5"),
-                        title: "knowledge. Overall the whole site was created to contain users dashboard on ticketing as well as on affiliate members and making them able to join both, payment, SEO and automation has been all done with the design, I have taken even the design to be implemented on the website."
+                        title: ""
                     }],
-                    technologies: ["Figma","Elementor","Js","CSS"],
-                    category: "Web Development",
-                    github: "https://www.cloudifynexa.com/",
-                    date: "Dec, 2023",
-                    visit: "https://www.cloudifynexa.com/",
+                    technologies: ["Figma","Firestore","Miro"],
+                    category: "Health & Wellness",
+                    github: "https://apps.apple.com/in/app/keshah/id6450676544/",
+                    date: "Feb, 2024",
+                    visit: "https://apps.apple.com/in/app/keshah/id6450676544",
                     description: ""
                 }],portfolio_design: [{
                     name: "CloudifyNexa",
@@ -2748,6 +2753,9 @@
     },
     sp1: function(t, e, a) {
         t.exports = a.p + "img/mnc1.png"
+    },
+    kesha1: function(t, e, a) {
+        t.exports = a.p + "img/FINAL__no_txt__AdobeExpress.gif"
     },
     nexa1: function(t, e, a) {
         t.exports = a.p + "img/nexa1.png"
