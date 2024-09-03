@@ -1395,9 +1395,9 @@
                         }
                     }, [t._v(" Visit Website ")],)])]
                     , 1)
-                })), 0), a("br")]),[a("v-tab", {
+                })), 0), a("br")]),a("v-tab", {
                     attrs: {
-                        title: "projects"
+                        title: "development"
                     }
                 }, [a("div", {
                     staticClass: "row"
