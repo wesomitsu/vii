@@ -1314,7 +1314,7 @@
                 title: "development"
             }
         }, [
-            return {
+             {
                 all_info: p.portfolio,
                 desgin_info: p.portfolio_design,
                 portfolio_info: [],
