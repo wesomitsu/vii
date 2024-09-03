@@ -1315,7 +1315,7 @@
             }
         }, [
              {
-                p.portfolio_design,
+                p.portfolio_design
             }
         ]),
         a("v-tab", {
