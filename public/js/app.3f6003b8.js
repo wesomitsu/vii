@@ -494,14 +494,14 @@
 "Knowledge Base Development: Played an instrumental role in creating a comprehensive Zendesk portal for clients, which served as a key resource for customer support and information." +
 "Throughout my tenure, I consistently ensured that all teams delivered high-quality results, contributing to both the technical excellence of our products and the satisfaction of our clients."
                     },{
+                        img: a("inss9"),
+                        title: "Some of many clients I've worked with."
+                    },{
                         img: a("ins2"),
                         title: "Using SMS marketing to help increase sales based on different strategies"
                     },{
                         img: a("ins3"),
                         title: "Choosing and customizing the best template the fits the client objective and the users we are targeting."
-                    },{
-                        img: a("inss9"),
-                        title: "Some of many clients I've worked with."
                     },{
                         img: a("ins4"),
                         title: "A/B testing to select the best strategy for the targeting audience"
@@ -2848,7 +2848,7 @@
         t.exports = a.p + "img/602702bcb3c2a800183ccbc6.webp"
     },
     inss9: function(t, e, a) {
-        t.exports = a.p + "img/ins%20clients.png"
+        t.exports = a.p + "img/ainsclients.png"
     },
     alotech1: function(t, e, a) {
         t.exports = a.p + "img/alotechggg.gif"
