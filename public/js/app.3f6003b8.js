@@ -484,24 +484,24 @@
                     title: "KESHAH Web/App",
                     pictures: [{
                         img: a("kesha1"),
-                        title: "As the Product Manager/Developer for the KESHAH project, I was responsible for overseeing and coordinating several key elements using a range of technologies:"+
+                        title: "As the Product Manager/Developer for the KESHAH project, I was responsible for overseeing and coordinating several key elements using a range of technologies: "+
 "- Landing Page Development: Managed the design and optimization of the landing page with Figma, ensuring that it effectively boosted user engagement and sales. Collaborated with designers and developers to implement the design."+
-"- App Integration: Directed the integration of the KESHAH website with their mobile app using Firestore. This involved overseeing the technical implementation to ensure seamless data synchronization and connectivity."+
-"- Agile Methodology for Deadline Coordination: Employed agile methodologies using Jira to manage project timelines. Conducted sprint planning, stand-up meetings, and retrospectives to ensure iterative progress and timely delivery."+
-"- Cross-Functional Collaboration: Utilized tools like Slack and Trello for effective communication and project management, facilitating coordination among marketing, design, and development teams."+
-"- Stakeholder Management: Engaged with stakeholders to gather requirements and provide updates, ensuring that the project aligned with business goals and expectations."
+" - App Integration: Directed the integration of the KESHAH website with their mobile app using Firestore. This involved overseeing the technical implementation to ensure seamless data synchronization and connectivity."+
+" - Agile Methodology for Deadline Coordination: Employed agile methodologies using Jira to manage project timelines. Conducted sprint planning, stand-up meetings, and retrospectives to ensure iterative progress and timely delivery."+
+" - Cross-Functional Collaboration: Utilized tools like Slack and Trello for effective communication and project management, facilitating coordination among marketing, design, and development teams."+
+" - Stakeholder Management: Engaged with stakeholders to gather requirements and provide updates, ensuring that the project aligned with business goals and expectations."
                     },{
-                        img: a("nexa1"),
-                        title: "Homepage"
+                        img: a("kesha2"),
+                        title: "Chat Support with round robin, supporting users with questions and upsell"
                     },{
-                        img: a("nexa3"),
-                        title: "Users Dashboard"
+                        img: a("kesha3"),
+                        title: "Video guide, informing the user all they need to know about the product and how it's used"
                     },{
-                        img: a("nexa4"),
-                        title: "Users Affiliate Dashboard"
+                        img: a("kesha4"),
+                        title: "Usage journey, tasks for the users to do and reminding them."
                     },{
-                        img: a("nexa5"),
-                        title: ""
+                        img: a("kesha5"),
+                        title: "On boarding overview, showing the objective the product will deliver"
                     }],
                     technologies: ["Figma","Firestore","Miro"],
                     category: "Health & Wellness",
@@ -2756,6 +2756,18 @@
     },
     kesha1: function(t, e, a) {
         t.exports = a.p + "img/FINAL__no_txt__AdobeExpress.gif"
+    },
+    kesha2: function(t, e, a) {
+        t.exports = a.p + "img/Group-5598-1-1-1152x2048.png"
+    },
+    kesha3: function(t, e, a) {
+        t.exports = a.p + "img/Group-5600-1-1152x2048.png"
+    },
+    kesha4: function(t, e, a) {
+        t.exports = a.p + "img/Group-5603-1-1152x2048.png"
+    },
+    kesha5: function(t, e, a) {
+        t.exports = a.p + "img/Group-5604-2-1-1152x2048.png"
     },
     nexa1: function(t, e, a) {
         t.exports = a.p + "img/nexa1.png"
