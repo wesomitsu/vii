@@ -1426,7 +1426,7 @@
                     }
                 }, [a("div", {
                     staticClass: "row"
-                }, t._l(t.desgin_info, (function(e, i) {
+                }, t._l(t.desgin_info_pro, (function(e, i) {
                     return a("div", {
                         key: i,
                         staticClass: "col-xl-6 col-bg-6 col-md-12 col-sm-12",
