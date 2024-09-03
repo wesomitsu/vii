@@ -480,8 +480,8 @@
                     icon: "fas fa-laptop-code"
                 }],
                 portfolio_pro: [{
-                    name: "Insider",
-                    title: "Insider Web/App/Marketing/SMS/Email/Web Notifcations/Whatsapp",
+                    name: "Insider Web/App/Marketing/SMS/Email/Web Notifcations/Whatsapp",
+                    title: "Insider",
                     pictures: [{
                         img: a("ins1"),
                         title: "Technical Project Manager/CRO at Insider (5 Years)"+
@@ -491,9 +491,8 @@
 "Task and Project Coordination: Ensured the timely and issue-free delivery of all tasks by coordinating effectively with cross-functional teams. My focus was on maintaining high standards of execution and client satisfaction."+
 "Client Growth Management: As the CRO, I led initiatives to drive client growth across mobile apps, websites, and email marketing. I utilized various strategies to maximize engagement and ROI for our clients." +
 "Agile Methodology and Tools: Worked within an agile framework using Jira to manage and track project progress. I also utilized Zendesk for tracking team success and Gainsight for managing CRM activities." +
-"Knowledge Base Development: Played an instrumental role in creating a comprehensive Zendesk portal for clients, which served as a key resource for customer support and information."
-                    },{
-                        title: "Throughout my tenure, I consistently ensured that all teams delivered high-quality results, contributing to both the technical excellence of our products and the satisfaction of our clients."
+"Knowledge Base Development: Played an instrumental role in creating a comprehensive Zendesk portal for clients, which served as a key resource for customer support and information." +
+"Throughout my tenure, I consistently ensured that all teams delivered high-quality results, contributing to both the technical excellence of our products and the satisfaction of our clients."
                     },{
                         img: a("ins8"),
                         title: "Setting up Zendesk backbone and tasks funnel and their types using attrubites, tags and round robin as well as the report tracking to track team efforts."
@@ -516,11 +515,11 @@
                         img: a("ins7"),
                         title: "Using AI product features to help the users find what they need."
                     }],
-                    technologies: ["Figma","Firestore","Miro", "GA"],
-                    category: "Health & Wellness",
-                    github: "https://apps.apple.com/in/app/keshah/id6450676544/",
-                    date: "Feb, 2024",
-                    visit: "https://apps.apple.com/in/app/keshah/id6450676544",
+                    technologies: ["Figma","GA","Zendesk", "Gainsight", "Miro"],
+                    category: "Growth Managment",
+                    github: "https://useinsider.com/",
+                    date: "Jan, 2018",
+                    visit: "https://useinsider.com/",
                     description: ""
                 },{
                     name: "KESHAH",
