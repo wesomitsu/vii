@@ -494,9 +494,6 @@
 "Knowledge Base Development: Played an instrumental role in creating a comprehensive Zendesk portal for clients, which served as a key resource for customer support and information." +
 "Throughout my tenure, I consistently ensured that all teams delivered high-quality results, contributing to both the technical excellence of our products and the satisfaction of our clients."
                     },{
-                        img: a("ins8"),
-                        title: "Setting up Zendesk backbone and tasks funnel and their types using attrubites, tags and round robin as well as the report tracking to track team efforts."
-                    },{
                         img: a("ins2"),
                         title: "Using SMS marketing to help increase sales based on different strategies"
                     },{
