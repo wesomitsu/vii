@@ -590,7 +590,7 @@
                     name: "CloudifyNexa",
                     title: "Cloudify Nexa",
                     pictures: [{
-                        img: a("nexa2"),
+                        img: a("nexa6"),
                         title: "As a Product Manager and Developer for Cloudify Nexa, an outsourcing company specializing in technical support for website and app development, I was responsible for a range of activities:" +
                         "Product Planning: Developed a comprehensive product plan that outlined project objectives, timelines, and deliverables, ensuring alignment with business goals." +
                         "Technical Team Management: Implemented a round-robin ticketing system to efficiently manage and distribute tasks among the technical team. This system streamlined workflow and improved response times." +
@@ -603,7 +603,7 @@
                         "Performance Monitoring: Monitored project performance and made adjustments to improve efficiency and outcomes, using key performance indicators (KPIs) to track progress." +
                         "Knowledge Base Creation: Developed a comprehensive knowledge base to document processes, guidelines, and best practices, enhancing team productivity and client support."
                     },{
-                        img: a("nexa1"),
+                        img: a("nexa2"),
                         title: "Overview on the Homepage"
                     },{
                         img: a("nexa3"),
@@ -2891,6 +2891,9 @@
     },
     nexa5: function(t, e, a) {
         t.exports = a.p + "img/nexa5.png"
+    },
+    nexa6: function(t, e, a) {
+        t.exports = a.p + "img/mob-dev.gif"
     },
     sp2: function(t, e, a) {
         t.exports = a.p + "img/mnc2.png"
