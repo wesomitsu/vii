@@ -420,7 +420,7 @@
                     "Front-end developing"]
                 }],
                 experience: [{
-                    name: "Smart Vision",
+                    name: "AlgorithmX",
                     place: "Turkey, Istanbul",
                     date: "Dec, 2023 - present",
                     position: "Product Manager",
