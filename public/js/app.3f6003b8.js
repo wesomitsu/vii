@@ -623,6 +623,31 @@
                     description: ""
                 }],portfolio_design: [
                     {
+                    name: "Website Dev & Design",
+                    title: "AlgorithmX",
+                    pictures: [{
+                        img: a("1201"),
+                        title: "I designed and developed the website"
+                    },{
+                        img: a("1202"),
+                        title: "Adding micro demos to boost engagement"
+                    },{
+                        img: a("1203"),
+                        title: "Web notification integration"
+                    },{
+                        img: a("ag1204"),
+                        title: "Landing page"
+                    },{
+                        img: a("ag1205"),
+                        title: "custom form"
+                    }],
+                    technologies: ["HTML", "CSS", "Javascript", "php"],
+                    category: "Web Development",
+                    github: "https://algorithmx.cloud/",
+                    date: "Nov, 2024",
+                    visit: "https://algorithmx.cloud/",
+                    description: "I've worked on redesigning the website to improve (User experience, SEO, Design, User Tracking) by using UI/UX best practices, I did that by applying the latests boostraps and styling plus animating the elements, all was done by checking the following (Heatmap by using Hotjar, User behavior tracking by using GA, A/B testing by using google optimize)"
+                },{
                         name: "HeloRobo",
                         title: "HeloRobo",
                         pictures: [{
@@ -648,10 +673,10 @@
                     name: "MosquitoMan",
                     title: "MosquitoMan",
                     pictures: [{
-                        img: a("sp2"),
+                        img: a("sp1"),
                         title: "Homepage"
                     },{
-                        img: a("sp1"),
+                        img: a("sp2"),
                         title: "event page"
                     },{
                         img: a("sp3"),
@@ -779,31 +804,6 @@
                     date: "May, 2022",
                     visit: "https://integralrelationship.com/",
                     description: ""
-                },{
-                    name: "Website Dev & Design",
-                    title: "AlgorithmX",
-                    pictures: [{
-                        img: a("1201"),
-                        title: "I designed and developed the website"
-                    },{
-                        img: a("1202"),
-                        title: "Adding micro demos to boost engagement"
-                    },{
-                        img: a("1203"),
-                        title: "Web notification integration"
-                    },{
-                        img: a("ag1204"),
-                        title: "Landing page"
-                    },{
-                        img: a("ag1205"),
-                        title: "custom form"
-                    }],
-                    technologies: ["HTML", "CSS", "Javascript", "php"],
-                    category: "Web Development",
-                    github: "https://algorithmx.cloud/",
-                    date: "Nov, 2024",
-                    visit: "https://algorithmx.cloud/",
-                    description: "I've worked on redesigning the website to improve (User experience, SEO, Design, User Tracking) by using UI/UX best practices, I did that by applying the latests boostraps and styling plus animating the elements, all was done by checking the following (Heatmap by using Hotjar, User behavior tracking by using GA, A/B testing by using google optimize)"
                 },{
                     name: "Ticketing System",
                     title: "Zendesk Portal",
