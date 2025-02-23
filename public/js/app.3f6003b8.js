@@ -645,8 +645,8 @@
                         visit: "https://www.helorobo.com/",
                         description: ""
                     },{
-                    name: "tbtk",
-                    title: "Society for History of Science",
+                    name: "MosquitoMan",
+                    title: "MosquitoMan",
                     pictures: [{
                         img: a("sp2"),
                         title: "Homepage"
@@ -655,17 +655,17 @@
                         title: "event page"
                     },{
                         img: a("sp3"),
-                        title: "The website has been reviewed and debugged to fix the language problem on the website and backup the website, and checked the errors from the console errors to the theme."
+                        title: "Developing website based on the design shared from the design team, covering also data pushing to sheet for sales team."
                     }],
                     technologies: ["Figma","Elementor","Js","CSS"],
                     category: "Web Development",
-                    github: "https://tbtk.org.tr/en/home/",
+                    github: "https://mosquitoman.ca/",
                     date: "Aug, 2023",
-                    visit: "https://tbtk.org.tr/en/home/",
+                    visit: "https://mosquitoman.ca/",
                     description: ""
                 },{
-                    name: "RestoHub",
-                    title: "Resto Hub",
+                    name: "Golf ible",
+                    title: "Golf ible",
                     pictures: [{
                         img: a("so1"),
                         title: "Homepage"
@@ -677,22 +677,13 @@
                         title: "product page"
                     },{
                         img: a("so4"),
-                        title: "cart page"
-                    },{
-                        img: a("so5"),
-                        title: "checkout page"
-                    },{
-                        img: a("so6"),
-                        title: "content"
-                    },{
-                        img: a("so7"),
-                        title: "The website has been reviewed and debugged to fix all bugs happening on the website, from the console errors to checkout funcationality making sure is all aligned with the security protocol."
+                        title: "Developing the website and setting up Google Analytics, Form to collect leads and pushing the data to other 3rd parties and Email integration alongside joruney flow for their emails."
                     }],
                     technologies: ["Figma","Elementor","Js","CSS"],
                     category: "Web Development",
-                    github: "https://www.restohub.co/",
+                    github: "https://golfible.com/",
                     date: "May, 2023",
-                    visit: "https://www.restohub.co/",
+                    visit: "https://golfible.com/",
                     description: ""
                 },{
                     name: "Crib Surfer",
@@ -726,8 +717,8 @@
                     visit: "https://www.cribsurfer.com/",
                     description: ""
                 },{
-                    name: "WebForHosts",
-                    title: "WebForHosts",
+                    name: "Sky Rocket bpo",
+                    title: "SkyRocket",
                     pictures: [{
                         img: a("d3128cmsk"),
                         title: "Top section"
@@ -736,47 +727,38 @@
                         title: "Booking System Widget"
                     },{
                         img: a("mg3"),
-                        title: "Content Targeting"
-                    },{
-                        img: a("mg4"),
-                        title: "Content Control"
-                    },{
-                        img: a("mg5"),
-                        title: "Contact Form"
-                    },{
-                        img: a("mg6"),
-                        title: "Pricing Table"
-                    },{
-                        img: a("mg7"),
-                        title: "Creating a website from zero, installing WordPress changing the files of the themes, designing a custom homepage, payment setting, and funnel was also set alongside the products and the content including all features. Setting web push and email automation via applying different flows. SEO setup on the website. Running Google, Meta, and Instagram ads."
+                        title: "Creating a website from scratch, designing a custom homepage, setting up calendly and funnel was also set alongside the products and the content including all features. SEO setup on the website. Running Google, Meta, and Instagram ads."
                     }],
                     technologies: ["Elementor","Js","CSS","cPanel"],
                     category: "Web Development",
-                    github: "https://webforhosts.com/",
+                    github: "https://www.skyrocketbpo.com/",
                     date: "Mar, 2023",
-                    visit: "https://webforhosts.com/",
+                    visit: "https://www.skyrocketbpo.com/",
                     description: ""
                 },{
-                    name: "Cloudify Techs",
-                    title: "Cloudify Techs",
+                    name: "BoostAd",
+                    title: "BoostAd",
                     pictures: [{
                         img: a("d3128831c"),
-                        title: "Form section"
+                        title: "Top Section"
                     },{
                         img: a("d3128832c"),
-                        title: "Plan Section"
+                        title: "provider"
                     },{
                         img: a("d3128833c"),
-                        title: "Mobile main page"
-                    }, {
+                        title: "They vs others"
+                    },{
                         img: a("d3128834c"),
-                        title: "Installing theme on WordPress and setting up email and mail automations on the hosting server, designing 3d embeded animation elements and custom design the theme."
+                        title: "Search view, including products before search and live search"
+                    }, {
+                        img: a("l0128834c"),
+                        title: "Setting up the website as an AJAX, providing them with live search, cart and checkout custom design, custom payment setup, email integration."
                     }],
                     technologies: ["WordPress","Php","Js"],
                     category: "Web Development",
-                    github: "http://www.cloudifytechs.com/",
+                    github: "https://www.boostad.shop/",
                     date: "Feb, 2023",
-                    visit: "http://www.cloudifytechs.com/",
+                    visit: "https://www.boostad.shop/",
                     description: ""
                 },{
                     name: "Integral Relationship",
@@ -798,23 +780,29 @@
                     visit: "https://integralrelationship.com/",
                     description: ""
                 },{
-                    name: "Website Redesign",
-                    title: "Bahar Group",
+                    name: "Website Dev & Design",
+                    title: "AlgorithmX",
                     pictures: [{
                         img: a("1201"),
-                        title: "Homepage"
-                    }, {
+                        title: "I designed and developed the website"
+                    },{
                         img: a("1202"),
-                        title: "University Ppage"
+                        title: "Adding micro demos to boost engagement"
                     },{
                         img: a("1203"),
-                        title: "Majorsguide Page"
+                        title: "Web notification integration"
+                    },{
+                        img: a("ag1204"),
+                        title: "Landing page"
+                    },{
+                        img: a("ag1205"),
+                        title: "custom form"
                     }],
                     technologies: ["HTML", "CSS", "Javascript", "php"],
                     category: "Web Development",
-                    github: "https://bahar-egitim.com/ar/",
-                    date: "Nov, 2022",
-                    visit: "https://bahar-egitim.com/ar",
+                    github: "https://algorithmx.cloud/",
+                    date: "Nov, 2024",
+                    visit: "https://algorithmx.cloud/",
                     description: "I've worked on redesigning the website to improve (User experience, SEO, Design, User Tracking) by using UI/UX best practices, I did that by applying the latests boostraps and styling plus animating the elements, all was done by checking the following (Heatmap by using Hotjar, User behavior tracking by using GA, A/B testing by using google optimize)"
                 },{
                     name: "Ticketing System",
@@ -2697,7 +2685,7 @@
         t.exports = a.p + "img/bag_2.png"
     },
     1202: function(t, e, a) {
-        t.exports = a.p + "img/bge.png"
+        t.exports = a.p + "img/ag2.jpg"
     },
     1301: function(t, e, a) {
         t.exports = a.p + "img/ikq.png"
@@ -2712,10 +2700,16 @@
         t.exports = a.p + "img/ikr.png"
     },
     1201: function(t, e, a) {
-        t.exports = a.p + "img/bgq.png"
+        t.exports = a.p + "img/ag1.jpg"
     },
     1203: function(t, e, a) {
-        t.exports = a.p + "img/bgw.png"
+        t.exports = a.p + "img/ag3.jpg"
+    },
+    ag1204: function(t, e, a) {
+        t.exports = a.p + "img/ag4.jpg"
+    },
+    ag1205: function(t, e, a) {
+        t.exports = a.p + "img/ag5.jpg"
     },
     7999: function(t, e, a) {
         t.exports = a.p + "img/bag_1.png"
@@ -2800,13 +2794,13 @@
         s.a
     },
     d3128cmsk: function(t, e, a) {
-        t.exports = a.p + "img/mg1.png"
+        t.exports = a.p + "img/sck1.jpg"
     },
     mg2: function(t, e, a) {
-        t.exports = a.p + "img/mg2.png"
+        t.exports = a.p + "img/sck2.jpg"
     },
     mg3: function(t, e, a) {
-        t.exports = a.p + "img/mg3.png"
+        t.exports = a.p + "img/sck3.jpg"
     },
     mg4: function(t, e, a) {
         t.exports = a.p + "img/mg4.png"
@@ -2821,7 +2815,7 @@
         t.exports = a.p + "img/mg7.png"
     },
     sp1: function(t, e, a) {
-        t.exports = a.p + "img/mnc1.png"
+        t.exports = a.p + "img/mosq-1.jpg"
     },
     ins1: function(t, e, a) {
         t.exports = a.p + "img/ROI-dashboard.gif"
@@ -2896,22 +2890,22 @@
         t.exports = a.p + "img/nexa5.png"
     },
     sp2: function(t, e, a) {
-        t.exports = a.p + "img/mnc2.png"
+        t.exports = a.p + "img/mosq-2.jpg"
     },
     sp3: function(t, e, a) {
-        t.exports = a.p + "img/mnc3.png"
+        t.exports = a.p + "img/mosq-3.jpg"
     },
     so1: function(t, e, a) {
-        t.exports = a.p + "img/1ksml.png"
+        t.exports = a.p + "img/go1.jpg"
     },
     so2: function(t, e, a) {
-        t.exports = a.p + "img/2ksml.png"
+        t.exports = a.p + "img/go2.jpg"
     },
     so3: function(t, e, a) {
-        t.exports = a.p + "img/3ksml.png"
+        t.exports = a.p + "img/go3.jpg"
     },
     so4: function(t, e, a) {
-        t.exports = a.p + "img/4ksml.png"
+        t.exports = a.p + "img/go4.jpg"
     },
     so5: function(t, e, a) {
         t.exports = a.p + "img/5ksml.png"
@@ -2969,16 +2963,19 @@
         t.exports = a.p + "img/0299231.png"
     },
     d3128831c: function(t, e, a) {
-        t.exports = a.p + "img/3128831.png"
+        t.exports = a.p + "img/bst1.jpg"
     },
     d3128832c: function(t, e, a) {
-        t.exports = a.p + "img/3128832.png"
+        t.exports = a.p + "img/bst2.jpg"
     },
     d3128833c: function(t, e, a) {
-        t.exports = a.p + "img/3128833.png"
+        t.exports = a.p + "img/bst3.jpg"
     },
     d3128834c: function(t, e, a) {
-        t.exports = a.p + "img/3128834.png"
+        t.exports = a.p + "img/bst4.jpg"
+    },
+    l0128834c: function(t, e, a) {
+        t.exports = a.p + "img/bst5.jpg"
     },
     d000331c: function(t, e, a) {
         t.exports = a.p + "img/000331.png"
