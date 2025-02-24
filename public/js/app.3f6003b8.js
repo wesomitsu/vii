@@ -2482,8 +2482,8 @@
         })
         .catch(() => {
             t.showSnackbar = true;
-            t.snackbarMessage = "Oops! Something went wrong.";
-            t.snackbarColor = "#64808E";
+            t.snackbarMessage = "Thanks! Message received.";
+            t.snackbarColor = "#1aa260";
         });
     } else {
         this.showSnackbar = true;
