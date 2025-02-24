@@ -406,7 +406,7 @@
                     github: "https://github.com/wesomitsu",
                     behance: "https://www.instagram.com/wesomitsu/",
                     Upwork: "https://www.upwork.com/freelancers/~01aea4c2a72f379fa9",
-                    resume: "https://docs.google.com/document/d/1C7RjMWjrImJIvErnvS6zU-NMnaJGQ3gk/edit?usp=sharing&ouid=116272952614147701139&rtpof=true&sd=true"
+                    resume: "https://drive.google.com/file/d/1xYqr3upIbtsNTJ4ZPe5gjJM-Dx8jRZPK/view?usp=sharing"
                 },
                 education: [{
                     name: "Kiron Open Higher Education",
