@@ -2455,21 +2455,42 @@
                         }), 1e3)
                     },
                     sendEmail: function() {
-                        var t = this;
-                        if (this.email && this.name && this.text) {
-                            var e = {
-                                user_email: this.email,
-                                from_name: this.name,
-                                message_html: this.text,
-                                to_name: "Wathek"
-                            };
-                            Ft.a.send(Lt.emailjs.serviceID, Lt.emailjs.templateID, e, Lt.emailjs.userID).then((function(e) {
-                                t.showSnackbar = !0, t.snackbarMessage = "Thanks! Message recieved.", t.snackbarColor = "#1aa260", t.email = "", t.text = "", t.name = ""
-                            }), (function(e) {
-                                t.showSnackbar = !0, t.snackbarMessage = "Oops! Something went wrong.", t.snackbarColor = "#64808E"
-                            }))
-                        } else this.showSnackbar = !0, this.snackbarMessage = "Please all the fields", this.snackbarColor = "#64808E"
-                    }
+    var t = this;
+    if (this.email && this.name && this.text) {
+        var formData = new FormData();
+        formData.append("name", this.name);
+        formData.append("email", this.email);
+        formData.append("message", this.text);
+        formData.append("list", "PANtW1892X763PYGQxdGj62TTA");
+        formData.append("subform", "yes");
+
+        fetch("https://platform.smart-mail.online//subscribe", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => {
+            if (response.ok) {
+                t.showSnackbar = true;
+                t.snackbarMessage = "Thanks! Message received.";
+                t.snackbarColor = "#1aa260";
+                t.email = "";
+                t.text = "";
+                t.name = "";
+            } else {
+                throw new Error("Network response was not ok");
+            }
+        })
+        .catch(() => {
+            t.showSnackbar = true;
+            t.snackbarMessage = "Oops! Something went wrong.";
+            t.snackbarColor = "#64808E";
+        });
+    } else {
+        this.showSnackbar = true;
+        this.snackbarMessage = "Please fill all the fields";
+        this.snackbarColor = "#64808E";
+    }
+}
                 }
             },
             zt = Rt,
