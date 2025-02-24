@@ -2461,7 +2461,7 @@
         formData.append("name", this.name);
         formData.append("email", this.email);
         formData.append("message", this.text);
-        formData.append("list", "PANtW1892X763PYGQxdGj62TTA");
+        formData.append("list", "7635763EuiiR15JGZxgTD7OnrA");
         formData.append("subform", "yes");
 
         fetch("https://platform.smart-mail.online//subscribe", {
