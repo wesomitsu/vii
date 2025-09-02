@@ -400,7 +400,7 @@
                         blur: !1
                     }
                 },
-                description: "Hey there, my name is Wathek Al Zoubi. I'm a Creative Developer with over 7 years of combined experience in CRO, Product Development, and web technologies. I have a strong background in developing and optimizing digital products, leveraging both front-end and back-end technologies. My expertise is focused on creating custom solutions and improving interactive user experiences, utilizing advanced tools and techniques to drive results.",
+                description: "Hey there, my name is Wathek Al Zoubi. I'm a Creative Developer with over 9 years of combined experience in CRO, Product Development, and web technologies. I have a strong background in developing and optimizing digital products, leveraging both front-end and back-end technologies. My expertise is focused on creating custom solutions and improving interactive user experiences, utilizing advanced tools and techniques to drive results.",
                 links: {
                     linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
                     github: "https://github.com/wesomitsu",
@@ -422,7 +422,7 @@
                 experience: [{
                     name: "AlgorithmX",
                     place: "Turkey, Istanbul",
-                    date: "Dec, 2023 - present",
+                    date: "Dec, 2023 - Aug, 2025",
                     position: "Product Manager",
                     description: "",
                     skills: ["Figma", "APM", "CRM", "Strategic thinking"]
