@@ -48,46 +48,135 @@ jQuery('#p-development').append('<div class="center-button-upwork"><a data-v-4b4
 jQuery('#app').append('<div id="app-cover"> <div id="bg-artwork"></div> <div id="bg-layer"></div> <div id="player"> <div id="player-track"> <div id="album-name"></div> <div id="track-name"></div> <div id="track-time"> <div id="current-time"></div> <div id="track-length"></div> </div> <div id="s-area"> <div id="ins-time"></div> <div id="s-hover"></div> <div id="seek-bar"></div> </div> </div> <div id="player-content"> <div id="album-art"> <img src="https://raw.githubusercontent.com/wesomitsu/vii/refs/heads/main/public/img/afe09611-1713-452f-b914-c80724918b59.jpg" class="active" id="_1"> <img src="https://raw.githubusercontent.com/wesomitsu/vii/refs/heads/main/public/img/8fcd8e1f-dace-41f1-96be-5a7d2d608b5a.jpg" id="_2"> <img src="https://raw.githubusercontent.com/wesomitsu/vii/refs/heads/main/public/img/8e0b760b-29a4-457f-a170-357432166038.jpg" id="_3"> <img src="https://raw.githubusercontent.com/wesomitsu/vii/refs/heads/main/public/img/29491564-409e-4459-ab96-12f0d54b9d08.jpg" id="_4"> <img src="https://raw.githubusercontent.com/wesomitsu/vii/refs/heads/main/public/img/6231aac3-27e8-4796-bc4d-2814dfd3498b.jpg" id="_5"> <img src="https://raw.githubusercontent.com/wesomitsu/vii/refs/heads/main/public/img/4e25b5a5-a7be-45d2-b600-0111e6414165.jpg" id="_6"> <div id="buffer-box">Buffering ...</div> </div> <div id="player-controls"> <div class="control"> <div class="button" id="play-previous"> <i class="fas fa-backward"></i> </div> </div> <div class="control"> <div class="button" id="play-pause-button"> <i class="fas fa-play"></i> </div> </div> <div class="control"> <div class="button" id="play-next"> <i class="fas fa-forward"></i> </div> </div> </div> </div> </div> <div class="mini-szi"></div> </div>');
 
 //badge
-jQuery(document).ready(function ($) {
-  // Insert badge before .home-title
-  $('.home-title').before(`
-    <a href="https://www.upwork.com/freelancers/wathekz" class="link-badge">
-      <div class="vetted-rated-badges air3-popper-trigger badge-tooltip">
-        <span class="air3-badge-tagline">
-          <div class="air3-icon lg">
-            <!-- PNG Icon -->
-            <img src="https://raw.githubusercontent.com/wesomitsu/vii/refs/heads/main/public/img/Img%20(2).png" alt="Top Rated Plus" style="width:28px;height:28px;">
-          </div>
-          <span class="badge-text">Top Rated Plus</span>
-        </span>
-        <!-- Tooltip -->
-        <div class="tooltip-content">
-          <strong>Top Rated Plus</strong> talent is highly rated for work on large contracts.
-          <a href="https://www.upwork.com/freelancers/wathekz" target="_blank">Hire Now</a>
-        </div>
-      </div>
-    </a>
-  `);
+jQuery(function($){
+  var imgSrc = "https://raw.githubusercontent.com/wesomitsu/vii/refs/heads/main/public/img/Img%20(2).png"; 
+  var tooltipId = "vii-trp-tooltip";
+  var badgeId = "vii-top-rated-badge";
 
-  // Function to update badge text color
-  function updateBadgeColor() {
-    if ($('.home-title').hasClass('pgray')) {
-      $('.badge-text').css('color', '#535a5e'); // black
-    } else if ($('.home-title').hasClass('text-light')) {
-      $('.badge-text').css('color', '#fff'); // white
+  // Wait for .home-title to exist (Vue may render later)
+  function waitForHomeTitle(cb) {
+    var tries = 0;
+    var t = setInterval(function(){
+      tries++;
+      if ($('.home-title').length || tries > 200) {
+        clearInterval(t);
+        if ($('.home-title').length) cb();
+      }
+    }, 60);
+  }
+
+  waitForHomeTitle(function(){
+    if ($('#' + badgeId).length) return; // already inserted
+
+    // Create badge HTML and insert before .home-title
+    var badgeHtml = ''
+      + '<a id="' + badgeId + '" href="https://www.upwork.com/freelancers/wathekz" class="link-badge" aria-describedby="' + tooltipId + '" tabindex="0">'
+      + '  <div class="vetted-rated-badges air3-popper-trigger badge-tooltip" role="button">'
+      + '    <span class="air3-badge-tagline">'
+      + '      <div class="air3-icon lg"><img src="' + imgSrc + '" alt="Top Rated Plus" width="28" height="28" style="display:block;"></div>'
+      + '      <span class="badge-text">Top Rated Plus</span>'
+      + '    </span>'
+      + '  </div>'
+      + '</a>';
+    $('.home-title').before(badgeHtml);
+
+    // Create tooltip and append to body
+    var $tooltip = $('<div id="' + tooltipId + '" class="vii-tooltip" role="tooltip" aria-hidden="true">'
+      + '<strong>Top Rated Plus</strong> talent is highly rated for work on large contracts. '
+      + '<a href="https://www.upwork.com/freelancers/wathekz" target="_blank" rel="noopener">Hire Now</a>'
+      + '</div>');
+    $('body').append($tooltip);
+
+    var $badge = $('#' + badgeId);
+    var $badgeInner = $badge.find('.badge-tooltip');
+    var hoverCounter = 0;
+
+    function positionTooltip() {
+      var rect = $badgeInner[0].getBoundingClientRect();
+      var tipW = $tooltip.outerWidth();
+      var tipH = $tooltip.outerHeight();
+      var left = window.scrollX + rect.left + rect.width/2 - tipW/2;
+      var top = window.scrollY + rect.top - tipH - 10; // prefer above
+
+      // keep inside viewport horizontally
+      var minLeft = 8;
+      var maxLeft = $(window).width() - tipW - 8;
+      if (left < minLeft) left = minLeft;
+      if (left > maxLeft) left = maxLeft;
+
+      // if not enough space above, place below
+      if (top < 8) {
+        top = window.scrollY + rect.bottom + 10;
+        $tooltip.addClass('below');
+      } else {
+        $tooltip.removeClass('below');
+      }
+
+      $tooltip.css({ top: Math.round(top) + 'px', left: Math.round(left) + 'px' });
     }
-  }
 
-  // Run on load
-  updateBadgeColor();
+    function showTooltip() {
+      hoverCounter++;
+      if (!$tooltip.hasClass('visible')) {
+        positionTooltip();
+        $tooltip.addClass('visible').attr('aria-hidden','false');
+      }
+    }
+    function hideTooltipImmediate() {
+      hoverCounter = Math.max(0, hoverCounter - 1);
+      if (hoverCounter <= 0) {
+        $tooltip.removeClass('visible').attr('aria-hidden','true');
+        hoverCounter = 0;
+      }
+    }
+    // small delay to avoid flicker when moving between badge and tooltip
+    function hideTooltipDelayed() {
+      setTimeout(hideTooltipImmediate, 80);
+    }
 
-  // Watch for class changes on .home-title (since Vue updates dynamically)
-  const homeTitle = document.querySelector('.home-title');
-  if (homeTitle) {
-    const observer = new MutationObserver(updateBadgeColor);
-    observer.observe(homeTitle, { attributes: true, attributeFilter: ['class'] });
-  }
+    // Keep visible while entering either badge or tooltip
+    $badge.on('mouseenter focusin', showTooltip);
+    $badge.on('mouseleave focusout', hideTooltipDelayed);
+    $tooltip.on('mouseenter', function(){ hoverCounter++; });
+    $tooltip.on('mouseleave', hideTooltipDelayed);
+
+    // reposition on scroll/resize if visible
+    $(window).on('scroll resize', function(){
+      if ($tooltip.hasClass('visible')) positionTooltip();
+    });
+
+    // Update text color depending on home-title classes
+    function updateBadgeColor() {
+      var $home = $('.home-title');
+      if ($home.hasClass('pgray')) {
+        $('.badge-text').css('color', '#000');
+      } else if ($home.hasClass('text-light')) {
+        $('.badge-text').css('color', '#fff');
+      } else {
+        // fallback: inherit (remove inline color)
+        $('.badge-text').css('color','');
+      }
+    }
+    updateBadgeColor();
+
+    // Observe class changes on .home-title (Vue will toggle classes)
+    var homeEl = document.querySelector('.home-title');
+    if (homeEl) {
+      var mo = new MutationObserver(function(muts){
+        updateBadgeColor();
+      });
+      mo.observe(homeEl, { attributes: true, attributeFilter: ['class'] });
+    }
+
+    // Accessibility: hide tooltip on Escape
+    $(document).on('keydown', function(e){
+      if (e.key === 'Escape' || e.keyCode === 27) {
+        $tooltip.removeClass('visible').attr('aria-hidden','true');
+      }
+    });
+  }); // end waitForHomeTitle
 });
+
 //badge
 
 $(function () {
@@ -399,61 +488,54 @@ window.addEventListener('load', function() {
 
 </script>
 <style>
- .link-badge {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-}
-.air3-badge-tagline {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 14px;
-  font-weight: bold; /* <-- Make text bold */
-}
-.air3-icon.lg {
-  width: 28px;
-  height: 28px;
-}
-.badge-tooltip .tooltip-content {
-  visibility: hidden;
-  opacity: 0;
+ /* Badge visuals */
+.link-badge { text-decoration: none; display:inline-block; }
+.air3-badge-tagline { display:flex; align-items:center; gap:8px; font-size:14px; font-weight:700; cursor:pointer; }
+.air3-icon.lg { width:28px; height:28px; display:inline-flex; align-items:center; justify-content:center; }
+
+/* Tooltip (appended to body) */
+.vii-tooltip {
   position: absolute;
-  bottom: 125%;
-  left: 50%;
-  transform: translateX(-50%);
   background: #111;
   color: #fff;
-  text-align: left;
   padding: 10px 12px;
   border-radius: 6px;
   font-size: 13px;
   line-height: 1.4;
-  width: 240px;
-  transition: opacity 0.2s;
-  z-index: 999;
+  width: 260px;
+  z-index: 999999;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .16s ease, transform .16s ease;
+  pointer-events: auto;
+  box-sizing: border-box;
 }
-.badge-tooltip .tooltip-content a {
-  color: #28a745;
-  font-weight: 500;
-  text-decoration: none;
-}
-.badge-tooltip .tooltip-content::after {
+.vii-tooltip.visible { visibility: visible; opacity: 1; transform: translateY(0); }
+
+/* Arrow when tooltip is above the badge (default) */
+.vii-tooltip::after {
   content: "";
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -6px;
+  transform: translateX(-50%);
   border-width: 6px;
   border-style: solid;
   border-color: #111 transparent transparent transparent;
 }
-/* Show tooltip on hover of both container and tagline */
-.badge-tooltip:hover .tooltip-content,
-.air3-badge-tagline:hover + .tooltip-content {
-  visibility: visible;
-  opacity: 1;
+
+/* When tooltip is placed below the badge, flip the arrow */
+.vii-tooltip.below::after {
+  top: -12px;
+  border-color: transparent transparent #111 transparent;
 }
+
+/* Link inside tooltip */
+.vii-tooltip a { color: #28a745; font-weight:500; text-decoration:none; }
+
+/* Small accessibility focus outline on the badge */
+#vii-top-rated-badge:focus { outline: 2px solid rgba(0,0,0,0.12); outline-offset: 2px; }
+
 
   </style>
   
