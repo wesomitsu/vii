@@ -56,7 +56,7 @@ jQuery(document).ready(function ($) {
         <span class="air3-badge-tagline">
           <div class="air3-icon lg">
             <!-- PNG Icon -->
-            <img src="/wp-content/uploads/Img-2.png" alt="Top Rated Plus" style="width:28px;height:28px;">
+            <img src="https://raw.githubusercontent.com/wesomitsu/vii/refs/heads/main/public/img/Img%20(2).png" alt="Top Rated Plus" style="width:28px;height:28px;">
           </div>
           <span class="badge-text">Top Rated Plus</span>
         </span>
@@ -69,11 +69,23 @@ jQuery(document).ready(function ($) {
     </a>
   `);
 
-  // Change text color based on .home-title class
-  if ($('.home-title').hasClass('pgray')) {
-    $('.badge-text').css('color', '#000'); // black
-  } else if ($('.home-title').hasClass('text-light')) {
-    $('.badge-text').css('color', '#fff'); // white
+  // Function to update badge text color
+  function updateBadgeColor() {
+    if ($('.home-title').hasClass('pgray')) {
+      $('.badge-text').css('color', '#000'); // black
+    } else if ($('.home-title').hasClass('text-light')) {
+      $('.badge-text').css('color', '#fff'); // white
+    }
+  }
+
+  // Run on load
+  updateBadgeColor();
+
+  // Watch for class changes on .home-title (since Vue updates dynamically)
+  const homeTitle = document.querySelector('.home-title');
+  if (homeTitle) {
+    const observer = new MutationObserver(updateBadgeColor);
+    observer.observe(homeTitle, { attributes: true, attributeFilter: ['class'] });
   }
 });
 //badge
@@ -387,58 +399,62 @@ window.addEventListener('load', function() {
 
 </script>
 <style>
-  .link-badge {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-  }
-  .air3-badge-tagline {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 14px;
-  }
-  .air3-icon.lg {
-    width: 28px;
-    height: 28px;
-  }
-  .badge-tooltip .tooltip-content {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    bottom: 125%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #111;
-    color: #fff;
-    text-align: left;
-    padding: 10px 12px;
-    border-radius: 6px;
-    font-size: 13px;
-    line-height: 1.4;
-    width: 240px;
-    transition: opacity 0.2s;
-    z-index: 999;
-  }
-  .badge-tooltip .tooltip-content a {
-    color: #28a745;
-    font-weight: 500;
-    text-decoration: none;
-  }
-  .badge-tooltip .tooltip-content::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -6px;
-    border-width: 6px;
-    border-style: solid;
-    border-color: #111 transparent transparent transparent;
-  }
-  .badge-tooltip:hover .tooltip-content {
-    visibility: visible;
-    opacity: 1;
-  }
+ .link-badge {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.air3-badge-tagline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: bold; /* <-- Make text bold */
+}
+.air3-icon.lg {
+  width: 28px;
+  height: 28px;
+}
+.badge-tooltip .tooltip-content {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111;
+  color: #fff;
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.4;
+  width: 240px;
+  transition: opacity 0.2s;
+  z-index: 999;
+}
+.badge-tooltip .tooltip-content a {
+  color: #28a745;
+  font-weight: 500;
+  text-decoration: none;
+}
+.badge-tooltip .tooltip-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #111 transparent transparent transparent;
+}
+/* Show tooltip on hover of both container and tagline */
+.badge-tooltip:hover .tooltip-content,
+.air3-badge-tagline:hover + .tooltip-content {
+  visibility: visible;
+  opacity: 1;
+}
+
   </style>
   
   </body>
