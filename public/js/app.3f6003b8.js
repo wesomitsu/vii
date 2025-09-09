@@ -419,7 +419,15 @@
                   "UI/UX design",
                   "Front-end developing"]
               }],
-              experience: [{
+              experience: [
+                {
+                  name: "Freelancer",
+                  place: "Turkey, Istanbul",
+                  date: "May, 2022",
+                  position: "Web Developer",
+                  description: "I've helped clients with 3rd party integrations and setups from GA, GTM and Zendesk automated ticketing. I also did web development and fixes.",
+                  skills: ["HTML5", "CSS3", "API", "JQuery", "Json", "JavaSript", "TypeSript", "VueJS", "WordPress"]
+              },{
                   name: "AlgorithmX",
                   place: "Turkey, Istanbul",
                   date: "Dec, 2023 - Aug, 2025",
@@ -433,13 +441,6 @@
                   position: "Project Manager",
                   description: "",
                   skills: ["Json", "M&E", "Analysis", "CRM"]
-              },{
-                  name: "Freelancer",
-                  place: "Turkey, Istanbul",
-                  date: "May, 2022",
-                  position: "Web Developer",
-                  description: "I've helped clients with 3rd party integrations and setups from GA, GTM and Zendesk automated ticketing. I also did web development and fixes.",
-                  skills: ["HTML5", "CSS3", "API", "JQuery", "Json", "JavaSript", "TypeSript", "VueJS", "WordPress"]
               }, {
                   name: "Insider",
                   place: "Turkey, Istanbul",
