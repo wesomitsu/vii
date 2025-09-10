@@ -424,7 +424,7 @@
                   name: "Freelancer",
                   place: "Turkey, Istanbul",
                   date: "May, 2022",
-                  position: "Web Developer",
+                  position: "Creative Developer",
                   description: "I've helped clients with 3rd party integrations and setups from GA, GTM and Zendesk automated ticketing. I also did web development and fixes.",
                   skills: ["HTML5", "CSS3", "API", "JQuery", "Json", "JavaSript", "TypeSript", "VueJS", "WordPress"]
               },{
