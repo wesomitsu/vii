@@ -6,7 +6,7 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2021 Copyright: Mahy Mohab</span>
+          <span>© {{ currentYear }} Copyright: Mahy Mohab</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
@@ -29,12 +29,6 @@
             >
               <i class="fab fa-behance"></i>
             </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-            >
-              <i class="fa fa-file"></i>
-            </button>
           </div>
         </div>
       </div>
@@ -52,8 +46,12 @@ export default {
       linkedin: info.links.linkedin,
       github: info.links.github,
       behance: info.links.behance,
-      resume: info.links.resume,
     };
+  },
+  computed: {
+    currentYear() {
+      return new Date().getFullYear();
+    },
   },
   methods: {
     open(link) {
@@ -66,9 +64,6 @@ export default {
           break;
         case "behance":
           window.open(this.behance, "_blank");
-          break;
-        case "resume":
-          window.open(this.resume, "_blank");
           break;
       }
     },

@@ -45,13 +45,6 @@
             >
               <i class="fab fa-behance"></i>
             </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-              v-tooltip.bottom="'Resume'"
-            >
-              <i class="fa fa-file"></i>
-            </button>
           </div>
         </div>
       </div>
@@ -82,7 +75,6 @@ export default {
       linkedin: info.links.linkedin,
       github: info.links.github,
       behance: info.links.behance,
-      resume: info.links.resume
     };
   },
   methods: {
@@ -96,9 +88,6 @@ export default {
           break;
         case "behance":
           window.open(this.behance, "_blank");
-          break;
-        case "resume":
-          window.open(this.resume, "_blank");
           break;
       }
     },
