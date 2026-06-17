@@ -14,6 +14,7 @@ let info = {
     linkedin: "https://www.linkedin.com/in/mahy-mohab-209/",
     github: "https://github.com/mahy209",
     behance: "https://www.behance.net/mahymohab",
+    resume: "https://drive.google.com/file/d/1W0pzOo1Gb-W70BYKehOfZ4qaJt7m1_7O/view?usp=sharing",
   },
   education: [
     {

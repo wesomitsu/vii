@@ -405,8 +405,7 @@
                   linkedin: "https://www.linkedin.com/in/wathek-alzoubi/",
                   github: "https://github.com/wesomitsu",
                   behance: "https://www.instagram.com/wesomitsu/",
-                  Upwork: "https://www.upwork.com/freelancers/~01aea4c2a72f379fa9",
-                  resume: "https://drive.google.com/file/d/1xYqr3upIbtsNTJ4ZPe5gjJM-Dx8jRZPK/view?usp=sharing"
+                  Upwork: "https://www.upwork.com/freelancers/~01aea4c2a72f379fa9"
               },
               education: [{
                   name: "Kiron Open Higher Education",
@@ -1046,24 +1045,6 @@
                   }
               }, [a("i", {
                   staticClass: "fab fa-instagram"
-              })]), a("button", {
-                  directives: [{
-                      name: "tooltip",
-                      rawName: "v-tooltip.bottom",
-                      value: "Resume",
-                      expression: "'Resume'",
-                      modifiers: {
-                          bottom: !0
-                      }
-                  }],
-                  staticClass: "btn btn-outline-secondary mx-2",
-                  on: {
-                      click: function(e) {
-                          return t.open("resume")
-                      }
-                  }
-              }, [a("i", {
-                  staticClass: "fa fa-file"
               })])])])])])])
           },
           C = [],
@@ -1100,8 +1081,7 @@
                       linkedin: p.links.linkedin,
                       github: p.links.github,
                       behance: p.links.behance,
-                      Upwork: p.links.Upwork,
-                      resume: p.links.resume
+                      Upwork: p.links.Upwork
                   }
               },
               methods: {
@@ -1118,9 +1098,6 @@
                               break;
                           case "behance":
                               window.open(this.behance, "_blank");
-                              break;
-                          case "resume":
-                              window.open(this.resume, "_blank");
                               break
                       }
                   }
@@ -2538,15 +2515,6 @@
                   }
               }, [a("i", {
                   staticClass: "fab fa-instagram"
-              })]), a("button", {
-                  staticClass: "btn btn-outline-secondary mx-2",
-                  on: {
-                      click: function(e) {
-                          return t.open("resume")
-                      }
-                  }
-              }, [a("i", {
-                  staticClass: "fa fa-file"
               })])])])])])])
           },
           Zt = [function() {
@@ -2558,7 +2526,7 @@
                   staticStyle: {
                       color: "white"
                   }
-              }, [a("span", [t._v("© 2025 Copyright: Wathek Al Zoubi")])])
+              }, [a("span", [t._v("© " + t._s(t.currentYear) + " Copyright: Wathek Al Zoubi")])])
           }],
           Yt = {
               name: "Footer",
@@ -2566,8 +2534,12 @@
                   return {
                       linkedin: p.links.linkedin,
                       github: p.links.github,
-                      behance: p.links.behance,
-                      resume: p.links.resume
+                      behance: p.links.behance
+                  }
+              },
+              computed: {
+                  currentYear: function() {
+                      return (new Date).getFullYear()
                   }
               },
               methods: {
@@ -2581,9 +2553,6 @@
                               break;
                           case "behance":
                               window.open(this.behance, "_blank");
-                              break;
-                          case "resume":
-                              window.open(this.resume, "_blank");
                               break
                       }
                   }
